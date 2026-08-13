@@ -1,0 +1,16 @@
+# Archives
+*.rar
+*.zip
+*.7z
+
+# Environment & Config
+.env
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.vscode/
+.idea/

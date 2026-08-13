@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>StreamVault Admin</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#070814;--bg2:#0e0f24;--card:#141630;--card2:#1a1d3c;
+  --border:rgba(255,255,255,0.06);--text:#f3f4fd;--muted:#696d92;
+  --accent:#6c63ff;--green:#22c55e;--red:#f87171;--yellow:#facc15;
+}
+body{background:var(--bg);font-family:'Inter',sans-serif;color:var(--text);min-height:100vh;}
+
+#loginScreen{display:flex;align-items:center;justify-content:center;min-height:100vh;}
+.lbox{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:40px;width:360px;text-align:center;box-shadow:0 24px 80px rgba(0,0,0,.6);}
+.llogo{
+  width:44px;height:44px;
+  background:linear-gradient(135deg,#6c63ff,#4f46e5);
+  border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 16px;
+  color:#fff;
+  box-shadow:0 0 20px rgba(108,99,255,.4);
+}
+.llogo svg{width:22px;height:22px;display:block;}
+.ltitle{font-size:22px;font-weight:800;background:linear-gradient(135deg,#fff,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:4px;}
+.lsub{font-size:12px;color:var(--muted);margin-bottom:28px;}
+.inp{width:100%;background:var(--bg2);border:1px solid var(--border);color:var(--text);font-family:'Inter',sans-serif;font-size:14px;padding:12px 14px;border-radius:10px;outline:none;transition:border-color .2s;margin-bottom:12px;}
+.inp:focus{border-color:var(--accent);}
+.btn-main{width:100%;padding:13px;background:linear-gradient(135deg,#6c63ff,#4f46e5);border:none;border-radius:10px;color:#fff;font-size:14px;font-weight:700;cursor:pointer;font-family:'Inter',sans-serif;transition:filter .2s,transform .2s;}
+.btn-main:hover{filter:brightness(1.15);transform:translateY(-1px);}
+.lerr{color:var(--red);font-size:12px;margin-top:8px;min-height:16px;}
+
+#mainScreen{display:none;}
+.topbar{background:rgba(20, 22, 48, 0.4);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:14px 28px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;}
+.tb-logo{display:flex;align-items:center;gap:10px;}
+.tb-icon{
+  width:34px;height:34px;
+  background:linear-gradient(135deg,#6c63ff,#4f46e5);
+  border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;
+  box-shadow:0 0 14px rgba(108,99,255,.3);
+}
+.tb-icon svg{width:18px;height:18px;display:block;}
+.tb-name{font-size:15px;font-weight:800;background:linear-gradient(135deg,#fff,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.tb-sub{font-size:9.5px;color:var(--muted);}
+.tb-right{display:flex;gap:8px;align-items:center;}
+.btn-sm{padding:8px 14px;border-radius:8px;border:1px solid var(--border);background:var(--card2);color:var(--text);font-size:11.5px;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif;transition:all .2s;white-space:nowrap;}
+.btn-sm:hover{border-color:#6c63ff44;color:#c7b8ff;background:var(--card);}
+.btn-danger{border-color:rgba(248,113,113,0.15);color:var(--red);background:rgba(248,113,113,0.04);}
+.btn-danger:hover{background:#2d0a0a!important;border-color:var(--red);color:#ff9e9e;}
+.btn-success{border-color:rgba(34,197,94,0.15);color:var(--green);background:rgba(34,197,94,0.04);}
+.btn-success:hover{background:#052e16!important;border-color:var(--green);color:#7efc9f;}
+
+.tabs{display:flex;gap:4px;padding:16px 28px 0;border-bottom:1px solid var(--border);overflow-x:auto;}
+.tab{padding:8px 18px;border-radius:8px 8px 0 0;font-size:12px;font-weight:600;cursor:pointer;color:var(--muted);border:1px solid transparent;border-bottom:none;transition:all .2s;white-space:nowrap;}
+.tab:hover{color:var(--text);}
+.tab.active{background:var(--card);border-color:var(--border);color:var(--text);box-shadow:0 -2px 10px rgba(108,99,255,0.06);}
+.tcnt{background:rgba(255,255,255,0.05);padding:1px 6px;border-radius:20px;font-size:10px;margin-left:5px;transition:all .2s;}
+.tab.active .tcnt{background:rgba(108,99,255,0.15);color:#c7b8ff;}
+.panel{display:none;padding:24px 28px;}
+.panel.active{display:block;}
+
+.ov-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:22px;}
+.ovs{background:rgba(20, 22, 48, 0.4);border:1px solid var(--border);border-radius:14px;padding:18px;}
+.ovs-num{font-size:26px;font-weight:900;background:linear-gradient(135deg,#6c63ff,#4f46e5);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.ovs-lbl{font-size:10.5px;color:var(--muted);margin-top:4px;text-transform:uppercase;letter-spacing:.5px;}
+.pov-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+.pov-card{background:rgba(20, 22, 48, 0.4);border:1px solid var(--border);border-radius:13px;padding:14px 12px;display:flex;align-items:center;gap:12px;transition:border-color .3s, transform .2s;}
+.pov-card:hover{border-color:rgba(108,99,255,0.2);transform:translateY(-1px);}
+.pov-icon{
+  width:32px;height:32px;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+}
+.pov-icon svg{
+  width:26px;height:26px;
+  display:block;
+}
+.pov-info{flex:1;min-width:0;}
+.pov-name{font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.pov-count{font-size:10.5px;color:var(--muted);margin-top:2px;}
+.pov-badge{font-size:10px;font-weight:700;padding:2px 8px;border-radius:20px;flex-shrink:0;}
+.pov-badge.has{background:rgba(34,197,94,.08);color:var(--green);border:1px solid rgba(34,197,94,.18);}
+.pov-badge.none{background:rgba(105,109,146,.08);color:var(--muted);border:1px solid rgba(105,109,146,.15);}
+
+.acct-bar{display:flex;gap:9px;align-items:center;margin-bottom:14px;flex-wrap:wrap;}
+.acct-bar select,.acct-bar input{background:var(--card);border:1px solid var(--border);color:var(--text);font-family:'Inter',sans-serif;font-size:12px;padding:8px 12px;border-radius:8px;outline:none;transition:border-color .2s;}
+.acct-bar select:focus, .acct-bar input:focus{border-color:var(--accent);}
+.acct-bar input{flex:1;min-width:130px;}
+.acct-bar select option{background:var(--bg2);}
+.acct-list{display:flex;flex-direction:column;gap:8px;}
+.ac{background:rgba(20, 22, 48, 0.4);border:1px solid var(--border);border-radius:11px;padding:12px 14px;display:flex;align-items:center;gap:12px;transition:border-color .2s, background .2s;}
+.ac:hover{border-color:rgba(108,99,255,0.15);background:rgba(26, 29, 60, 0.35);}
+.ac-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+.ac-info{flex:1;min-width:0;}
+.ac-name{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.ac-meta{font-size:10.5px;color:var(--muted);margin-top:2px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;}
+.ac-meta svg{width:12px;height:12px;display:inline-block;vertical-align:middle;margin-right:4px;color:inherit;fill:currentColor;}
+.stp{font-size:10px;font-weight:700;padding:2px 9px;border-radius:20px;flex-shrink:0;}
+.stp.w{background:rgba(34,197,94,.08);color:var(--green);border:1px solid rgba(34,197,94,.18);}
+.stp.e{background:rgba(248,113,113,.08);color:var(--red);border:1px solid rgba(248,113,113,.18);}
+.stp.u{background:rgba(250,204,21,.05);color:var(--yellow);border:1px solid rgba(250,204,21,.15);}
+.ac-btns{display:flex;gap:6px;flex-shrink:0;}
+.ibtn{background:var(--card2);border:1px solid var(--border);color:var(--muted);padding:5px 10px;border-radius:7px;cursor:pointer;font-size:11.5px;transition:all .2s;font-family:'Inter',sans-serif;}
+.ibtn:hover{color:var(--text);border-color:#3a3a6a;}
+.ibtn.tst:hover{color:#3ecfff;border-color:#3ecfff44;}
+.ibtn.del:hover{color:var(--red);border-color:#f8717144;background:#1a0808;}
+.empty-state{text-align:center;padding:44px;color:var(--muted);font-size:13px;}
+.empty-icon{font-size:42px;margin-bottom:12px;}
+
+/* ADD FORM */
+.add-form{background:rgba(20, 22, 48, 0.4);border:1px solid var(--border);border-radius:16px;padding:22px;}
+.fl{font-size:10.5px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-bottom:6px;display:block;}
+.fr{margin-bottom:15px;}
+.fr input,.fr select,.fr textarea{width:100%;background:var(--bg2);border:1px solid var(--border);color:var(--text);font-family:'Inter',sans-serif;font-size:13px;padding:10px 13px;border-radius:9px;outline:none;transition:border-color .2s;}
+.fr input:focus,.fr select:focus,.fr textarea:focus{border-color:var(--accent);}
+.fr select option{background:var(--bg2);}
+.fr textarea{min-height:90px;resize:vertical;}
+
+/* FILE IMPORT */
+.file-import-zone{
+  border:2px dashed var(--border);
+  border-radius:12px;
+  padding:18px;
+  text-align:center;
+  transition:border-color .2s,background .2s;
+  cursor:pointer;
+  background:rgba(20, 22, 48, 0.2);
+  position:relative;
+}
+.file-import-zone:hover{border-color:rgba(108,99,255,0.4);background:rgba(108,99,255,0.03);}
+.file-import-zone input[type=file]{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;cursor:pointer;}
+.fiz-icon{font-size:28px;margin-bottom:6px;}
+.fiz-text{font-size:12px;color:var(--muted);line-height:1.6;}
+.fiz-text strong{color:#a78bfa;}
+.fiz-formats{display:flex;gap:5px;justify-content:center;flex-wrap:wrap;margin-top:8px;}
+.fiz-fmt{background:var(--card);border:1px solid var(--border);color:var(--muted);font-size:9.5px;padding:2px 8px;border-radius:20px;font-weight:600;letter-spacing:.3px;}
+
+.import-info{font-size:12px;padding:10px 14px;border-radius:8px;margin-top:8px;display:none;line-height:1.5;}
+.import-info.ok{background:rgba(34,197,94,.08);border:1px solid rgba(34,197,94,.18);color:#4ade80;display:block;}
+.import-info.err{background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.18);color:#fca5a5;display:block;}
+.import-info.info{background:rgba(62,207,255,.05);border:1px solid rgba(62,207,255,.15);color:#7dd3fc;display:block;}
+
+#filePreview{display:none;}
+#importAllBtn{display:none;margin-top:8px;}
+
+.cookie-hint{font-size:10.5px;color:var(--muted);margin-top:5px;line-height:1.6;}
+.cookie-hint strong{color:#a78bfa;}
+
+.ff{display:flex;gap:10px;margin-top:18px;}
+
+/* VALIDATE */
+.val-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;flex-wrap:wrap;gap:8px;}
+.val-title{font-size:14px;font-weight:700;}
+.prog-bar{background:var(--border);border-radius:20px;height:6px;overflow:hidden;margin:10px 0;}
+.prog-fill{height:100%;background:linear-gradient(90deg,#6c63ff,#4f46e5);border-radius:20px;transition:width .4s;}
+.val-log{background:var(--bg2);border:1px solid var(--border);border-radius:9px;padding:12px;max-height:220px;overflow-y:auto;font-size:11px;font-family:monospace;color:var(--muted);line-height:1.7;}
+.lok{color:var(--green);font-weight:600;}
+.lfl{color:var(--red);font-weight:600;}
+.lin{color:#3ecfff;}
+
+/* SETTINGS */
+.ss{background:rgba(20, 22, 48, 0.4);border:1px solid var(--border);border-radius:13px;padding:18px;margin-bottom:14px;}
+.ss-title{font-size:13px;font-weight:700;margin-bottom:13px;display:flex;align-items:center;gap:7px;}
+.sr-row{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--border);flex-wrap:wrap;gap:8px;}
+.sr-row:last-child{border-bottom:none;}
+.sr-row input{background:var(--bg2);border:1px solid var(--border);color:var(--text);font-family:'Inter',sans-serif;font-size:12px;padding:7px 11px;border-radius:8px;outline:none;width:240px;transition:border-color .2s;}
+.sr-row input:focus{border-color:var(--accent);}
+.sr-lbl{font-size:12px;}
+.sr-desc{font-size:10.5px;color:var(--muted);margin-top:2px;}
+
+#sb{position:fixed;bottom:18px;right:22px;background:var(--card2);border:1px solid var(--border);padding:10px 18px;border-radius:10px;font-size:12px;font-weight:500;opacity:0;transform:translateY(8px);transition:all .3s;pointer-events:none;z-index:9999;max-width:300px;box-shadow:0 10px 30px rgba(0,0,0,0.4);}
+#sb.show{opacity:1;transform:translateY(0);}
+#sb.ok{border-color:#22c55e44;background:#052e16cc;color:#4ade80;}
+#sb.err{border-color:#f8717144;background:#2d0a0acc;color:#fca5a5;}
+#sb.inf{border-color:#3ecfff44;background:#0c1f2ecc;color:#7dd3fc;}
+</style>
+</head>
+<body>
+
+<div id="loginScreen">
+  <div class="lbox">
+    <div class="llogo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    </div>
+    <div class="ltitle">StreamVault Admin</div>
+    <div class="lsub">9 Platforms • All-in-One • by @Andro_M1 • Remake by MoGlitch</div>
+    <input class="inp" type="password" id="pwdIn" placeholder="Admin password" />
+    <button class="btn-main" id="loginBtn">Unlock Panel</button>
+    <div class="lerr" id="lerr"></div>
+  </div>
+</div>
+
+<div id="mainScreen">
+  <div class="topbar">
+    <div class="tb-logo">
+      <div class="tb-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <div><div class="tb-name">StreamVault Admin</div><div class="tb-sub">9 Platforms • by @Andro_M1 • Remake by MoGlitch</div></div>
+    </div>
+    <div class="tb-right">
+      <button class="btn-sm btn-success" id="saveBtn" style="display: flex; align-items: center; gap: 4px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+        Save
+      </button>
+      <button class="btn-sm" id="syncBtn" style="display: flex; align-items: center; gap: 4px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+        Sync
+      </button>
+      <button class="btn-sm btn-danger" id="lockBtn" style="display: flex; align-items: center; gap: 4px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        Lock
+      </button>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="overview" style="display: flex; align-items: center; gap: 6px;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      Overview
+    </div>
+    <div class="tab" data-tab="accounts" style="display: flex; align-items: center; gap: 6px;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      Accounts <span class="tcnt" id="tcnt">0</span>
+    </div>
+    <div class="tab" data-tab="add" style="display: flex; align-items: center; gap: 6px;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+      Add Account
+    </div>
+    <div class="tab" data-tab="validate" style="display: flex; align-items: center; gap: 6px;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M10 2v7.31L3.89 19.3a2 2 0 0 0 1.66 2.7h13a2 2 0 0 0 1.66-2.7L14 9.31V2h-4z"/></svg>
+      Validate
+    </div>
+    <div class="tab" data-tab="settings" style="display: flex; align-items: center; gap: 6px;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.5a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      Settings
+    </div>
+  </div>
+
+  <!-- OVERVIEW -->
+  <div class="panel active" id="panel-overview">
+    <div class="ov-stats">
+      <div class="ovs"><div class="ovs-num" id="ov-t">0</div><div class="ovs-lbl">Total Accounts</div></div>
+      <div class="ovs"><div class="ovs-num" id="ov-w">0</div><div class="ovs-lbl">Working</div></div>
+      <div class="ovs"><div class="ovs-num" id="ov-p">0</div><div class="ovs-lbl">Active Platforms</div></div>
+    </div>
+    <div class="pov-grid" id="povGrid"></div>
+  </div>
+
+  <!-- ACCOUNTS -->
+  <div class="panel" id="panel-accounts">
+    <div class="acct-bar">
+      <select id="fpf"><option value="">All Platforms</option></select>
+      <select id="fps"><option value="">All Status</option><option value="w">Working</option><option value="e">Expired</option><option value="u">Unknown</option></select>
+      <input id="fsearch" placeholder="Search..." />
+      <button class="btn-sm btn-danger" id="delAllBtn">Delete All</button>
+    </div>
+    <div class="acct-list" id="acctList"></div>
+  </div>
+
+  <!-- ADD ACCOUNT -->
+  <div class="panel" id="panel-add">
+    <div class="add-form">
+
+      <!-- FILE IMPORT -->
+      <div class="fr">
+        <label class="fl" style="display: flex; align-items: center; gap: 4px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          Import from File (.txt / .json)
+        </label>
+        <div class="file-import-zone">
+          <input type="file" id="fileImportInput" accept=".txt,.json,.log,.cookie,.cookies" multiple />
+          <div class="fiz-icon" style="display: flex; align-items: center; justify-content: center; margin-bottom: 8px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 28px; height: 28px; color: var(--muted);"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          </div>
+          <div class="fiz-text">Click to select a file or <strong>drag &amp; drop</strong> into the cookies box below<br>Supports all cookie formats — auto-detected instantly</div>
+          <div class="fiz-formats">
+            <span class="fiz-fmt">Netscape</span>
+            <span class="fiz-fmt">JSON Array</span>
+            <span class="fiz-fmt">key=value</span>
+            <span class="fiz-fmt">HTTP Header</span>
+            <span class="fiz-fmt">EditThisCookie</span>
+            <span class="fiz-fmt">Cookie-Editor</span>
+            <span class="fiz-fmt">Multi-account</span>
+          </div>
+        </div>
+        <div id="filePreview">
+          <div class="import-info" id="importInfo"></div>
+          <button class="btn-sm btn-success" id="importAllBtn" style="display: flex; align-items: center; gap: 4px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            Import All Accounts
+          </button>
+        </div>
+      </div>
+
+      <div class="fr"><label class="fl">Account Name</label><input id="addName" placeholder="e.g. Netflix Premium Account 1" /></div>
+      <div class="fr"><label class="fl">Platform</label><select id="addPlatform"></select></div>
+      <div class="fr">
+        <label class="fl">Cookies <span style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0">— paste or drag a file here</span></label>
+        <textarea id="addCookies" placeholder="Paste cookies here or drag a .txt file onto this box...
+
+Auto-detects all formats:
+• Netscape (tab-separated from Cookie-Editor)
+• JSON array [{name, value, domain...}]
+• key=value; key2=value2 (HTTP header)
+• key=value per line
+• Multi-account file (separated by --- lines)"></textarea>
+        <div class="cookie-hint">Format is auto-detected. <strong>Netscape</strong>, <strong>JSON</strong>, <strong>key=value</strong>, and <strong>HTTP Cookie header</strong> formats all work.</div>
+      </div>
+      <div class="ff">
+        <button class="btn-main" id="addBtn" style="flex:1; display: flex; align-items: center; justify-content: center; gap: 4px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px;"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Add Account
+        </button>
+        <button class="btn-sm" id="clearBtn">Clear</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- VALIDATE -->
+  <div class="panel" id="panel-validate">
+    <div class="val-hdr">
+      <div class="val-title" style="display: flex; align-items: center; gap: 4px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px;"><path d="M10 2v7.31L3.89 19.3a2 2 0 0 0 1.66 2.7h13a2 2 0 0 0 1.66-2.7L14 9.31V2h-4z"/></svg>
+        Validate Accounts
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn-sm" id="resetStatusBtn" style="display: flex; align-items: center; gap: 4px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+          Reset to Unknown
+        </button>
+        <button class="btn-sm" id="markAllBtn">Mark All Working</button>
+        <button class="btn-sm btn-danger" id="delExpiredBtn" style="display: flex; align-items: center; gap: 4px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+          Delete Expired
+        </button>
+        <button class="btn-sm btn-success" id="valAllBtn" style="display: flex; align-items: center; gap: 4px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Run Validation
+        </button>
+      </div>
+    </div>
+    <div class="prog-bar"><div class="prog-fill" id="prog" style="width:0%"></div></div>
+    <div style="font-size:11px;color:var(--muted);margin-bottom:10px" id="progLbl">Ready — press Run Validation to start</div>
+    <div class="val-log" id="valLog">Logs will appear here when validation runs...</div>
+  </div>
+
+
+
+  <!-- SETTINGS -->
+  <div class="panel" id="panel-settings">
+    <div class="ss">
+      <div class="ss-title" style="display: flex; align-items: center; gap: 6px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        Security
+      </div>
+      <div class="sr-row"><div><div class="sr-lbl">Admin Password</div><div class="sr-desc">Change login password</div></div><input type="password" id="newPwd" placeholder="New password" /></div>
+      <div style="display:flex;justify-content:flex-end;margin-top:10px"><button class="btn-sm btn-success" id="savePwdBtn">Save Password</button></div>
+    </div>
+    <div class="ss">
+      <div class="ss-title" style="display: flex; align-items: center; gap: 6px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px;"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        Cloud Sync Status
+      </div>
+      <div style="font-size:12px;padding:14px;border-radius:10px;background:#0d2b1a;color:#4ade80;border:1px solid #22c55e33;line-height:1.7;">
+        <strong>GitHub Gist Real-Time Sync is Active</strong><br>
+        <span style="color:#a5b4fc;font-size:11px;display:block;margin-top:4px;">The extension is fully configured with your secure Gist database. Accounts are automatically saved and updated in real-time. No manual configuration needed!</span>
+      </div>
+    </div>
+    <div class="ss" style="display:none;">
+      <div class="ss-title" style="display: flex; align-items: center; gap: 6px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px;"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        Cloud Storage & Sync
+      </div>
+      <div class="sr-section-title">🐙 GitHub Gist & Repo Auto-Push (Recommended)</div>
+      <div id="ghStatus" style="font-size:11px;padding:7px 12px;border-radius:8px;background:#0d2b1a;color:#4ade80;border:1px solid #22c55e33;margin-bottom:8px;">GitHub not configured (using JSONBin)</div>
+      <div class="sr-row">
+        <div><div class="sr-lbl">GitHub Gist ID</div><div class="sr-desc">Secret Gist ID (Created automatically if left blank)</div></div>
+        <input type="text" id="sGithubGistId" placeholder="e.g. a1b2c3d4..." />
+      </div>
+      <div class="sr-row">
+        <div><div class="sr-lbl">GitHub Repo</div><div class="sr-desc">Repository format: <b>username/repo-name</b></div></div>
+        <input type="text" id="sGithubRepo" placeholder="YourName/streamvault-data" />
+      </div>
+      <div class="sr-row">
+        <div><div class="sr-lbl">GitHub Token</div><div class="sr-desc">Personal Access Token (requires 'gist' or 'repo' scope)</div></div>
+        <input type="password" id="sGithubToken" placeholder="ghp_xxxxxxxxxxxx" />
+      </div>
+      <div style="font-size:10px;color:#5a5a8a;padding:0 2px 8px;line-height:1.6;">
+        Once saved, every account you add/edit <b style="color:#a78bfa">auto-pushes to GitHub instantly</b>.<br>
+        Users get your latest cookies on every extension open — no reinstall needed.
+      </div>
+      <div class="sr-section-title" style="margin-top:4px;">☁️ JSONBin (Fallback / Legacy)</div>
+      <div class="sr-row"><div><div class="sr-lbl">API Key</div><div class="sr-desc">JSONBin master key</div></div><input type="password" id="sApiKey" placeholder="$2a$10$..." /></div>
+      <div class="sr-row"><div><div class="sr-lbl">Bin ID</div><div class="sr-desc">JSONBin bin identifier</div></div><input type="text" id="sBinId" placeholder="6a4e5dd5..." /></div>
+      <div style="display:flex;justify-content:flex-end;margin-top:10px"><button class="btn-sm btn-success" id="saveApiBtn">Save API</button></div>
+    </div>
+    <div class="ss">
+      <div class="ss-title" style="display: flex; align-items: center; gap: 6px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+        Data Management
+      </div>
+      <div class="sr-row"><div><div class="sr-lbl">Export All Accounts</div><div class="sr-desc">Download full backup as JSON</div></div><button class="btn-sm" id="expBtn" style="display: flex; align-items: center; gap: 4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>Export</button></div>
+      <div class="sr-row"><div><div class="sr-lbl">Wipe All Data</div><div class="sr-desc">Delete everything permanently</div></div><button class="btn-sm btn-danger" id="wipeBtn" style="display: flex; align-items: center; gap: 4px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>Wipe All</button></div>
+    </div>
+    <div class="ss" style="border-color:#3ecfff22">
+      <div class="ss-title" style="color:#7dd3fc; display: flex; align-items: center; gap: 6px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px;"><polygon points="6 2 18 2 18 6 6 6"/><rect x="3" y="6" width="18" height="16" rx="2"/><path d="M10 12h4"/></svg>
+        GitHub Ready
+      </div>
+      <div style="font-size:12px;color:var(--muted);line-height:1.7">
+        To support thousands of accounts on GitHub:<br>
+        1. Export your accounts JSON → commit to a GitHub repo<br>
+        2. Set Cloud API to your GitHub raw URL or use a GitHub Gist<br>
+        3. For 100MB+ data, use <strong>GitHub Releases</strong> to host the JSON file<br>
+        4. Bin ID field can also hold a full URL — update <code>fetchOnline()</code> in background.js
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sb"></div>
+<script src="platforms.js"></script>
+<script src="admin.js"></script>
+</body></html>

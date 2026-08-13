@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Andro StreamVault",
+  "version": "1.0",
+  "description": "All-in-one streaming account manager. Netflix, Prime, HBO Max, Disney+, Paramount+, Hulu, Apple TV+, Peacock, Crunchyroll.",
+  "permissions": ["cookies","activeTab","storage","scripting","webNavigation","tabs"],
+  "host_permissions": [
+    "https://*.netflix.com/*","https://*.primevideo.com/*","https://*.amazon.com/*",
+    "https://*.max.com/*","https://*.hbomax.com/*","https://*.disneyplus.com/*",
+    "https://*.paramountplus.com/*","https://*.hulu.com/*","https://tv.apple.com/*",
+    "https://*.apple.com/*","https://*.peacocktv.com/*","https://*.crunchyroll.com/*",
+    "https://api.jsonbin.io/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {"16":"icons/icon16.png","48":"icons/icon48.png","128":"icons/icon128.png"}
+  },
+  "background": {"service_worker": "background.js"},
+  "content_scripts": [{
+    "matches": [
+      "https://*.netflix.com/*","https://*.primevideo.com/*","https://*.amazon.com/*",
+      "https://*.max.com/*","https://*.disneyplus.com/*","https://*.paramountplus.com/*",
+      "https://*.hulu.com/*","https://tv.apple.com/*","https://*.peacocktv.com/*",
+      "https://*.crunchyroll.com/*"
+    ],
+    "js": ["content.js"]
+  }],
+  "options_page": "admin.html"
+}

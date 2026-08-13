@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#070814;--bg2:#0e0f24;--card:#141630;--card2:#1a1d3c;
+  --border:rgba(255,255,255,0.06);--text:#f3f4fd;--muted:#696d92;
+  --accent:#6c63ff;
+  --theme-color:#6c63ff;
+  --theme-dark:#4f46e5;
+  --theme-glow:rgba(108,99,255,.15);
+  --theme-glow2:rgba(108,99,255,.08);
+}
+body{
+  width:420px;
+  background:var(--bg);
+  font-family:'Inter',sans-serif;
+  color:var(--text);
+  overflow:hidden;
+  transition:background .4s;
+}
+/* Dynamic glow background */
+#glowBg{
+  position:fixed;top:0;left:0;right:0;bottom:0;
+  background:radial-gradient(ellipse at 25% 15%,rgba(108,99,255,.06) 0%,transparent 55%),
+             radial-gradient(ellipse at 75% 85%,rgba(0,168,225,.04) 0%,transparent 55%);
+  pointer-events:none;z-index:0;
+  transition:background .5s ease;
+}
+/* When a platform is themed */
+body.themed #glowBg{
+  opacity:1;
+}
+body.themed .header{
+  border-bottom-color:var(--theme-color)22;
+  background:linear-gradient(180deg,var(--bg) 0%,var(--theme-glow2) 100%);
+}
+body.themed .stats-bar{
+  background:linear-gradient(135deg,var(--card),var(--theme-glow2));
+  border-bottom-color:var(--theme-color)33;
+}
+body.themed .hbadge{
+  background:var(--theme-glow);
+  border-color:var(--theme-color)44;
+  color:var(--theme-color);
+}
+body.themed .sdot.g{background:var(--theme-color);box-shadow:0 0 8px var(--theme-color);}
+body.themed .footer{border-top-color:var(--theme-color)22;}
+body.themed .footer a{color:var(--theme-color);}
+.header{
+  position:relative;z-index:10;
+  padding:14px 18px 12px;
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--border);
+  backdrop-filter:blur(10px);
+  transition:all .4s;
+}
+.logo{display:flex;align-items:center;gap:10px;}
+.logo-icon{
+  width:32px;height:32px;
+  background:linear-gradient(135deg,#6c63ff,#4f46e5);
+  border-radius:9px;
+  display:flex;align-items:center;justify-content:center;
+  color:#fff;
+  box-shadow:0 0 16px rgba(108,99,255,.4);
+  flex-shrink:0;
+  transition:box-shadow .4s;
+}
+.logo-icon svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+body.themed .logo-icon{
+  background:linear-gradient(135deg,var(--theme-color),var(--theme-dark));
+  box-shadow:0 0 18px var(--theme-color)66;
+}
+.logo-text .title{
+  font-size:15px;font-weight:800;
+  background:linear-gradient(135deg,#fff 40%,#c7b8ff);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;letter-spacing:.3px;
+}
+body.themed .logo-text .title{
+  background:linear-gradient(135deg,#fff 40%,var(--theme-color));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.logo-text .sub{font-size:9px;color:var(--muted);font-weight:500;letter-spacing:.7px;text-transform:uppercase;margin-top:1px;}
+.hbadge{
+  background:rgba(108,99,255,0.08);
+  border:1px solid rgba(108,99,255,0.2);
+  color:#b8a5ff;
+  font-size:9px;font-weight:700;
+  padding:3px 8px;border-radius:20px;letter-spacing:.4px;
+  transition:all .4s;
+}
+.admin-btn{
+  background:var(--card2);border:1px solid var(--border);
+  color:var(--muted);font-size:11px;
+  padding:5px 10px;border-radius:7px;cursor:pointer;
+  transition:all .2s;font-family:'Inter',sans-serif;font-weight:500;
+}
+.admin-btn:hover{border-color:#6c63ff44;color:var(--text);background:var(--card);}
+body.themed .admin-btn:hover{border-color:var(--theme-color)44;}
+.stats-bar{
+  position:relative;z-index:5;
+  display:flex;align-items:center;justify-content:space-around;
+  padding:10px 18px;
+  background:rgba(20, 22, 48, 0.4);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--border);
+  transition:all .4s;
+}
+.stat{display:flex;align-items:center;gap:5px;font-size:11px;}
+.sdot{width:6px;height:6px;border-radius:50%;flex-shrink:0;transition:all .4s;}
+.sdot.g{background:#22c55e;box-shadow:0 0 6px #22c55e88;}
+.sdot.b{background:#3ecfff;box-shadow:0 0 6px #3ecfff88;}
+.sdot.p{background:#a78bfa;box-shadow:0 0 6px #a78bfa88;}
+.snum{font-weight:700;color:var(--text);}
+.slabel{color:var(--muted);}
+.grid-label{
+  position:relative;z-index:5;
+  padding:14px 18px 8px;
+  font-size:10px;font-weight:600;
+  color:var(--muted);letter-spacing:.7px;text-transform:uppercase;
+}
+.platform-grid{
+  position:relative;z-index:5;
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:9px;padding:0 12px 12px;
+}
+/* Platform card */
+.pc{
+  background:rgba(20, 22, 48, 0.45);
+  backdrop-filter:blur(8px);
+  border:1px solid rgba(255,255,255,0.04);
+  border-radius:12px;
+  padding:14px 8px 12px;
+  cursor:pointer;
+  transition:all .22s cubic-bezier(.4,0,.2,1);
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  position:relative;overflow:hidden;
+}
+.pc::before{
+  content:'';
+  position:absolute;top:0;left:0;right:0;height:2px;
+  background:var(--pc,#6c63ff);
+  opacity:.3;
+  transition:opacity .2s;
+}
+.pc::after{
+  content:'';
+  position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,var(--ps,rgba(108,99,255,.12)) 0%,transparent 70%);
+  opacity:0;
+  transition:opacity .3s;
+  pointer-events:none;
+}
+.pc:hover{
+  border-color:var(--pc,#6c63ff)55;
+  background:rgba(26, 29, 60, 0.6);
+  transform:translateY(-3px);
+  box-shadow:0 8px 24px rgba(0,0,0,.4),0 0 20px var(--ps,rgba(108,99,255,.2));
+}
+.pc:hover::before{opacity:1;}
+.pc:hover::after{opacity:1;}
+/* Selected / active card */
+.pc.selected{
+  border-color:var(--pc,#6c63ff);
+  background:linear-gradient(135deg,var(--card2),var(--ps,rgba(108,99,255,.08)));
+  box-shadow:0 0 0 1px var(--pc,#6c63ff)44,0 0 28px var(--ps,rgba(108,99,255,.3)),inset 0 0 20px var(--ps,rgba(108,99,255,.05));
+  transform:translateY(-2px);
+}
+.pc.selected::before{opacity:1;height:3px;}
+.pc.selected::after{opacity:1;}
+.pc.empty{opacity:.4;}
+.pc.empty:not(:hover){cursor:default;}
+.pe{
+  width:32px;height:32px;
+  display:flex;align-items:center;justify-content:center;
+  color:var(--pc,#6c63ff);
+  transition:transform .2s, color .2s;
+}
+.pe svg {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+.pc:hover .pe {
+  transform: scale(1.1);
+  color: #fff;
+}
+.pn{font-size:10px;font-weight:600;color:var(--text);text-align:center;line-height:1.2;}
+.pk{
+  display:flex;align-items:center;gap:3px;
+  font-size:9px;font-weight:700;
+  padding:2px 7px;border-radius:20px;border:1px solid;
+}
+.pk.has{background:rgba(34,197,94,.08);border-color:rgba(34,197,94,.2);color:#22c55e;}
+.pk.none{background:rgba(105,109,146,.08);border-color:rgba(105,109,146,.15);color:var(--muted);}
+.pp{width:5px;height:5px;border-radius:50%;background:#22c55e;animation:pulse 2s infinite;display:inline-block;margin-right:2px;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.4;transform:scale(1.4);}}
+/* Platform View */
+#platformView{display:none;}
+.pv-header{
+  position:relative;z-index:10;
+  padding:13px 18px;
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:1px solid var(--border);
+  background:linear-gradient(180deg,var(--bg) 0%,var(--theme-glow2) 100%);
+  transition:all .4s;
+}
+.pv-header-left{display:flex;align-items:center;gap:10px;}
+.pv-icon{
+  width:40px;height:40px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--card2);
+  border:2px solid var(--pc,#6c63ff);
+  box-shadow:0 0 20px var(--ps,rgba(108,99,255,.4)),0 0 40px var(--ps,rgba(108,99,255,.15));
+  transition:all .3s;
+  color: #fff;
+}
+.pv-icon svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+.pv-name{font-size:17px;font-weight:800;}
+.pv-sub{font-size:9.5px;color:var(--muted);margin-top:1px;}
+.pv-body{position:relative;z-index:5;padding:16px 18px;}
+.info-box{
+  background:rgba(20, 22, 48, 0.4);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:14px 16px;
+  margin-bottom:14px;
+  transition:all .3s;
+  min-height:76px;
+  display:flex;flex-direction:column;justify-content:center;gap:3px;
+}
+.info-box.active{
+  border-color:var(--pc,#6c63ff)44;
+  box-shadow:0 0 16px var(--ps,rgba(108,99,255,.15));
+}
+.ib-title{font-size:14px;font-weight:700;}
+.ib-sub{font-size:11px;color:var(--muted);}
+.ib-hi{font-size:11.5px;font-weight:600;color:#22c55e;margin-top:2px;}
+.connect-btn{
+  width:100%;padding:13px;
+  border:none;border-radius:11px;
+  background:linear-gradient(135deg,var(--theme-color),var(--theme-dark));
+  color:#fff;font-size:14px;font-weight:700;
+  cursor:pointer;font-family:'Inter',sans-serif;
+  letter-spacing:.2px;
+  transition:all .25s;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  position:relative;overflow:hidden;
+}
+.connect-btn::after{
+  content:'';
+  position:absolute;top:0;left:-100%;width:100%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);
+  transition:left .5s;
+}
+.connect-btn:hover:not(:disabled)::after{left:100%;}
+.connect-btn:hover:not(:disabled){
+  filter:brightness(1.15);
+  transform:translateY(-2px);
+  box-shadow:0 8px 28px var(--theme-color)55;
+}
+.connect-btn:disabled{
+  background:var(--card2)!important;
+  color:var(--muted);cursor:not-allowed;
+  box-shadow:none;transform:none;opacity:.5;
+}
+.connect-btn.loading .lbl{visibility:hidden;}
+.connect-btn.loading .spin{display:flex;}
+.spin{display:none;position:absolute;align-items:center;}
+.sr{
+  width:18px;height:18px;
+  border:2px solid rgba(255,255,255,.3);
+  border-top-color:#fff;
+  border-radius:50%;
+  animation:rot .7s linear infinite;
+}
+@keyframes rot{to{transform:rotate(360deg);}}
+.connect-btn.ok{background:linear-gradient(135deg,#16a34a,#22c55e)!important;}
+.next-lbl{
+  font-size:10px;color:var(--muted);
+  text-align:center;margin-top:6px;min-height:14px;
+}
+.next-lbl span{color:var(--theme-color);font-weight:600;}
+.pv-stats{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:8px;margin-top:12px;
+}
+.pvs{
+  background:rgba(20, 22, 48, 0.4);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:10px;text-align:center;
+  transition:border-color .3s;
+}
+body.themed .pvs{border-color:var(--theme-color)11;}
+.pvs-num{
+  font-size:20px;font-weight:900;
+  color:var(--pc,#6c63ff);
+  text-shadow:0 0 12px var(--ps,rgba(108,99,255,.3));
+}
+.pvs-lbl{
+  font-size:9px;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.5px;margin-top:2px;
+}
+.footer{
+  position:relative;z-index:5;
+  padding:10px 18px;
+  display:flex;justify-content:space-between;align-items:center;
+  border-top:1px solid var(--border);
+  font-size:9.5px;color:var(--muted);
+  transition:all .4s;
+}
+.footer a{color:#6c63ff;text-decoration:none;font-weight:600;transition:color .3s;}
+.footer a:hover{color:#a78bfa;}
+.toast{
+  position:fixed;bottom:12px;left:50%;
+  transform:translateX(-50%) translateY(16px);
+  background:var(--card2);
+  border:1px solid var(--border);
+  color:var(--text);
+  font-size:11.5px;padding:9px 16px;
+  border-radius:9px;max-width:360px;
+  text-align:center;opacity:0;
+  transition:all .3s;z-index:999;
+  pointer-events:none;font-weight:500;
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+.toast.ok{border-color:#22c55e44;background:#052e16dd;color:#4ade80;}
+.toast.err{border-color:#f8717144;background:#2d0a0add;color:#fca5a5;}
+.toast.inf{border-color:#3ecfff44;background:#0c1f2edd;color:#7dd3fc;}
+/* Theme transition overlay */
+.theme-ripple{
+  position:fixed;border-radius:50%;
+  width:10px;height:10px;
+  background:var(--theme-color);
+  opacity:0;pointer-events:none;z-index:1;
+  transform:translate(-50%,-50%) scale(0);
+  animation:ripple .6s ease-out forwards;
+}
+@keyframes ripple{
+  0%{transform:translate(-50%,-50%) scale(0);opacity:.4;}
+  100%{transform:translate(-50%,-50%) scale(120);opacity:0;}
+}
+</style>
+</head>
+<body>
+<div id="glowBg"></div>
+
+<div id="homeView">
+  <div class="header">
+    <div class="logo">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <div class="logo-text">
+        <div class="title">StreamVault</div>
+        <div class="sub">by @Andro_M1 • Remake by MoGlitch</div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:7px">
+      <div class="hbadge" id="hbadge">9 platforms</div>
+      <button class="admin-btn" id="syncPopupBtn" style="display: flex; align-items: center; gap: 4px; background: rgba(59, 130, 246, 0.1); border-color: rgba(59, 130, 246, 0.2); color: #60a5fa;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+        Sync
+      </button>
+      <button class="admin-btn" id="adminBtn" style="display: flex; align-items: center; gap: 4px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        Admin
+      </button>
+    </div>
+  </div>
+  <div class="stats-bar">
+    <div class="stat"><div class="sdot g"></div><span class="snum" id="tw">0</span>&nbsp;<span class="slabel">working</span></div>
+    <div class="stat"><div class="sdot b"></div><span class="snum" id="ta">0</span>&nbsp;<span class="slabel">total</span></div>
+    <div class="stat"><div class="sdot p"></div><span class="snum" id="tp">0</span>&nbsp;<span class="slabel">platforms active</span></div>
+  </div>
+  <div class="search-bar-container" style="padding: 10px 12px 2px; position: relative; z-index: 5;">
+    <input type="text" id="platformSearch" placeholder="Search platform..." style="width: 100%; background: var(--card2); border: 1px solid var(--border); color: var(--text); padding: 8px 12px; border-radius: 9px; font-size: 11px; outline: none; transition: border-color 0.2s; font-family: 'Inter', sans-serif;" />
+  </div>
+  <div class="grid-label">Select a platform to connect</div>
+  <div class="platform-grid" id="grid"></div>
+  <div class="footer">
+    <span>StreamVault v1.4 • Remake by MoGlitch</span>
+    <a href="#" id="adminLink">Admin Panel →</a>
+  </div>
+</div>
+
+<div id="platformView">
+  <div class="pv-header">
+    <div class="pv-header-left">
+      <div class="pv-icon" id="pvIcon">🌊</div>
+      <div>
+        <div class="pv-name" id="pvName">Platform</div>
+        <div class="pv-sub">by @Andro_M1 • Remake by MoGlitch</div>
+      </div>
+    </div>
+    <button class="admin-btn" id="backBtn" style="display: flex; align-items: center; gap: 4px;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 12px; height: 12px;"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      Back
+    </button>
+  </div>
+  <div class="pv-body">
+    <div class="info-box" id="infoBox">
+      <div class="ib-title" id="ibTitle">Loading...</div>
+      <div class="ib-sub" id="ibSub"></div>
+      <div class="ib-hi" id="ibHi"></div>
+    </div>
+    <button class="connect-btn" id="connectBtn" disabled>
+      <span class="lbl" style="display: flex; align-items: center; gap: 4px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 14px; height: 14px; margin-right: 2px;"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        Connect Now
+      </span>
+      <div class="spin"><div class="sr"></div></div>
+    </button>
+    <button class="connect-btn" id="copyBtn" style="margin-top: 8px; background: rgba(255,255,255,0.04); border: 1px solid var(--border); color: var(--text); display: flex; align-items: center; justify-content: center; gap: 4px;" disabled>
+      <span style="display: flex; align-items: center; gap: 4px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px; margin-right: 2px;"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        Copy Cookies
+      </span>
+    </button>
+    <div class="next-lbl" id="nextLbl"></div>
+    
+    <!-- Netflix Login Links Section -->
+    <div id="netflixLinks" style="display: none; margin-top: 12px; border-top: 1px solid var(--border); padding-top: 12px; text-align: left; width: 100%;">
+      <div style="font-size: 10px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 8px; display: flex; align-items: center; gap: 5px;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="width: 12px; height: 12px;"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        Netflix Login Links
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 6px;">
+        <button class="connect-btn" id="copyPcLinkBtn" style="font-size: 11px; padding: 8px 12px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); color: var(--text); display: flex; align-items: center; justify-content: flex-start; gap: 8px; width: 100%; height: auto;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px; color: var(--accent); flex-shrink: 0;"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <span>Copy PC Login Link</span>
+        </button>
+        <button class="connect-btn" id="copyPhoneLinkBtn" style="font-size: 11px; padding: 8px 12px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); color: var(--text); display: flex; align-items: center; justify-content: flex-start; gap: 8px; width: 100%; height: auto;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px; color: var(--accent); flex-shrink: 0;"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          <span>Copy Phone Login Link</span>
+        </button>
+        <button class="connect-btn" id="openTvLinkBtn" style="font-size: 11px; padding: 8px 12px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); color: var(--text); display: flex; align-items: center; justify-content: flex-start; gap: 8px; width: 100%; height: auto;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width: 13px; height: 13px; color: var(--accent); flex-shrink: 0;"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
+          <span>Open TV Activation Page</span>
+        </button>
+      </div>
+    </div>
+    <div class="pv-stats">
+      <div class="pvs"><div class="pvs-num" id="pvTotal">0</div><div class="pvs-lbl">Total</div></div>
+      <div class="pvs"><div class="pvs-num" id="pvWorking">0</div><div class="pvs-lbl">Working</div></div>
+      <div class="pvs"><div class="pvs-num" id="pvUsed">0</div><div class="pvs-lbl">Used Today</div></div>
+    </div>
+  </div>
+  <div class="footer">
+    <span>StreamVault v1.4 • Remake by MoGlitch</span>
+    <a href="#" id="pvAdminLink">Admin →</a>
+  </div>
+</div>
+
+
+<div class="toast" id="toast"></div>
+<script src="platforms.js"></script>
+<script src="popup.js"></script>
+</body></html>
