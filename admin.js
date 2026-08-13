@@ -47,10 +47,19 @@ document.querySelectorAll('.tab').forEach(function(tab){
   });
 });
 
-// ---- API ----
+var DEF_GH_REPO = 'MoGLCL/streamvault-data';
+var DEF_GH_TOKEN = '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';
+var OLD_GH_TOKEN = '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';
+
 function getGithubGistId(){return settings.githubGistId||'';}
-function getGithubRepo(){return settings.githubRepo||'';}
-function getGithubToken(){return settings.githubToken||'';}
+function getGithubRepo(){
+  if (!settings.githubRepo || settings.githubRepo === 'andromodern2/streamvault') return DEF_GH_REPO;
+  return settings.githubRepo;
+}
+function getGithubToken(){
+  if (!settings.githubToken || settings.githubToken === OLD_GH_TOKEN) return DEF_GH_TOKEN;
+  return settings.githubToken;
+}
 function isGistConfigured(){return !!(getGithubGistId()&&getGithubToken());}
 function isGithubConfigured(){return !!(getGithubRepo()&&getGithubToken());}
 

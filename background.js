@@ -10,11 +10,14 @@ const CFG = {
 
 chrome.runtime.onMessage.addListener((req, sender, sendResponse) => {
 
+  var OLD_TOKEN = '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';
+  var OLD_REPO  = 'andromodern2/streamvault';
+
   // ---- LOAD DATA ----
   // Tries GitHub Repository Contents API directly (real-time, up to 100MB), fallback to JSONBin
   if (req.action === 'loadOnlineData') {
-    var githubRepo   = req.githubRepo || CFG.GITHUB_REPO;
-    var githubToken  = req.githubToken || CFG.GITHUB_TOKEN;
+    var githubRepo   = (req.githubRepo && req.githubRepo !== OLD_REPO) ? req.githubRepo : CFG.GITHUB_REPO;
+    var githubToken  = (req.githubToken && req.githubToken !== OLD_TOKEN) ? req.githubToken : CFG.GITHUB_TOKEN;
     var key = req.apiKey || CFG.API_KEY;
     var bin = req.binId  || CFG.BIN_ID;
 
@@ -69,7 +72,7 @@ chrome.runtime.onMessage.addListener((req, sender, sendResponse) => {
       }
     }
 
-    Promise.all([p1, p2]).then(results => {
+    Promise.all([p1, p2]).then(async results => {
       var githubData = results[0] || {};
       var secondaryData = results[1] || {};
 
@@ -92,6 +95,22 @@ chrome.runtime.onMessage.addListener((req, sender, sendResponse) => {
       add(githubData.accounts);
       add(secondaryData.accounts);
 
+      // Fallback: If no accounts found from network, load bundled local accounts.json
+      if (mergedAccounts.length === 0) {
+        try {
+          var localUrl = chrome.runtime.getURL('accounts.json');
+          var localRes = await fetch(localUrl);
+          if (localRes.ok) {
+            var localData = await localRes.json();
+            if (Array.isArray(localData.accounts)) {
+              add(localData.accounts);
+            }
+          }
+        } catch (e) {
+          console.warn('Local fallback error:', e);
+        }
+      }
+
       // Resolve newest updatedAt
       var time1 = githubData.updatedAt ? new Date(githubData.updatedAt).getTime() : 0;
       var time2 = secondaryData.updatedAt ? new Date(secondaryData.updatedAt).getTime() : 0;
@@ -113,8 +132,8 @@ chrome.runtime.onMessage.addListener((req, sender, sendResponse) => {
 
   // ---- PUSH TO GITHUB REPO ----
   if (req.action === 'pushToGitHub') {
-    var githubToken  = req.githubToken || CFG.GITHUB_TOKEN;
-    var githubRepo   = req.githubRepo || CFG.GITHUB_REPO;
+    var githubRepo   = (req.githubRepo && req.githubRepo !== OLD_REPO) ? req.githubRepo : CFG.GITHUB_REPO;
+    var githubToken  = (req.githubToken && req.githubToken !== OLD_TOKEN) ? req.githubToken : CFG.GITHUB_TOKEN;
     var data         = req.data;
 
     if (!githubToken || !githubRepo) {

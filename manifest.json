@@ -9,6 +9,8 @@
     "https://*.max.com/*","https://*.hbomax.com/*","https://*.disneyplus.com/*",
     "https://*.paramountplus.com/*","https://*.hulu.com/*","https://tv.apple.com/*",
     "https://*.apple.com/*","https://*.peacocktv.com/*","https://*.crunchyroll.com/*",
+    "https://api.github.com/*",
+    "https://raw.githubusercontent.com/*",
     "https://api.jsonbin.io/*"
   ],
   "action": {

@@ -13,6 +13,11 @@ function showToast(msg,t){
 function loadData(){
   return new Promise(function(res){
     var s=JSON.parse(localStorage.getItem('sv_settings')||'{}');
+    if (s.githubToken === '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' || s.githubRepo === 'andromodern2/streamvault') {
+      delete s.githubToken;
+      delete s.githubRepo;
+      localStorage.setItem('sv_settings', JSON.stringify(s));
+    }
     chrome.runtime.sendMessage({
       action:'loadOnlineData',
       githubGistId:s.githubGistId||'',
