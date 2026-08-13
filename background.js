@@ -4,8 +4,8 @@ const CFG = {
   BIN_ID:  '6a4e5dd5da38895dfe40dfff',
   BASE:    'https://api.jsonbin.io/v3/b',
   // Hardcoded GitHub Repository Sync settings (allows 5000 requests/hr and up to 100MB+)
-  GITHUB_REPO:  'andromodern2/streamvault',
-  GITHUB_TOKEN: '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'
+  GITHUB_REPO:  'MoGLCL/streamvault-data',
+  GITHUB_TOKEN: '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'
 };
 
 chrome.runtime.onMessage.addListener((req, sender, sendResponse) => {
