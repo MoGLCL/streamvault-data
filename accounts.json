@@ -31,16 +31,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "msuhm11cqes4",
-      "name": "aleksandrasitowwppl Poland 0129",
-      "platform": "netflix",
-      "cookies": "NetflixId=v=3&ct=BgjHlOvcAxKIA5XCb-WKuSKyJWXaTRyLgszlBya4HKewLNlFQdnC4lwi3d1U9fDkuq5c_vhRk7sZv1r7cA9HFqZ8gv8Gukgi3L-qGH_fPk1lElsq7cVAt_izsdws2EEacPhmKrsqm_xP2ceMlwRYSpGkkdXwHdYcqQeKLN4_dzi4yatpR7s8KwdQo1KcIT85uqF_2gtj2oJYqkQGrEphYGQJoAivMSGsgEZLtDLtgWQ5CpTw_jBIIWoKxTmsbCbJBBcwoDxKv6W0YkFT3hfEvRQyl9qQoYmPupblfF1DjMjKaVgeJxieTh0b69nQrLwGjeQntXhke4IURDTNOaFlBI384GS4aRFIlvJUEo07mGW2J_RIhoaXZWA_50RTk7hVazYkYs_Oa7GgPPZ_Vs0Hv8uYKB74_lqtqMC7FqmolZacWQXOIz6Jim1ooEcnQ5AqLur3KktPFHcL4mK0aqYHcNrY9YryDL82WjW_Yv2JCLaQbJvHtLfjN8qzQHaUO8KGTdEJ9jaQK0hDufV7nZIsx87zGAYiDgoMgnYea591MMRUY4i8&pg=KHMWCYJXQRHR7KNF4MDUYVZB4E&ch=AQEAEAABABTZ8lHIEThznXIFyoHTIpBysJu00ukzEm8",
-      "isWorking": null,
-      "addedAt": "2026-08-15T14:44:42.048Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "msuhm11dflw5",
       "name": "amarimattonbbchotmailcom Indonesia 0011",
       "platform": "netflix",
@@ -4021,5 +4011,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-08-15T17:51:05.504Z"
+  "updatedAt": "2026-08-15T17:51:22.503Z"
 }
