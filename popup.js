@@ -347,10 +347,24 @@ async function connect(){
         setTimeout(function(){btn.classList.remove('ok'); refreshPV(pid);}, 3000);
         break;
       } else {
-        showToast(account.name + ' failed. Trying next...', 'err');
+        showToast('🗑️ ' + account.name + ' expired & auto-deleted!', 'err');
+        allAccounts = allAccounts.filter(function(a){ return a.id !== account.id; });
+        chrome.storage.local.set({ cached_accounts: allAccounts });
+        chrome.runtime.sendMessage({
+          action: 'pushToGitHub',
+          data: { accounts: allAccounts, updatedAt: new Date().toISOString() }
+        });
+        buildGrid();
       }
     } catch(err) {
-      showToast(account.name + ' error: ' + err.message, 'err');
+      showToast('🗑️ ' + account.name + ' error & auto-deleted: ' + err.message, 'err');
+      allAccounts = allAccounts.filter(function(a){ return a.id !== account.id; });
+      chrome.storage.local.set({ cached_accounts: allAccounts });
+      chrome.runtime.sendMessage({
+        action: 'pushToGitHub',
+        data: { accounts: allAccounts, updatedAt: new Date().toISOString() }
+      });
+      buildGrid();
     }
   }
   

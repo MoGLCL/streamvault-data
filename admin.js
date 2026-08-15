@@ -778,47 +778,97 @@ async function testAccount(id,btn){
   status('Testing '+acct.name+'...','inf');
   try{
     var r=await fastTest(acct,p);
-    acct.isWorking=r.success; acct.lastTested=new Date().toISOString();
-    await saveAll(); renderAccounts(); renderOverview();
-    // Only show status bar toast, NO popup dialogs
-    status(r.success?'✅ '+acct.name+' — WORKING':'❌ '+acct.name+' — Expired',r.success?'ok':'err');
-  }catch(e){status('❌ '+e.message,'err');}
+    if (r.success) {
+      acct.isWorking = true;
+      acct.lastTested = new Date().toISOString();
+      await saveAll(true); renderAccounts(); renderOverview();
+      status('✅ '+acct.name+' — WORKING', 'ok');
+    } else {
+      accounts = accounts.filter(function(a){ return a.id !== id; });
+      await saveAll(true); renderAccounts(); renderOverview();
+      status('🗑️ '+acct.name+' — EXPIRED & AUTO-DELETED', 'err');
+    }
+  }catch(e){
+    accounts = accounts.filter(function(a){ return a.id !== id; });
+    await saveAll(true); renderAccounts(); renderOverview();
+    status('🗑️ '+acct.name+' — ERROR & AUTO-DELETED: '+e.message, 'err');
+  }
   finally{isTesting=false; btn.textContent=orig; btn.disabled=false;}
 }
 
 // ---- VALIDATE ALL ----
 document.getElementById('valAllBtn').addEventListener('click',async function(){
   if(isValidating){status('Already running','err');return;}
+  if(accounts.length===0){status('No accounts to validate','inf');return;}
   isValidating=true;
   var log=document.getElementById('valLog');
   var fill=document.getElementById('prog');
   var lbl=document.getElementById('progLbl');
   log.innerHTML=''; fill.style.width='0%';
-  var list=accounts.slice();
-  if(list.length===0){log.innerHTML='<div class="lin">No accounts to validate</div>';isValidating=false;return;}
+  
   function addLog(msg,cls){var d=document.createElement('div');d.className=cls||'';d.textContent=msg;log.appendChild(d);log.scrollTop=log.scrollHeight;}
-  addLog('Starting validation of '+list.length+' accounts...','lin');
-  var done=0,ok=0,fail=0;
-  for(var i=0;i<list.length;i++){
-    var acct=list[i]; var p=PLATFORMS[acct.platform];
-    if(!p){done++;continue;}
-    lbl.textContent='Testing '+acct.name+' ('+(done+1)+'/'+list.length+')';
-    try{
-      var r=await fastTest(acct,p);
-      acct.isWorking=r.success; acct.lastTested=new Date().toISOString();
-      if(r.success){ok++;addLog('✅ '+acct.name+' ('+p.name+') — WORKING','lok');}
-      else{fail++;addLog('❌ '+acct.name+' ('+p.name+') — EXPIRED','lfl');}
-    }catch(e){fail++;addLog('❌ '+acct.name+' — ERROR: '+e.message,'lfl');}
-    done++; fill.style.width=(done/list.length*100)+'%';
-    await new Promise(function(res){setTimeout(res,400);});
+  
+  var totalToScan = accounts.length;
+  // Get remembered last scanned position so we don't start from 0 every time
+  var startIdx = parseInt(localStorage.getItem('sv_last_val_idx') || '0', 10);
+  if (isNaN(startIdx) || startIdx < 0 || startIdx >= totalToScan) {
+    startIdx = 0;
   }
-  await saveAll(); renderAccounts(); renderOverview();
-  fill.style.width='100%';
-  lbl.textContent='Done! '+ok+' working, '+fail+' expired out of '+list.length;
-  addLog('=== DONE: '+ok+'/'+list.length+' working ===','lin');
-  isValidating=false;
-  // Only ONE summary toast, no per-account spam
-  status('✅ Validation complete: '+ok+' working, '+fail+' expired','ok',5000);
+  
+  addLog('Starting validation from position #' + (startIdx + 1) + ' of ' + totalToScan + ' accounts...','lin');
+  var done = 0, ok = 0, deleted = 0;
+  var currentIdx = startIdx;
+  
+  for (var i = 0; i < totalToScan; i++) {
+    if (accounts.length === 0) break;
+    currentIdx = currentIdx % accounts.length;
+    var acct = accounts[currentIdx];
+    if (!acct) break;
+    
+    var p = PLATFORMS[acct.platform];
+    if (!p) {
+      currentIdx++;
+      done++;
+      continue;
+    }
+    
+    lbl.textContent = 'Testing ' + acct.name + ' (' + (done + 1) + '/' + totalToScan + ')';
+    
+    try {
+      var r = await fastTest(acct, p);
+      if (r.success) {
+        acct.isWorking = true;
+        acct.lastTested = new Date().toISOString();
+        ok++;
+        addLog('✅ ' + acct.name + ' (' + p.name + ') — WORKING', 'lok');
+        currentIdx++;
+      } else {
+        deleted++;
+        addLog('🗑️ ❌ ' + acct.name + ' (' + p.name + ') — EXPIRED & AUTO-DELETED', 'lfl');
+        accounts = accounts.filter(function(a){ return a.id !== acct.id; });
+      }
+    } catch(e) {
+      deleted++;
+      addLog('🗑️ ❌ ' + acct.name + ' — ERROR & DELETED: ' + e.message, 'lfl');
+      accounts = accounts.filter(function(a){ return a.id !== acct.id; });
+    }
+    
+    var nextSavedIdx = accounts.length > 0 ? (currentIdx % accounts.length) : 0;
+    localStorage.setItem('sv_last_val_idx', nextSavedIdx.toString());
+    
+    done++;
+    fill.style.width = (done / totalToScan * 100) + '%';
+    await saveAll();
+    renderAccounts();
+    renderOverview();
+    await new Promise(function(res){ setTimeout(res, 400); });
+  }
+  
+  fill.style.width = '100%';
+  lbl.textContent = 'Done! ' + ok + ' working, ' + deleted + ' expired & auto-deleted out of ' + totalToScan;
+  addLog('=== DONE: ' + ok + ' working | ' + deleted + ' auto-deleted ===', 'lin');
+  isValidating = false;
+  status('✅ Validation complete: ' + ok + ' working, ' + deleted + ' expired & auto-deleted', 'ok', 5000);
 });
 
 document.getElementById('markAllBtn').addEventListener('click',async function(){
