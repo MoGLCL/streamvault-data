@@ -51,16 +51,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbdjop6",
-      "name": "cana7019icloudcom 日本 0004",
-      "platform": "netflix",
-      "cookies": "SecureNetflixId=v=3&mac=AQEAEQABABTzTjO4d7ihjV6w51w8oW9DJ_ziycUAnUw.&dt=1791916287780\nNetflixId=v=3&ct=BgjHlOvcAxKbA-auVmc94yVxcc7ZwIOzsQdDJktbPXCEbPlVPEFyIi_BpEUWwP_NpCImG7NQ4IJSFnc29ckfnUdTl6zdvTdFqXwH7x_Ojs010P53tFWfn9exY9ycJuFWk3boVBXbcKmDLUzQIa8aqaKPhCz-jG09ugMTSF3xNSGrMfrpvvaALK_BJpHX7wOYrTwiq_4fWUdItuFJLXs8NLgeldpU11vhOJx6iWJWG7imsCS5GMKgOwnGdvo0fJa_X9JDrNbz4LNIlu5QqXCS50ZA8GB4BRNxJj6QcmEsQ2GFtojiXnU4TOIP1Ob8COsuxzTgaXMPPZu6QC34YkP168QRwT4dmQ1f4eThIhkPWZbcpiRPJE5n1jdiqK8xmV4U2-hnU_qqRD8dO-WoBObW7O5ZIaj4ULEmZszm6Ql7vxsz2rONpReo9bLjc-0BfsM6J_vO6DJBB0uQe8ENRGmcsZGHJ87Zlw-sDJ6J16kXScL1p7STXMKxgpFuFR5f1ZKiit31AhCwBb15mtssk9flZH9MhF3wz8fVtMJn-bfjUhPpcJkEYRgGIg4KDI3VHLRh1uPpXjJnNg..&pg=U4M7LQIIEZCBLGM2OQBILELV34&ch=AQEAEAABABTG2YSGzDzJMip8ldFctw6zyt7FEJKamuU.\nOptanonConsent=consentId=b86746f2-3d57-42e4-9aa6-f2de0409ac4e&datestamp=Tue+Oct+13+2026+19:30:40+GMT+0100+(Central+European+Standard+Time)&version=202609.2.0&interactionCount=0&isAnonUser=1&prevHadToken=0&crTime=1791127177505&isGpcEnabled=0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false\nnfvdid=BQFmAAEBEBahQOIpBkQnFppH9OuSq9dgT5TCiYZsuU9HSvxj0RCRTkcs2EB-nRQgNrCA9RXgqC8fWon_oef4BmgdX_pmJ9L8YzEdk6P2E1-yTyWm4fORkyRx7svuYwaLKmrLha1E1BJvAsW5diVsVMrTuA7wKl8Q\nconsentId=b86746f2-3d57-42e4-9aa6-f2de0409ac4e&datestamp=Tue+Oct+13+2026+19:30:40+GMT+0100+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.145Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbdpjy7",
       "name": "carlosnamanyagmailcom United States 0154",
       "platform": "netflix",
@@ -861,5 +851,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-14T16:01:26.930Z"
+  "updatedAt": "2026-11-14T16:03:02.233Z"
 }
