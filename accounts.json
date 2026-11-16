@@ -561,16 +561,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacc2sw485",
-      "name": "andressafplivecom Brazil 0128",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEJjX6yQv6FxyCTOCheqMUYxg2vlpCdC4NSyI4LrJtH6tYWkIkC4sMZ7nePbi--t25slhJgNT-eEtlT0vYU0f46-B0Ncg6X5OLn3DWyLY-BRt98x7sn9YNCCExtVUBEB4IXRPrsN_YD6ukbpng9vZdYLv\nNetflixId=ct=BgjHlOvcAxK_A_Q1Iyb--xV8K32A3GR_5lYmp8XXrUf9xp7HGuWOO_i1QFfF2cnXTBIS1PlMGzXWqfQWVMe9Z32vkSQZlglLPE-d4KsrKEdSSSiWVUUJT-bT10GjVKquUs45bvAjnktxJbO7XPxDKVZTxZ2zIjLVOp9ZiMI8aj5hXr8na3GMfmMPRomtMA51BzE1iefJm5J8hwjm_uDN3lGf4UL8qv9wsaXuM2_E7bd8L_ZV3r3szfSQTIO5ND8jzqRBeHNdcDoR5l5ooDEOyZ1xB0-UIMvjMSlvKOwhMXvC1vEEJED6LTzbzfL-A22YQreBhDlHjTUSAOFdCIkDfinLTGiWHHfNr2yDYCGWpjUTlKHXzF1Zk5YjEJVODlaG3ZzdujknoluSJ7RaOZdGd8NIwNNlYvEmygfsDUS5FveVcL83VLHhw4B6GO-Pl4c0azaX1wejwm6ahd6KFGLj-9o0Jk5VBudGcyjFRByDwMG_XK9_6uY-vTRx8HqBo56mU7o_wr4GP8A0RxxdXyn88Zv6AlvW2ln6GOKIG4MWOQgkwP54M6SfrKbA21p7CSwhLs4G2EJHul7uNGSK5jvSV06bbvhMvoDLzhgGIg4KDA1kPqV0quho3TNdCw..&ch=AQEAEAABABTRJC-7rGHjEzdQYuHoBE2F6DKl2CWqASo.&v=3&pg=O7MQJAI27ZAHXOSXK2ZJIR4XB4\nSecureNetflixId=v=3&mac=AQEAEQABABRDkCXExAwbN78SVNaY_FHiaz5nboA3Nts.&dt=1788531816532\nOptanonConsent=isGpcEnabled=0&datestamp=Fri+Sep+04+2026+13:15:41+GMT-0300+(Horário+Padrão+de+Brasília)&version=202607.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=bf37f922-b596-48b2-b833-20bbe0b8949a&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&AwaitingReconsent=false&groups=C0001:1,C0002:1,C0003:1,C0004:1&fclco=&lastConsentTs=1788289479&intType=3&crTime=1788289480064&geolocation=BR;SC\nct=BgjHlOvcAxK_A_Q1Iyb--xV8K32A3GR_5lYmp8XXrUf9xp7HGuWOO_i1QFfF2cnXTBIS1PlMGzXWqfQWVMe9Z32vkSQZlglLPE-d4KsrKEdSSSiWVUUJT-bT10GjVKquUs45bvAjnktxJbO7XPxDKVZTxZ2zIjLVOp9ZiMI8aj5hXr8na3GMfmMPRomtMA51BzE1iefJm5J8hwjm_uDN3lGf4UL8qv9wsaXuM2_E7bd8L_ZV3r3szfSQTIO5ND8jzqRBeHNdcDoR5l5ooDEOyZ1xB0-UIMvjMSlvKOwhMXvC1vEEJED6LTzbzfL-A22YQreBhDlHjTUSAOFdCIkDfinLTGiWHHfNr2yDYCGWpjUTlKHXzF1Zk5YjEJVODlaG3ZzdujknoluSJ7RaOZdGd8NIwNNlYvEmygfsDUS5FveVcL83VLHhw4B6GO-Pl4c0azaX1wejwm6ahd6KFGLj-9o0Jk5VBudGcyjFRByDwMG_XK9_6uY-vTRx8HqBo56mU7o_wr4GP8A0RxxdXyn88Zv6AlvW2ln6GOKIG4MWOQgkwP54M6SfrKbA21p7CSwhLs4G2EJHul7uNGSK5jvSV06bbvhMvoDLzhgGIg4KDA1kPqV0quho3TNdCw..&ch=AQEAEAABABTRJC-7rGHjEzdQYuHoBE2F6DKl2CWqASo.&v=3&pg=O7MQJAI27ZAHXOSXK2ZJIR4XB4\nisGpcEnabled=0&datestamp=Fri+Sep+04+2026+13:15:41+GMT-0300+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.170Z",
-      "lastTested": null,
-      "cookieFormat": "http-header"
-    },
-    {
       "id": "mrhu0u3td58",
       "name": "[Basic] [ID] fitzpatrickwungkana@gmail.com",
       "platform": "netflix",
@@ -581,5 +571,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-16T16:28:22.050Z"
+  "updatedAt": "2026-11-16T16:33:24.215Z"
 }
