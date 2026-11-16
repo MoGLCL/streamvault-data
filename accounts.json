@@ -171,16 +171,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbkcho24",
-      "name": "fklove19990601icloudcom 日本 0054",
-      "platform": "netflix",
-      "cookies": "SecureNetflixId=v=3&mac=AQEAEQABABT225mSWvN3F--Ut8qxAtQ57_pCe0Qd-bs.&dt=1785454484249\nNetflixId=v=3&ct=BgjHlOvcAxKTAzIqXDpQW6HQ4o8kO7po2J1D9ZvXqErNnHS5WxfgQPTJo15AiV32BJiPu33lphVoW3vAG3LOc37tz7t1lTS6egoi-XHqMEA-7M8WXgMAH0dDzGZ71vVu7KwoQgkoibIlpD18xKwnaMGQoDVqdi6exYxCHPOfoXQ51coc9IIeeO6jrXzsR7S2p7qmJd0titZM2snuvRrh4QGa1TCdRhbpDsMADQv6_NLeXOQfLiYtjjkv8cO_5dSnYfKOLdlRDnkLTS4m2TzQhPcLT-TCUetAp-tqDkpm6yMXRBqHNUNRpmeJOeMNRFKKCGoQTUleAcd5ErwBMbYCVqO83YwS7mpaGOlpD6huXvRES1eNgoKPqSL_nPhn-m4Fw6caSJch_oXVuIUeNXOrmokwfc_g5P_FM3VBMk8KGad2NTuddKy3TY5jssrWSS8LOvteCeoZ--28_JeASvBzseqpZK85ZGc6IdpL9hXDOmn258BGu2Ug0A-HFAhWUsvKnoHTHnZogx6q8OJ3MUWB5NTYtUdtr2UBVeO5_KAYBiIOCgxibPX94N7IBIpM8Ak.&pg=Z45NHEN2VZFWTCNSX7KB22J2Q4&ch=AQEAEAABABRdIDowsTDm68oewEbU3ex4M-uwS318npg.\nOptanonConsent=isGpcEnabled=0&datestamp=Thu+Jul+30+2026+17:35:01+GMT-0600+(hora+estándar+central)&version=202604.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=d6a44f8d-8fce-461d-b236-beb89b15db0f&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false&intType=1&geolocation=AT;9&isDntEnabled=0&prevHadToken=0\nnfvdid=BQFmAAEBEBpF_UaXZ0LnKRkTg2cLLEFg-G_9BJR0CZb661x5VvRiCn0EO9gMUwq15CxpAqXaDjrLLJXCXfgtXEUpwWhH5x-pi1exyJvuYvzpcAx-6L-9MWRMZBs4ugaKW5VPnlt-Zck33To6jD1uPITLb9qpTZ2w\n9&isDntEnabled=0&prevHadToken=0\nisGpcEnabled=0&datestamp=Thu+Jul+30+2026+17:35:01+GMT-0600+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.152Z",
-      "lastTested": null,
-      "cookieFormat": "http-header"
-    },
-    {
       "id": "mv7tacbkjd025",
       "name": "gabbobelizangmailcom Argentina 0018",
       "platform": "netflix",
@@ -801,5 +791,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-16T16:26:51.162Z"
+  "updatedAt": "2026-11-16T16:27:43.939Z"
 }
