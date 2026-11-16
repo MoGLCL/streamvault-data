@@ -171,16 +171,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbou2d38",
-      "name": "ladiesopalgmailcom Thailand 0061",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxLFA3cIyJNbYCe49wYQaPaGnR0NIWLMtyfvKiNqwi6gI9UDsqnstZLtEzlzc20WAXCKXz7lKdKDB2XaOTgrAEf5ysTEcU8HxQQT90Kc6p7iBB-nSiZNraqfgsBzMwwctVrPawbudzy7mzFOpO8E6mxkCn5MPe8Vb5J29Klmfk9x8L95kcHpIqZMIcWAiByTfxbrxqpkrM0lSg9nuZBu-xZtVdRYg1VBwBd_fFR3dIUBqv3VLUB6SXPmtf56YX8Vfn6aIlheR5XlG6zDFp_cDd8nmm-G1DIacBKEBZR3hWJUZYx9A6wCJRHJpgbsW-ZHyjxB4-ClmYcZXfYbvZwozYWBDS6PCX6Mq_-vw-sK2y_TgJYrYyJhIow7xfeWXj1sqH4eYXaqCCFVY31_cG_qpDv3cGEZOISLlqu4jj2U6pyGH3hdeU_UTl1jQJ8nnbxmP8ehcS657Mt_SdncxFJ2X8ruj81AYksc-Z5JVzQ7J1nF5y_N1CQ6VG_YpsQDGyM4QMptBiDK0wX4CslNMsq73yrmioYkqRY8xwCdduMhA8hoXA1JKwOF7GWR3KAeyxk5gtks6H66dXUW1OENFjVKz2a2BxLBjLfqgRgGIg4KDA0rtpxyv9jHmdiEhA..&ch=AQEAEAABABRAmXCErIIrb5Fze3oleQkdsy9kwMksV70.&v=3&pg=U7YZDCTBGJAWHDANJCODHF3XCY\nct=BgjHlOvcAxLFA3cIyJNbYCe49wYQaPaGnR0NIWLMtyfvKiNqwi6gI9UDsqnstZLtEzlzc20WAXCKXz7lKdKDB2XaOTgrAEf5ysTEcU8HxQQT90Kc6p7iBB-nSiZNraqfgsBzMwwctVrPawbudzy7mzFOpO8E6mxkCn5MPe8Vb5J29Klmfk9x8L95kcHpIqZMIcWAiByTfxbrxqpkrM0lSg9nuZBu-xZtVdRYg1VBwBd_fFR3dIUBqv3VLUB6SXPmtf56YX8Vfn6aIlheR5XlG6zDFp_cDd8nmm-G1DIacBKEBZR3hWJUZYx9A6wCJRHJpgbsW-ZHyjxB4-ClmYcZXfYbvZwozYWBDS6PCX6Mq_-vw-sK2y_TgJYrYyJhIow7xfeWXj1sqH4eYXaqCCFVY31_cG_qpDv3cGEZOISLlqu4jj2U6pyGH3hdeU_UTl1jQJ8nnbxmP8ehcS657Mt_SdncxFJ2X8ruj81AYksc-Z5JVzQ7J1nF5y_N1CQ6VG_YpsQDGyM4QMptBiDK0wX4CslNMsq73yrmioYkqRY8xwCdduMhA8hoXA1JKwOF7GWR3KAeyxk5gtks6H66dXUW1OENFjVKz2a2BxLBjLfqgRgGIg4KDA0rtpxyv9jHmdiEhA..&ch=AQEAEAABABRAmXCErIIrb5Fze3oleQkdsy9kwMksV70.&v=3&pg=U7YZDCTBGJAWHDANJCODHF3XCY",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.156Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbr8cn39",
       "name": "lindaopiyo81gmailcom Denmark 0048",
       "platform": "netflix",
@@ -661,5 +651,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-16T16:28:07.617Z"
+  "updatedAt": "2026-11-16T16:28:09.573Z"
 }
