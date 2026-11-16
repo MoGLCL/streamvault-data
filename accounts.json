@@ -171,26 +171,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbr8cn39",
-      "name": "lindaopiyo81gmailcom Denmark 0048",
-      "platform": "netflix",
-      "cookies": "NetflixId=v=3&ct=BgjHlOvcAxKUAzQEmcevPuuljivSYtU4Wcykmxbeau1tJ4_b3eySji84yCNZ9iLPI_eSBB9ZLz1RDLBMpHzwDFe7h14BqIIEQZPzbIkAs04Ms5zIW-nCHEDmqn31gfmWKKl_PmutiNVOFoyEZQYzgUCueKOKe1hpVtnvS0vTxWKKBxg24GW0arNxjQ7R17NnMIcDUu3KYyGESOMPWuNcKTbohoSVOTlSfp2dNkUXBUVgqCKssBZ22b875vdZhmTHJuB8A7JJHruJJFTxjtUGGhqts11wgZ3qobpaU1HhM-MaMOLt_oxe6PyS5I-XeMWmYQsRrs2bZwqqA_yinqaF9edC4zpusdAK5-KeDp_eaWhU5A9MbuyM4vJb0AmcyJpSiPnch9kqrB2FIjgvLTlIsKsmBT_ggDW-7k9L-JQoWUtesvUNk-MSREqjFbax2X3vLpXWIMNKjfQpNUxsi7nGKB49-S49FIcOWzwSNeQhi0mU7NsrJD0hGhFf9qoMMbHJDOBLSorjsIKsOsOuwRWusyGmoaIrsE7UaIUOT-FoGAYiDgoM0gqpZc4M9yv3psYy&pg=5NUDOGP3HRERBDAEE57TJKWSME&ch=AQEAEAABABRXPmTpvOU2VCuQoycymQjlYi-a_REZf6c.\nnfvdid=BQFmAAEBEDKNgsWkjDeEeQpPDf2uuFlguzp63NlYEb6VL6A3HJclcKlFxIHt4vUDTdO_WDkNRczk1tWcNrsHoSLLjMBMfenBZDplJokgTlJ-Y3reEdFxw9m-Qfi_AASjAKlJRH9CjkChteDeJXCvNoK7mlR2yhoU\nSecureNetflixId=v=3&mac=AQEAEQABABQQ6gnnO33oQv8zFAcbuDYQgne47LLlNcw.&dt=1791095195196",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.159Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
-      "id": "mv7tacbr6vh40",
-      "name": "lorajo50gmailcom United States 0059",
-      "platform": "netflix",
-      "cookies": "NetflixId=v=3&ct=BgjHlOvcAxKaA3anUwQmKdOMvS9TBEWhAl00gsRxN6Lz7VL05dFbYfQy9aH8D-s-MHNKKRFRrVY9DcVxG1sBsHZb4kfeq8np9APviL-g1q96x40UWFZSIkbB5Cezyzzj3Oo1dVTcBSjtfRnBsWkgwxZ5OLvh7h8nNyAaZSEzDkjZz4MLtgrb15ycuTYHR3s5qvFrw6MAbC9OY8p4BfECCV9C4H-LvAqw-VYwaKrypdKSNiw1i_8caWgisRZwZpQCsXmkzkr5OXyfAG5VFtCmM6gG-UYF-IVNoUOybonSOAxAwFehK3EUpNUegQkoL2aJy-V5qZYU_UmJMorMxFfr4p5-Z-fDmROelY-a9tClHLEfOnbqf7YnmNUJ-4ne-llWso8va4sosZYSL2bc9jWWEpK-EdGJCMgGEYm6d7q6EvYYiZKyTsagyMzAUebU6RIY5WyYU7quIC-Bwb6Frw3Sf55m8IL962XCM20Jt3nSqIC-ZS3nyIZcdgHZXNWbeup214PwIZq-EXrIchgrjqp40coU_RNzEYLd88SUUqJSo1gcNFn1GAYiDgoMSl56lGPWazLePhnA&pg=IWATYQKRDZCUDPQXTOTWGEU26Y&ch=AQEAEAABABSwl4yeaMx_JOJb-B5qs0LjIqoSp2PwZ90.\nSecureNetflixId=v=3&mac=AQEAEQABABR6dmcubksa09TAPol3UJjfL59CkvcMtVo.&dt=1789880481850",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.159Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbrg1x41",
       "name": "lorenaguerrero2017argmailcom Argentina 0007",
       "platform": "netflix",
@@ -651,5 +631,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-16T16:28:09.573Z"
+  "updatedAt": "2026-11-16T16:28:12.693Z"
 }
