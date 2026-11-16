@@ -171,26 +171,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbkjd025",
-      "name": "gabbobelizangmailcom Argentina 0018",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBELAbMYwUXLdbzvuuD45CSdNgEO4LBtGAe5WI94sMaNUPj8jr1dCjZc0nW4cZpNfsbbTT8lOSlEPOQiqfzkPVq8HUqlb45apdsZ9KAcOgS-zmLWnG4Jwnxudq9Mhd1GZG1FtX1S-sZeNjD2fn4_rVWWEH\nNetflixId=ct=BgjHlOvcAxKLBMAvkMuAgicNtUh1Ab1wGaekot2FEbfIT2EnVAB3FQyLruq6OGt3KHk1yQgarUccJcYWh-UVVyjPsmxgZFc1jKIEYWnhX68lcyjRwhbKI6FAqDrnjxJgb0vMt2lM63D6MRUvoF8yOPne4PLFpxBvkqeT1sty0AMhZLLZ29GAP56x4r-qTbF4t3T8vcG9lU0DRftyLHZVu4h1DgfpUI-DN3lae2q2ogkjAJYDiKSc2suT3CLrpXhpojgXIQe3r4phezrZK7TSaaFZxXebGnFjI1dRK6wsQDy_mlWp_Y1sd1CjUucBuwintuAJ3ee08Ru6xlK3YnM4PpEnVLhGS5WNtiTvOjLjrrht-N_P8Qc98LuFSW6YIxczjX8pYPqtgUshRxDzyYcE9eZ6GArHO9FOI92vinR3AcjF0BMo1-PNqQof20eHzlq-FWcFoCLjZqqSKPaVEyVwkSYEJlu4WiaxSz-1HVnoBXvK7ihPFEOZkbFc6LtL-kSjKYb4UpvnmQEy-sm6wZy7er3I29Gy0trNxUJvP9-8bdOGtK3xIQ9wr8Y4y5F8_337Q28IZp3i7vJLduS04tGJdT2Ghybi2R1hnLih7fTMoxOhk8jLqkhFCNMBcKdWdqrjxvzCjLwlIA9niSWOrl-nFQ-4bGgBjcoiFa1KdXgfdC9LHtoX5s3NUF-V6c453trSumyclSoYBiIOCgxUKi9V2Iwth10dVpU.&ch=AQEAEAABABQ0lrGJkgrp2_N4w12b7W-otKhDjoaIRMc.&v=3&pg=X2SSP63Z5BBFVN3H3RRBOTR6WY\nOptanonConsent=isGpcEnabled=0&datestamp=Thu+Aug+20+2026+23:05:53+GMT-0300+(hora+estándar+de+Argentina)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4af600fc-ab2b-466d-a812-b1ee1a97c1e0&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0\nSecureNetflixId=v=3&mac=AQEAEQABABQgm2YsIak6SgKGJ_lKk19XMy5cUGWSUic.&dt=1787277951200\nct=BgjHlOvcAxKLBMAvkMuAgicNtUh1Ab1wGaekot2FEbfIT2EnVAB3FQyLruq6OGt3KHk1yQgarUccJcYWh-UVVyjPsmxgZFc1jKIEYWnhX68lcyjRwhbKI6FAqDrnjxJgb0vMt2lM63D6MRUvoF8yOPne4PLFpxBvkqeT1sty0AMhZLLZ29GAP56x4r-qTbF4t3T8vcG9lU0DRftyLHZVu4h1DgfpUI-DN3lae2q2ogkjAJYDiKSc2suT3CLrpXhpojgXIQe3r4phezrZK7TSaaFZxXebGnFjI1dRK6wsQDy_mlWp_Y1sd1CjUucBuwintuAJ3ee08Ru6xlK3YnM4PpEnVLhGS5WNtiTvOjLjrrht-N_P8Qc98LuFSW6YIxczjX8pYPqtgUshRxDzyYcE9eZ6GArHO9FOI92vinR3AcjF0BMo1-PNqQof20eHzlq-FWcFoCLjZqqSKPaVEyVwkSYEJlu4WiaxSz-1HVnoBXvK7ihPFEOZkbFc6LtL-kSjKYb4UpvnmQEy-sm6wZy7er3I29Gy0trNxUJvP9-8bdOGtK3xIQ9wr8Y4y5F8_337Q28IZp3i7vJLduS04tGJdT2Ghybi2R1hnLih7fTMoxOhk8jLqkhFCNMBcKdWdqrjxvzCjLwlIA9niSWOrl-nFQ-4bGgBjcoiFa1KdXgfdC9LHtoX5s3NUF-V6c453trSumyclSoYBiIOCgxUKi9V2Iwth10dVpU.&ch=AQEAEAABABQ0lrGJkgrp2_N4w12b7W-otKhDjoaIRMc.&v=3&pg=X2SSP63Z5BBFVN3H3RRBOTR6WY\nisGpcEnabled=0&datestamp=Thu+Aug+20+2026+23:05:53+GMT-0300+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.152Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
-      "id": "mv7tacbkrbv26",
-      "name": "givemoreshemagmailcom Malaysia 0101",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxKTBEfgIiXfGzy7tcrw89bzK7-U_TqihwUkmobZ1dzIimP3jeVpvAlf644iZ0rTottKHMONgmOsp7FBBzyOYixavvogcRTn5q7hG6hfZGqdZ-Mdn1E89UPg1eAqZbd4RN-_YhDbv5Qs8dWNyjSRc5xHdohPzd9zBUNKTYV09NxZe_dDUF65qv35xYPbprY9it6-h64J_fNvEbzuUYgVheVBQq5G99-wmoiuVQNZrdQ6eCoHWCNypBeqp1UCfAe-Hd6qbYrqxjUejrj4niU2AvImAuHcpPwG9e_kuUl6wYenhSUCDNLH7hbJSK-5dzM5yE4AH7eZEed1V89XMgtyL9jNLV4nE2briJDnxY0VcYoLqd8samjzfxMuwG5TQB5DoRrSzv0kHxJWndg58yi2OW5Me9O4JDrbSwNl3rBodtX_AXKrLWfgHSl4CzqgGKaaiXawU6fLfPABwZ7sCbMsBlzJkdSgqVFgoM-17fx3AjqJJn7PMZyAr9JVDuLyndAGkHc1677Jn0DGK8JHwREp0T1JOXdQibKVkGDpL0xlz_LhlmChqLi5y-gMUK2OfTUXXVYPMm-pS3b74mU5YibLd07JrBsRyXJTdVNuBQsYClWIMqskZPtdP9hM-_DociVQHgxgAOwcRb0cS9gqVap-WB7McUAHu_MQXeIVWdWroEcg_dM8ks19_DuU1YAdSo4NwFAxnOq85RgGIg4KDJF01UwdnHg_1oELVw..&ch=AQEAEAABABQHvLVR8VNxmjIlR7GGN9GqxMvhZbjFyTY.&v=3&pg=6LTVK5H3FNCJNCT7OXZNVEMEQQ\nct=BgjHlOvcAxKTBEfgIiXfGzy7tcrw89bzK7-U_TqihwUkmobZ1dzIimP3jeVpvAlf644iZ0rTottKHMONgmOsp7FBBzyOYixavvogcRTn5q7hG6hfZGqdZ-Mdn1E89UPg1eAqZbd4RN-_YhDbv5Qs8dWNyjSRc5xHdohPzd9zBUNKTYV09NxZe_dDUF65qv35xYPbprY9it6-h64J_fNvEbzuUYgVheVBQq5G99-wmoiuVQNZrdQ6eCoHWCNypBeqp1UCfAe-Hd6qbYrqxjUejrj4niU2AvImAuHcpPwG9e_kuUl6wYenhSUCDNLH7hbJSK-5dzM5yE4AH7eZEed1V89XMgtyL9jNLV4nE2briJDnxY0VcYoLqd8samjzfxMuwG5TQB5DoRrSzv0kHxJWndg58yi2OW5Me9O4JDrbSwNl3rBodtX_AXKrLWfgHSl4CzqgGKaaiXawU6fLfPABwZ7sCbMsBlzJkdSgqVFgoM-17fx3AjqJJn7PMZyAr9JVDuLyndAGkHc1677Jn0DGK8JHwREp0T1JOXdQibKVkGDpL0xlz_LhlmChqLi5y-gMUK2OfTUXXVYPMm-pS3b74mU5YibLd07JrBsRyXJTdVNuBQsYClWIMqskZPtdP9hM-_DociVQHgxgAOwcRb0cS9gqVap-WB7McUAHu_MQXeIVWdWroEcg_dM8ks19_DuU1YAdSo4NwFAxnOq85RgGIg4KDJF01UwdnHg_1oELVw..&ch=AQEAEAABABQHvLVR8VNxmjIlR7GGN9GqxMvhZbjFyTY.&v=3&pg=6LTVK5H3FNCJNCT7OXZNVEMEQQ",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.152Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbl70r27",
       "name": "gkishoreomailai India 0038",
       "platform": "netflix",
@@ -791,5 +771,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-16T16:27:43.939Z"
+  "updatedAt": "2026-11-16T16:27:47.144Z"
 }
