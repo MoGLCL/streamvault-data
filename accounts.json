@@ -171,16 +171,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbmsld33",
-      "name": "jjaavv101223gmailcom India 0016",
-      "platform": "netflix",
-      "cookies": "NetflixId=v=3&ct=BgjHlOvcAxKlA0sFt-XscDbF5D_9AzuNcwAb1D-3C0pzK6YxvzG5hY47P37Sd1ouX2e8evOnS_3LTlsxwxrdet-bqqKax5Obj2K_VZWVuJbTcqDx0Shdm2RMXLoe5NzaNmgafKgLElwXCmncN4r-v5e4B_MZ53pKpBuuRXm-TUpDjLxPB0ZyP3KOMPvc2OihiRqQ-HZkyWuzHKSxrpU4lOngXwqbqimu7cIsLuakUikm_C3hwfmwXxMP-VYgaKaYR32OkFlsARH3qcD5ZcRbZMitbfu5MY0VWN9PIFPdNMf49NTfWFCTMQ0QD93f4Nv-vo174neaMxwK9PAg_BkbzSrNo_3Bh3AVY0PWkaE0KD7Z4r_XVf4kmhP96p2G4-QaKRrBgZG_Ait1C-rRdS9kBy7hqcOyaQyzFbPk2oD3v0TwbwvPCG8ZXj-3zqOXUzx2NRdF0lO4vDKp1J7GXwqJORXaYm6dfm3PC7-39BspKNgW-LCJHHQoMLadiWDldon13SwtzG-G595tB8ySLRZo28aav9D-IAF_x77B2OGPtjjRnW70DnW-XEl2V3PQCi4YBiIOCgxOVEAYGT6itzcC_J8.&pg=6CACD26QI5ATTBX5DZGRQAUXRM&ch=AQEAEAABABTztZO1hj2E9N2psWBPH_n34JraCSDwYuI.",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.154Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbmscf34",
       "name": "joelmorparoutlookcom Canada 0155",
       "platform": "netflix",
@@ -711,5 +701,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-16T16:27:58.646Z"
+  "updatedAt": "2026-11-16T16:28:00.543Z"
 }
