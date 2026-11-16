@@ -91,16 +91,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbg15715",
-      "name": "davidromano66icloudcom United States 0045",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxLCA2FJgdHOF3yNr3IArP4mQ6DRyonR9zjtkmAJxZ7JvCa2T_nJtps6yEAkM2R1e4DW0eSJs_WWz12DmSZKLZVsbHa9YMS7oO_xnKaASWdbgsTVmTkUojS1yxpZD5PSO4MjMrTTYH35Jo2uHIq61xLTA3u4vqJNP8Hq2o_db3feEuhdqhPxm9xJE6Nesx4qEjW8W2KuMw6qTLIATM7ByYxUvl4aDD2P9Yr01VL-_6W01nzCoe3Y3f-aC7D0-dfYECRrZM9BdojmUY4AtH1XjPfY_uN35zwuyREk6cQOi8jKNAu9bWDkAe15ro-QzzGXmhEVCMplMGcjoyywr4aapFLiMaIWPKCNIvZE36a7mFRO00BiYp9b3fglu3bxSscLGKJLNjDP5pO7WJtwduxy9TrcL1smiX1kneim733if1-B8vXBrT2fRgp4wmlRekQalVujCgRWkaCSWWRgoZwY3c1CVrAb6KudSkHdD-fPDP5sTUDL9wzdCDgjBMDEt6i4xGPImfZpIL0y5m7vaYRUUYKh7_BRlFWCwnE39SDV7HlNJHO4m_qZ0kKJ84Z-8hJNKdzaOR6m20xfYF5lw0tw5BMhTkv01BgGIg4KDOK8o2_gA97PBX0dDQ..&ch=AQEAEAABABRnqrg5S43BqDRRX81FPxhj4ZoiRISaAs0.&v=3&pg=I3P3CH46VJCW5J3QG4NDWIQHSU\nSecureNetflixId=v=3&mac=AQEAEQABABTAXosaRfgyR_HDdUKWI--pbmPVLiFSwOA.&dt=1791777957316\nnfvdid=BQFmAAEBECI7MoXtIqtx4kB7_xFb-hlgThlXr7MaDgGeUE2Zlzqckw3-cH9vGarmnCAWcrmT8TPbTxR-8S5oYgozkr8bdMg47P9DtGU2BcJcZhRdiRqZrRvzgA58rThfBMwNEet_an5o4uBW_DJuKQdUIHlYPCTb\nOptanonConsent=isGpcEnabled=0&datestamp=Sun+Oct+04+2026+17:33:57+GMT-0500+(hora+estándar+de+Perú)&version=202607.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=20e65174-be75-4662-8717-6e32489ae026&interactionCount=0&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false\nct=BgjHlOvcAxLCA2FJgdHOF3yNr3IArP4mQ6DRyonR9zjtkmAJxZ7JvCa2T_nJtps6yEAkM2R1e4DW0eSJs_WWz12DmSZKLZVsbHa9YMS7oO_xnKaASWdbgsTVmTkUojS1yxpZD5PSO4MjMrTTYH35Jo2uHIq61xLTA3u4vqJNP8Hq2o_db3feEuhdqhPxm9xJE6Nesx4qEjW8W2KuMw6qTLIATM7ByYxUvl4aDD2P9Yr01VL-_6W01nzCoe3Y3f-aC7D0-dfYECRrZM9BdojmUY4AtH1XjPfY_uN35zwuyREk6cQOi8jKNAu9bWDkAe15ro-QzzGXmhEVCMplMGcjoyywr4aapFLiMaIWPKCNIvZE36a7mFRO00BiYp9b3fglu3bxSscLGKJLNjDP5pO7WJtwduxy9TrcL1smiX1kneim733if1-B8vXBrT2fRgp4wmlRekQalVujCgRWkaCSWWRgoZwY3c1CVrAb6KudSkHdD-fPDP5sTUDL9wzdCDgjBMDEt6i4xGPImfZpIL0y5m7vaYRUUYKh7_BRlFWCwnE39SDV7HlNJHO4m_qZ0kKJ84Z-8hJNKdzaOR6m20xfYF5lw0tw5BMhTkv01BgGIg4KDOK8o2_gA97PBX0dDQ..&ch=AQEAEAABABRnqrg5S43BqDRRX81FPxhj4ZoiRISaAs0.&v=3&pg=I3P3CH46VJCW5J3QG4NDWIQHSU\nisGpcEnabled=0&datestamp=Sun+Oct+04+2026+17:33:57+GMT-0500+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.148Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbg5y716",
       "name": "dhanprasadrai911gmailcom India 0112",
       "platform": "netflix",
@@ -811,5 +801,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-16T16:26:47.576Z"
+  "updatedAt": "2026-11-16T16:26:51.162Z"
 }
