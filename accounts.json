@@ -91,16 +91,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbf4a512",
-      "name": "claudecarlisledgmailcom Philippines 0111",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxKGBD4gRr8kdMdzS0xQkfZ3FU-5aKdx4XA8UUi9vzd4PkOz43bolOWA0FG9fT-WAf_6Z89fNL0YuJutUYDXNJw1B8dhnq2SQzpUaO_rF55pO6Ew7uBImOh0KTt18f4XmWj1eIyElpNSi9qFkQthiwC4vZtAfkGqqIsz6tdbhgSLBbzH-iPyN_nSi8DmeFb84pn1fhDs-VC94OaxMX6Oyr3qTigyX_sCe0fyl-S8JU9tQlJipRRVswyfejKnr9hMWTBjpArBm96llwxmc5WT0MLbbYqDUNWNyp5jDT-YsBET8F9XDU4BY0HY6Wep7WWQSs0IbtXt43wEjuf_7An9HLQm5o6JMwdK__Pzpt2M9XEOBwCkVghzPlANA6nQjHXeADsGeiaNAzzvBIbE08xMMha9vWLz1QGbikDm12h8CZyWaxrueTD7IbZL2YrtpjZSU8o6IPc4lCAI1KzCwvmxXMXaPY9SH5Y4IbOPfOkPcCjdfNFtoDU33svin6ZtYEDEreOfMso3Z_vbZ02j7GOh__wzNy-riy_hr6qK7I1Ijg_9A3gNHFjEaTGfGcLt4rGZtlLL9nWDmIY2sYA4GLPiJroEExfrwDpcSTiHmTHkp04t2Kaw-9a1EfxuE8jmL0x3JSCuVWsiIrqMosAnGZzeCO_BMUGcw70VjrhZ58UTVPVUOANL5IqawICnGAYiDgoMblS_XlivBjRUmWUm&ch=AQEAEAABABTIEbu5i2PnlIXXjl1uleRwCI29__f0ZiI.&v=3&pg=B6LWTLUNEVAA5DHK46BG7YQCWI\nct=BgjHlOvcAxKGBD4gRr8kdMdzS0xQkfZ3FU-5aKdx4XA8UUi9vzd4PkOz43bolOWA0FG9fT-WAf_6Z89fNL0YuJutUYDXNJw1B8dhnq2SQzpUaO_rF55pO6Ew7uBImOh0KTt18f4XmWj1eIyElpNSi9qFkQthiwC4vZtAfkGqqIsz6tdbhgSLBbzH-iPyN_nSi8DmeFb84pn1fhDs-VC94OaxMX6Oyr3qTigyX_sCe0fyl-S8JU9tQlJipRRVswyfejKnr9hMWTBjpArBm96llwxmc5WT0MLbbYqDUNWNyp5jDT-YsBET8F9XDU4BY0HY6Wep7WWQSs0IbtXt43wEjuf_7An9HLQm5o6JMwdK__Pzpt2M9XEOBwCkVghzPlANA6nQjHXeADsGeiaNAzzvBIbE08xMMha9vWLz1QGbikDm12h8CZyWaxrueTD7IbZL2YrtpjZSU8o6IPc4lCAI1KzCwvmxXMXaPY9SH5Y4IbOPfOkPcCjdfNFtoDU33svin6ZtYEDEreOfMso3Z_vbZ02j7GOh__wzNy-riy_hr6qK7I1Ijg_9A3gNHFjEaTGfGcLt4rGZtlLL9nWDmIY2sYA4GLPiJroEExfrwDpcSTiHmTHkp04t2Kaw-9a1EfxuE8jmL0x3JSCuVWsiIrqMosAnGZzeCO_BMUGcw70VjrhZ58UTVPVUOANL5IqawICnGAYiDgoMblS_XlivBjRUmWUm&ch=AQEAEAABABTIEbu5i2PnlIXXjl1uleRwCI29__f0ZiI.&v=3&pg=B6LWTLUNEVAA5DHK46BG7YQCWI",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.147Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbg6g813",
       "name": "Cleide deusoutlookcom Brazil 0108",
       "platform": "netflix",
@@ -841,5 +831,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-16T16:26:40.749Z"
+  "updatedAt": "2026-11-16T16:26:43.653Z"
 }
