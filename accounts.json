@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbtdzn49",
-      "name": "negiamitsingh32gmailcom India 0090",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxKCBEbuvykTlA6_wvBlotYp1cAPwO7aS6kNghMJbRJfnG9WmFRAwzSxXU2Uqosvb5rC7mi0YNzJ014LboAmEvMnH2oOj0ifYg4G7KvNc5jashGvUvRzyV55_OnZ0M1ZIPZ_ks4vutQOrpol44MSau2LPT8uW2I_CbgDRklu1L1QRt0RUMdFzKiex2L4VBlwYsrKkxdb5zKrLzMBXNpkaqLbQnA84ihH5LaKkOAXM5SGiBoOXmZe48qJzHZ5ea5vn8lResTJyQzVMEeQJYz29rKf_jpKJpYtoayjHe0qO-0C27-HFq4XlA6mI7pUrD5GN-zb9wSOB3A7VN5jvbadPpkl9ZH0E8WckVfgOxuT98ona6GkR6B-5EN7kvV0UVqMkSs2Lp22TAK1N_ojI4oQWrnO9Holl13l8oE-OtTLs9LugzIk6BETOcvZeAUoD3hN4k1vH4l93L37qZ90vFs0Psm4KDf2jXBHGK44l7KAFs6DerSHH2_K-UtoHuwqilFHN7u7zCFZ0yxzcsmydQcv4vYBeEpNx2peuk8DD5Yrqw3EKUMWlH8wlhjjPvx8CzoONW4qhlGzdWihSNbhC7PvSsc83kr_LcyUgjh0TC1ilw-wjMf8PHXLolYaJMnnUSWgDgFntgN_NHGwfPYU2Q2u6XiMS0dnnmF-7nky2GtQo-ERQSEn3mcYBiIOCgyvgYEV7_fBhrseVJA.&ch=AQEAEAABABSgdSWavHITw_OgrhcdeCNBCKHlWBUuVLk.&v=3&pg=JRNGRPRGWZA2FOH5BMDGX5D44I\nct=BgjHlOvcAxKCBEbuvykTlA6_wvBlotYp1cAPwO7aS6kNghMJbRJfnG9WmFRAwzSxXU2Uqosvb5rC7mi0YNzJ014LboAmEvMnH2oOj0ifYg4G7KvNc5jashGvUvRzyV55_OnZ0M1ZIPZ_ks4vutQOrpol44MSau2LPT8uW2I_CbgDRklu1L1QRt0RUMdFzKiex2L4VBlwYsrKkxdb5zKrLzMBXNpkaqLbQnA84ihH5LaKkOAXM5SGiBoOXmZe48qJzHZ5ea5vn8lResTJyQzVMEeQJYz29rKf_jpKJpYtoayjHe0qO-0C27-HFq4XlA6mI7pUrD5GN-zb9wSOB3A7VN5jvbadPpkl9ZH0E8WckVfgOxuT98ona6GkR6B-5EN7kvV0UVqMkSs2Lp22TAK1N_ojI4oQWrnO9Holl13l8oE-OtTLs9LugzIk6BETOcvZeAUoD3hN4k1vH4l93L37qZ90vFs0Psm4KDf2jXBHGK44l7KAFs6DerSHH2_K-UtoHuwqilFHN7u7zCFZ0yxzcsmydQcv4vYBeEpNx2peuk8DD5Yrqw3EKUMWlH8wlhjjPvx8CzoONW4qhlGzdWihSNbhC7PvSsc83kr_LcyUgjh0TC1ilw-wjMf8PHXLolYaJMnnUSWgDgFntgN_NHGwfPYU2Q2u6XiMS0dnnmF-7nky2GtQo-ERQSEn3mcYBiIOCgyvgYEV7_fBhrseVJA.&ch=AQEAEAABABSgdSWavHITw_OgrhcdeCNBCKHlWBUuVLk.&v=3&pg=JRNGRPRGWZA2FOH5BMDGX5D44I",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.161Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbt3a550",
       "name": "no data India 0021",
       "platform": "netflix",
@@ -531,5 +521,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:19.027Z"
+  "updatedAt": "2026-11-17T16:14:22.027Z"
 }
