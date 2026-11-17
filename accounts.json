@@ -211,16 +211,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacc0y1g78",
-      "name": "5fl7sbbyterflyscom India 0009",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxKIBJyAZdMO3HcIBT05v8gHlKHfRP_oXqakqPO3z1Cb9KSP65hlaX2CqpZQPYlGHA5uBr9iICyhBC5d6XBvQLZlBFdvh_YovijsDhDX3BMZgaIc-kUeRzY3yRnddsPd9aV6k_ycUyfJkVS3gpl39evM3W7bJzG-y2KKl4xjMTetBt3pkT-UpJ0S0UjAIc-mJa1V1SFnbaID5HK9vy7vCubF7eBCuyLAEDReqg3rZLzul5VvubR4Tkua67zrPANbMZgn1ARnLXbqvGUT1yFi5srZPLEpNctVJFao-SqpIo_sgS4bukbTFm1EHewxrME8DfNG0lbvJJbCast9FCRXZGpA4TmMeNe_zdcCC5ICZXxWdxl0qLXZkYtfM1dw-XuJTE63JyIFY1IO2poV54fkVGfHgNzf58jpaHorynsELTxP1xVAzqe5LawsvF03TgbMQbhFCKV06YftlUnnuZS3gSnKND2otr4KcLC-yFtLPUqgVVYXBU79HgHwAj8GvgFnsCEzFAQ3FLeTv4h3GbiOM0I2O_bqmUnhi4NEjoR3N9bU_hEUMys__jv14028CHZP6mvhH2XKxQnHb1HrIJtWRhGjZo_mkZb_61q3Bx5HpXisTndeLsFOmB8xpL_D6_x3Biuhc4biSlPEjJXtuY_Xx7c1JjA0UdYSpWK-Wf8jpaMRK0-k9lfnzAZkcawYBiIOCgy0UnoTKsHFAEbTfW8.&ch=AQEAEAABABR_ugUV7zSqJ2ffflb9Jqbz_SNnJMBHn4Y.&v=3&pg=FQ2P227EMNANFCEP56CS6P4ZWM\nct=BgjHlOvcAxKIBJyAZdMO3HcIBT05v8gHlKHfRP_oXqakqPO3z1Cb9KSP65hlaX2CqpZQPYlGHA5uBr9iICyhBC5d6XBvQLZlBFdvh_YovijsDhDX3BMZgaIc-kUeRzY3yRnddsPd9aV6k_ycUyfJkVS3gpl39evM3W7bJzG-y2KKl4xjMTetBt3pkT-UpJ0S0UjAIc-mJa1V1SFnbaID5HK9vy7vCubF7eBCuyLAEDReqg3rZLzul5VvubR4Tkua67zrPANbMZgn1ARnLXbqvGUT1yFi5srZPLEpNctVJFao-SqpIo_sgS4bukbTFm1EHewxrME8DfNG0lbvJJbCast9FCRXZGpA4TmMeNe_zdcCC5ICZXxWdxl0qLXZkYtfM1dw-XuJTE63JyIFY1IO2poV54fkVGfHgNzf58jpaHorynsELTxP1xVAzqe5LawsvF03TgbMQbhFCKV06YftlUnnuZS3gSnKND2otr4KcLC-yFtLPUqgVVYXBU79HgHwAj8GvgFnsCEzFAQ3FLeTv4h3GbiOM0I2O_bqmUnhi4NEjoR3N9bU_hEUMys__jv14028CHZP6mvhH2XKxQnHb1HrIJtWRhGjZo_mkZb_61q3Bx5HpXisTndeLsFOmB8xpL_D6_x3Biuhc4biSlPEjJXtuY_Xx7c1JjA0UdYSpWK-Wf8jpaMRK0-k9lfnzAZkcawYBiIOCgy0UnoTKsHFAEbTfW8.&ch=AQEAEAABABR_ugUV7zSqJ2ffflb9Jqbz_SNnJMBHn4Y.&v=3&pg=FQ2P227EMNANFCEP56CS6P4ZWM",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.168Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacc1j5679",
       "name": "40siglosxxMA99gmailcom India 0153",
       "platform": "netflix",
@@ -291,5 +281,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:15:33.598Z"
+  "updatedAt": "2026-11-17T16:18:00.830Z"
 }
