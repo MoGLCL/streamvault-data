@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbz09e72",
-      "name": "tinenyashamatemerahgmailcom India 0104",
-      "platform": "netflix",
-      "cookies": "NetflixId=v=3&ct=BgjHlOvcAxKbA7KG-_b-GK1sPn_3H46NWP6m_6Ty3US_1jYlbZEN6YueDpf9Tl-s3tL5yLDeFJca3kJ3Uk-qHP2YCwtIEsw5JffMXF8dZayc5vOc0FTkWJ3KZFv3K93HW3xvxBujwnSkzGI6agGiCpzsoxAt8WcvU42tN6TtcGiq33rDCKYgAdxEiPvjCbRqoU1_q8KecSSBSaLR5PWr7CCwSkYpK0H17WnOS5rGAU0-zLp56vsjx6c4cqHm31M6Euf2aOtaSEig4WUSCMNIMXOdTXLPj5DItbOdofQ3s87upq0Ugx4UI8iiGA7twcvs_8TVLn0WlaZePeCwGCs3txhydOnKNrs5ENYHjLzJtKO7q_5wQbwB5-XNZiIukTNVnC505KIdA9Y61VWmj0eKBs-lIs9YhaFFe3FfGk9gy6hnvMiXfKhRusouBDB0Rnj2VFC-2uRQuzeMf1eDfGSKHFbbhIUiY1ii9S9ojv7Elxf7ZcyMlo6ZLPB48uO1QphMsvzz2WPkpvIvkm5ok4sf1E24tTrOirxVDBsxFTNaE0KbZMdzAxgGIg4KDCDJbD5-znn8tdWFRw..&pg=MHV75WKX7NEUNIBS2PMODBPVVM&ch=AQEAEAABABSPedUm9oqLOvdO-t93giGv_MC56Pc_nlg.",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.167Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbzv1y73",
       "name": "toktasaliihsan455gmailcom LT 0003",
       "platform": "netflix",
@@ -301,5 +291,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:15:31.083Z"
+  "updatedAt": "2026-11-17T16:15:33.598Z"
 }
