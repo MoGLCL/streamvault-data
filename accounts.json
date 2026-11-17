@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbvvjr56",
-      "name": "pranabbehera6gmailcom India 0012",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEM0D5byAGqAO1y2zNZEvf-9g3ZHumltQCq5vrtSW46njFwBTydqKOL7GtE_KshOwhabuqyYKQeJQF0Lx0d20ijheLvVko-9HOfFTs01CeOYZMTGL6v-4O_DSKWvrOkqLlbvEPLrY4vaxf5oqjAFyux-o\nSecureNetflixId=v=3&mac=AQEAEQABABSH9Vl3tg_53keqyLdTo3Yj4JfCJOyUKtI.&dt=1791093798312\nNetflixId=ct=BgjHlOvcAxLBAwU5DFVFwzeKixHLNV9D-mQKopiPtcr__EARhFTGAjo_VltyG6ty2rloY0U02MMNgJ9Zo6u10FDvU5GJcbmQcI409qdztaWOZ2O2tcn1ezluOC7Ui0MzSna0Z0GRlZjiYXDwoxMmjENfN3JUYaVEudXxSRiTmag0rbx68KHcrAIQaw6b8EziwPawzbCdYyfsyneHhwG2RLiToGICFrl_rxDcsbe6Wz74qwppowtRwzKKuLFPUIuNGopW0hcwHWtSwglJnoQ0FjJuP0hAlpsTJiuBxXQVJh6zQ0LHWE585avDD8NfQIcFJkeTWxm5vQoVsfZgXjPR6o8tG-JnkDVBpQ_2_eYmn3q24CdI2N1O2Dq782r76V_OGn_E9ejARGPZLykufM3wLho5udwPieukFOCAUsr5Bjih5k_Dy_CbpXec7fxz_blu02HtIR-6cmUGU60zVE6aTGVqrNcNDe6I-WC1d4Dogm2DJFvjR3NYWKlEzE_noxYjyC4KpaDv1c4YPOj6pEk0eDco_Q61VC0LiTtNDv0FxxChkj0gd31QAMcVrtmzpFwglDnYrOoPvBCGXIl0pPSMe8AYO30qKoB_5r1WGAYiDgoM0to1rBA974mFLoZb&ch=AQEAEAABABRuTV3gyrUjiavuqXQJ2G-cSVLpRY3QnU4.&v=3&pg=QK252NSTH5GFJF66YOQRPN4DDU\nOptanonConsent=isGpcEnabled=0&datestamp=Sun+Oct+04+2026+11:55:54+GMT+0530+(India+Standard+Time)&version=202607.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=3850e082-7e8d-40b3-a817-e829344e6442&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&crTime=1791050373080&AwaitingReconsent=false\nct=BgjHlOvcAxLBAwU5DFVFwzeKixHLNV9D-mQKopiPtcr__EARhFTGAjo_VltyG6ty2rloY0U02MMNgJ9Zo6u10FDvU5GJcbmQcI409qdztaWOZ2O2tcn1ezluOC7Ui0MzSna0Z0GRlZjiYXDwoxMmjENfN3JUYaVEudXxSRiTmag0rbx68KHcrAIQaw6b8EziwPawzbCdYyfsyneHhwG2RLiToGICFrl_rxDcsbe6Wz74qwppowtRwzKKuLFPUIuNGopW0hcwHWtSwglJnoQ0FjJuP0hAlpsTJiuBxXQVJh6zQ0LHWE585avDD8NfQIcFJkeTWxm5vQoVsfZgXjPR6o8tG-JnkDVBpQ_2_eYmn3q24CdI2N1O2Dq782r76V_OGn_E9ejARGPZLykufM3wLho5udwPieukFOCAUsr5Bjih5k_Dy_CbpXec7fxz_blu02HtIR-6cmUGU60zVE6aTGVqrNcNDe6I-WC1d4Dogm2DJFvjR3NYWKlEzE_noxYjyC4KpaDv1c4YPOj6pEk0eDco_Q61VC0LiTtNDv0FxxChkj0gd31QAMcVrtmzpFwglDnYrOoPvBCGXIl0pPSMe8AYO30qKoB_5r1WGAYiDgoM0to1rBA974mFLoZb&ch=AQEAEAABABRuTV3gyrUjiavuqXQJ2G-cSVLpRY3QnU4.&v=3&pg=QK252NSTH5GFJF66YOQRPN4DDU\nisGpcEnabled=0&datestamp=Sun+Oct+04+2026+11:55:54+GMT+0530+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.163Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbvzrd57",
       "name": "princecroma6gmailcom India 0058",
       "platform": "netflix",
@@ -461,5 +451,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:39.027Z"
+  "updatedAt": "2026-11-17T16:14:43.027Z"
 }
