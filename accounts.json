@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbvn9b58",
-      "name": "promiseasiimwe69gmailcom UG 0026",
-      "platform": "netflix",
-      "cookies": "NetflixId=v=3&ct=BgjHlOvcAxKGA-I9JhA9EeF4CpQhK0DKt_BoWc-qfaJY9Y1aVA9CiIrAXylLq_DsSKiE-826LKI1bekJFplYpafKmZLMYnPBNnLKKTV1qn1PYVogC6k-Zug3aWuvJ9E4UJmUQALCQBynh0XiyRVMrIcCyf7ewPHnrzck4XhtV2zX_2ag09D1YtVXH4wzb7wxgoVCE3dDcFyYvkk62Nf39wvDReoYeH8XY62IE_wngfKOxfGPx_r1pCCQtpDsWvzXq3tr5PuztKHgJmlyx2Ri5-_l51fIFzD9sYVFbfi70rUM4B4RPRPr5ruS2YCBuVDumQJrl6dErUp-Jtwz9KbkMu8M6q8d9rI3IjFdV98MJw6AYgyWN3wkKqHgVeW7ZdaZ-xyxCrNg2FnNR-UcNL3_34EW34o4SPLeGoK0OIK7bxvDUww9DFH07J7S4-TrjKGmjNIHgcPIaD0zkSfAOsYzwL5OBTLfwEtXrqa_VWpQef1tjhF51RIt8nQfD6L45lS-9i1ibfadtVPdGQQVybBxFRgGIg4KDD6VM8yEf6lj0k8ElQ..&pg=7J3V3S6EUBAHDDKYJXOP2TOXDM&ch=AQEAEAABABTKvRhPjA8_adnF3ff2axZ2-GwhYr8Q8gg.\nSecureNetflixId=v=3&mac=AQEAEQABABQ2aIRx2f_TDTlskKMhOB7GAGOffgQrZsQ.&dt=1764177060609\nnfvdid=BQFmAAEBEPylQKmFzBsuSLSYKbJLLe5g2lFVubE7quDa-PlHjKFJ35f6ivkiAaBQMG5G8dOkpVZOzS0cJbN3egm6DJPl5-Xb5fdby96Ic43j5ciA-9odxayTd3JyD8bjcOPHlCtoiproU-ZZuclkdvooUmQwmoTI\nOptanonConsent=isGpcEnabled=0&datestamp=Wed+Nov+26+2025+20:47:11+GMT+0300+(East+Africa+Time)&version=202508.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b9b09235-8312-42a5-ac59-60f132e8b008&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false\nisGpcEnabled=0&datestamp=Wed+Nov+26+2025+20:47:11+GMT+0300+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.163Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbwg5d59",
       "name": "proyectoekko2001gmailcom Colombia 0114",
       "platform": "netflix",
@@ -441,5 +431,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:46.028Z"
+  "updatedAt": "2026-11-17T16:14:49.027Z"
 }
