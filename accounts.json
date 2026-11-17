@@ -161,26 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbt3a550",
-      "name": "no data India 0021",
-      "platform": "netflix",
-      "cookies": "SecureNetflixId=v=3&mac=AQEAEQABABRNRN1lNxtZ_JnhDe9H-c8S_DaW7BqYoeM.&dt=1791916251080\nNetflixId=v=3&ct=BgjHlOvcAxKaA2-Sp6rr1uVDtTCxvU4CBGlyRatAQd94pQxsZICnjM5ZW5QEd2h3HRDFIIOQK3DHi3MxrhfyaUUzqfPxaO9dPtgTICLNWZpL0Y83mQP-EdMEMTqvBCRNbD7p4X14PxXkU2m6epCbqllXAuwsbSDeNfbOi-UDaWnMGpALM7u1Q7-wrEtWIQnP3gw4QJ3bUipqkfgOIU6M-nuVTzYpy6o8vnwIWkEyyv1gb8tCb7Ha14lOkgn0jdI92HifddAjCB6n1NXI9OzwWiAKGUvroeDX0IyGI2UV4HU_Efma0XQDfK7__xUwsGv3GaJSIMCqSehz1G_mfjlLc2OZKd5BK5yxffLjnwu09Hvbtz3UblqbQAf25gu0ipsssHqbY2H-NdeLtryEzdkbtYu1UuWYJ8lKbADhzpiY0FpnRKVjLC_Fh4_wyQcsqdQXHnEQBGL1CzJqgFJMsza6l8xeAsc2LNkFNS8zXrV7AWrF6WXzeaKtrkfuwa1SR8yl69-QYIsaFULyMRiEbI8DlpniVZFqiQJD-1eIMoSqfxlHp3MNGAYiDgoMM_qelIWvwAyRXfkd&pg=FDUH7TMTWRFBHDTVGMIL2F6CSM&ch=AQEAEAABABSeqmscQ3CkXLPEDRTSPOyDqZQZ_o9cgWw.",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.161Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
-      "id": "mv7tacbu5zr51",
-      "name": "no data India 0129",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEJdBBVUpUgQVWvLSBUjXTs9gM9O4aCIgLMTxLF_qULE46s5S-y0chk3d4A0trILjy7akA9tOlbsvrlsPcH0njolwX49BjQWei1ubafW5hNmGphhhkqfIMveoMa23CuFM8aJ6F8iwsnEM421-ZXritgMZ\nNetflixId=v=3&ct=BgjHlOvcAxKWA-HPCRx0InkbdM0TVjan92bfVAniehRHRjXYD_IBq9_rEIQ6I7uKdcuawi3DCKn6nl68A6DzpdM6fAdO2IWAvE5iiH-arebo1E7GrOZwiTonfJDtEld7KbU0NuWcQzXFpKsxKUB02Xqj7Zw_5Epu84fUynbj2fhrkrQ56PJqmWq2qR1hINhYC6cKuKlnmn1Mk1chzgTIsjuUKg8IvcHVgozj7Q9A0qXXiGO8ueilG3Z_bH6FWVPEH4QYTD0Kfx9Dgw0a9ZpenVJWbsaXda6uF692b77qVEWmMTO_tav5XXJ6GCE5wfTrk2SAYKvWkUCylazSYKoPt3wBuffcmdmadyj0aTz6fFYzsc3V9bchcygRr1RF5vKwWuz2iWvKd30AAwWRZvslHcCOI97mmvJO_OoaNsTOAr3EFC8uAGinHEJ_hNBKsJkf3Du9dlx8XDZplexAFTHosa8I-mngblLyhh3jaxdcEVUXUmTWjqMAqBVpmhZZlaam5X5qRrj4fIfuF90iO0V_18B3Nq1f_kWiKjAg877ZAHwYBiIOCgzIOQPcb5hYn9YUPdA.&pg=FDUH7TMTWRFBHDTVGMIL2F6CSM&ch=AQEAEAABABSeqmscQ3CkXLPEDRTSPOyDqZQZ_o9cgWw.\nOptanonConsent=isGpcEnabled=0&datestamp=Wed+Sep+30+2026+22:18:33+GMT+0530+(India+Standard+Time)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1dfb7bdd-8e58-4e5e-9377-63c074e72826&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0\nSecureNetflixId=v=3&mac=AQEAEQABABSeSPHXPPdbHR-gvfNZD59ay_K0OYDBzKo.&dt=1790786902344\nisGpcEnabled=0&datestamp=Wed+Sep+30+2026+22:18:33+GMT+0530+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.162Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbu85e52",
       "name": "oflores8500gmailcom India 0076",
       "platform": "netflix",
@@ -521,5 +501,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:22.027Z"
+  "updatedAt": "2026-11-17T16:14:27.029Z"
 }
