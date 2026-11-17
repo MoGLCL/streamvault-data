@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbwhps61",
-      "name": "rajivpalsbicoin India 0051",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxK8A1ljg4OgzgyKa1EJ3QiJyDNBce00Pou9zIsQeZRheojayHPedUgLMqAm_cCiC_PhX8s1qaZXl4YwlchNCFt-mLJ23Z-KKO1Y9STmmMBpq3fDaDtZF7_NmFiBYE_Khz2gb3q-gxwknluccLnrmFiSqVOM1Fc7X7Hygr73nypezYetOIS9HoUK9YeZQUcNa_vfF3gxUPwQwM-SZo2PFX2zd3R0kMs8cvW3PnwGurmzihxuPHUs9ezf-WnflM5EdR2FFx2Ir5lJRu3T71PdgQu_Dmtmr6CGW89eN9h2XKZFGVkcwn94CMSHAkMzoM7UASHk_WV0Uq5-Zt-JBXyMzB4eTnYVw0T_eBTyeyQHUJy3AwIjs15jBO2XAtAaPrWH-agHG6-sd1gEK8kvJvw2KQeG256Pi_6t3AnpenDtvmRwsqamW-P02OzMBRKWiSyGow32uJcXkKjQgZiHJABjPtf3GKuHlrwjAWw8hqLRrMC-PdQKQwmFDTEodVel-gSNIO3BH9_2GpwybQBagNL4YWwDDq65FyRXGSBda7PsIBWTwiwrYO_-iVuNpKSWEo4BY343DTTu8dUnicYeP93blBgGIg4KDG65Vy88WpEmOy-y6w..&ch=AQEAEAABABREC6YucZPUQtwINtjJ4EjSlJA2zZXdZNw.&v=3&pg=DTYRNNJX5BCXXEJ7ILWJ7VG4XA\nct=BgjHlOvcAxK8A1ljg4OgzgyKa1EJ3QiJyDNBce00Pou9zIsQeZRheojayHPedUgLMqAm_cCiC_PhX8s1qaZXl4YwlchNCFt-mLJ23Z-KKO1Y9STmmMBpq3fDaDtZF7_NmFiBYE_Khz2gb3q-gxwknluccLnrmFiSqVOM1Fc7X7Hygr73nypezYetOIS9HoUK9YeZQUcNa_vfF3gxUPwQwM-SZo2PFX2zd3R0kMs8cvW3PnwGurmzihxuPHUs9ezf-WnflM5EdR2FFx2Ir5lJRu3T71PdgQu_Dmtmr6CGW89eN9h2XKZFGVkcwn94CMSHAkMzoM7UASHk_WV0Uq5-Zt-JBXyMzB4eTnYVw0T_eBTyeyQHUJy3AwIjs15jBO2XAtAaPrWH-agHG6-sd1gEK8kvJvw2KQeG256Pi_6t3AnpenDtvmRwsqamW-P02OzMBRKWiSyGow32uJcXkKjQgZiHJABjPtf3GKuHlrwjAWw8hqLRrMC-PdQKQwmFDTEodVel-gSNIO3BH9_2GpwybQBagNL4YWwDDq65FyRXGSBda7PsIBWTwiwrYO_-iVuNpKSWEo4BY343DTTu8dUnicYeP93blBgGIg4KDG65Vy88WpEmOy-y6w..&ch=AQEAEAABABREC6YucZPUQtwINtjJ4EjSlJA2zZXdZNw.&v=3&pg=DTYRNNJX5BCXXEJ7ILWJ7VG4XA",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.164Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbw2e262",
       "name": "RhysFlorimon867088outlookcom Turkey 0065",
       "platform": "netflix",
@@ -411,5 +401,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:53.465Z"
+  "updatedAt": "2026-11-17T16:14:55.886Z"
 }
