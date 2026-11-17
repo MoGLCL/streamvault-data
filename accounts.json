@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbu85e52",
-      "name": "oflores8500gmailcom India 0076",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxLYA9yvSLR-9n7VRJzMgu5VAErwpcFafi0mjuHCdGS9twq062O4AfYnvB38s7ITb7Dj3g1qkENBPSprxXee-bBk-xXBBEbZUGGa-Ur9kYZf6RN0nEgGH-h23_lfl4L2eIzXm9TIeMWP-HQJiQV6eQodqlT4NScVM7Bj6p5Pk5tlj_khFhwYfDmeQp2G_q0tVNPZmFbrIp1iuCAD4H_ZktjV0yWET_p9HDR7khSx_4dz0oqJ6jglKfF4ojcok6h7OIFilz0t2-7hx9Y8p34tvXmDdiBAhZA3j_OD_nLpRatgdyJ7C8wIvthRhBnrb2P8xPejalXF4-e8iDx8BZwNPGl2CidS6Y3usH8Q6BuHXz4ihcbsqeFdeEbSdC3UM6m3XNeuyjJncrFjjOay0T6fpdyd-O0I_7QErOv_lFXgKN0vCwFPt6rSZNtDFqVF4-JfPPgqArfQiiYezXnfkPuvKgCMReHOa1W33pFajQy5EMQCpK1SzNwmZ5ZdBKf3WRu9Z8UV_pc7q751szNdvgwadoP0nQP4u2-bdMAsC6rthlp3KxjLQaNWMEkhM47GBxmY7SbA2wC1uXu02XkyOoIRg4IVsKU_1Bpqxq9Ffo0MLAV9IFAlzpQznfNBsWAYBiIOCgz4Jxd1O7f4o_j8E9U.&ch=AQEAEAABABTaalCERjBOvi2FzgZT39LeuAuGUTu32aU.&v=3&pg=FHLU2CQCSBEGFPGUO53HB5C77A\nnfvdid=BQFmAAEBEKOJfqdHHX7cIPBo4dk8MzRge-E0i7EQNxw5aKgE9bbWmAXu-JfTR7CgGAxPmWgitdHXilmUOmmZpgiu6hfj_atFm7FHotTDHsWL64S16vSOs9MekBa29_c3iL19gcsr3KMaDovjDekNrG4Q5diOmbeX\nOptanonConsent=isGpcEnabled=0&datestamp=Sun+Sep+06+2026+17:05:43+GMT+0530+(India+Standard+Time)&version=202607.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=bf9857cf-04ba-4fbe-b157-d374ac7e812b&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&crTime=1785146632560&AwaitingReconsent=false\nSecureNetflixId=v=3&mac=AQEAEQABABR4eWOQrw9zkPc5_ZTngj9W2GySGaZ7agc.&dt=1788694545676\nct=BgjHlOvcAxLYA9yvSLR-9n7VRJzMgu5VAErwpcFafi0mjuHCdGS9twq062O4AfYnvB38s7ITb7Dj3g1qkENBPSprxXee-bBk-xXBBEbZUGGa-Ur9kYZf6RN0nEgGH-h23_lfl4L2eIzXm9TIeMWP-HQJiQV6eQodqlT4NScVM7Bj6p5Pk5tlj_khFhwYfDmeQp2G_q0tVNPZmFbrIp1iuCAD4H_ZktjV0yWET_p9HDR7khSx_4dz0oqJ6jglKfF4ojcok6h7OIFilz0t2-7hx9Y8p34tvXmDdiBAhZA3j_OD_nLpRatgdyJ7C8wIvthRhBnrb2P8xPejalXF4-e8iDx8BZwNPGl2CidS6Y3usH8Q6BuHXz4ihcbsqeFdeEbSdC3UM6m3XNeuyjJncrFjjOay0T6fpdyd-O0I_7QErOv_lFXgKN0vCwFPt6rSZNtDFqVF4-JfPPgqArfQiiYezXnfkPuvKgCMReHOa1W33pFajQy5EMQCpK1SzNwmZ5ZdBKf3WRu9Z8UV_pc7q751szNdvgwadoP0nQP4u2-bdMAsC6rthlp3KxjLQaNWMEkhM47GBxmY7SbA2wC1uXu02XkyOoIRg4IVsKU_1Bpqxq9Ffo0MLAV9IFAlzpQznfNBsWAYBiIOCgz4Jxd1O7f4o_j8E9U.&ch=AQEAEAABABTaalCERjBOvi2FzgZT39LeuAuGUTu32aU.&v=3&pg=FHLU2CQCSBEGFPGUO53HB5C77A\nisGpcEnabled=0&datestamp=Sun+Sep+06+2026+17:05:43+GMT+0530+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.162Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbuvex53",
       "name": "onepukapuka442yahoocojp 日本 0057",
       "platform": "netflix",
@@ -501,5 +491,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:27.029Z"
+  "updatedAt": "2026-11-17T16:14:31.029Z"
 }
