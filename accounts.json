@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbxqxc66",
-      "name": "songulcakiroglu629gmailcom Turkey 0066",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEJb0CAONzFgTwTIWMoigVtFgvsi6eQd124xq0AskCjOBqqSPn9uNjOrZ7OhMsh08wvXVGt733NV-p5SHL7vdFRAvWi0bbyx5rep8EzQCN45bIQ7ufjW0iy4LK7cZ9l01IgMLxie6Mos2aENoesEHNPy7\nNetflixId=ct=BgjHlOvcAxKFBEh2YHy5zhMKmXSlnLUBxWwG7XbvGKguYaVDivsS5HwqDuXl8kTkEGekoircdAGCsDxV-chlhM6cnDj-qfgcceVct6fzPGiUVVIPX-p-6H0N9As_NdMh9j5nJVP7qbTYF3yw8wp1kUOoARKP03lSwm2ABbASa9V7APMUGwfuqLr2ExHXda4Ph-yqn6H2yP-Eaz7JtKDltPosUjsQ3-LuZSrwydqMNT12crrUad0qqfEcSqj-vVjEFMHjC-pPTUlvq_VyNV9tDCAE64ArJjS574zj4reYupLB0tJqyvd-FbhEkED5wC3DJycG3PG6_Q8nQCzcPkR1sY_NQFM80CAq1644Ha0uAnWna3cpVbSNhyXQFJv0FuQo_GkyhIu4_WkITTXZJj_db3WZsG1oZ4_0Xk0vgBEtHFx8VdIZIKh8nm7_jSwp-UwpenlGPUIJQ4cvinUig0WBToPNKuoGcp2wXjrhTIwigHf9R_wJI-99ZPfFhs0YXeFG3VWtpVp-mB3PM9PjyOY57DHEIAM5UmngMuoQst05f4UPqjRKaeI36gPIeHxcJXlNMi33aWpd4ZIQPYpFEgmQslIcp0SUT_6ngF_e4QawkgA0agszD7F1S50laf6Mf2YH7rsTFTbNGYh9PIAo66YVEYCLB49dqLL-CxeDBqJCP8gE4G6g_vIlil2GJRBa49kYBiIOCgytg0Vu8FdUBp9J64M.&ch=AQEAEAABABS_TRM1511cwAS0X3Rf0hY9nODixN8inIc.&v=3&pg=RK3J432YM5CKLO4JJCEJIH2ZTQ\nOptanonConsent=isGpcEnabled=0&datestamp=Thu+Apr+23+2026+18:06:32+GMT+0300+(GMT+03:00)&version=202602.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=c19ea199-c869-4129-8534-47f306991701&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false&intType=1&crTime=1773018729216&geolocation=TR;37&prevHadToken=0\nSecureNetflixId=v=3&mac=AQEAEQABABRQlX1udLpqjU9EHxBmXnLcvjoXwZCVxE0.&dt=1776956792585\n37&prevHadToken=0\nct=BgjHlOvcAxKFBEh2YHy5zhMKmXSlnLUBxWwG7XbvGKguYaVDivsS5HwqDuXl8kTkEGekoircdAGCsDxV-chlhM6cnDj-qfgcceVct6fzPGiUVVIPX-p-6H0N9As_NdMh9j5nJVP7qbTYF3yw8wp1kUOoARKP03lSwm2ABbASa9V7APMUGwfuqLr2ExHXda4Ph-yqn6H2yP-Eaz7JtKDltPosUjsQ3-LuZSrwydqMNT12crrUad0qqfEcSqj-vVjEFMHjC-pPTUlvq_VyNV9tDCAE64ArJjS574zj4reYupLB0tJqyvd-FbhEkED5wC3DJycG3PG6_Q8nQCzcPkR1sY_NQFM80CAq1644Ha0uAnWna3cpVbSNhyXQFJv0FuQo_GkyhIu4_WkITTXZJj_db3WZsG1oZ4_0Xk0vgBEtHFx8VdIZIKh8nm7_jSwp-UwpenlGPUIJQ4cvinUig0WBToPNKuoGcp2wXjrhTIwigHf9R_wJI-99ZPfFhs0YXeFG3VWtpVp-mB3PM9PjyOY57DHEIAM5UmngMuoQst05f4UPqjRKaeI36gPIeHxcJXlNMi33aWpd4ZIQPYpFEgmQslIcp0SUT_6ngF_e4QawkgA0agszD7F1S50laf6Mf2YH7rsTFTbNGYh9PIAo66YVEYCLB49dqLL-CxeDBqJCP8gE4G6g_vIlil2GJRBa49kYBiIOCgytg0Vu8FdUBp9J64M.&ch=AQEAEAABABS_TRM1511cwAS0X3Rf0hY9nODixN8inIc.&v=3&pg=RK3J432YM5CKLO4JJCEJIH2ZTQ\nisGpcEnabled=0&datestamp=Thu+Apr+23+2026+18:06:32+GMT+0300+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.165Z",
-      "lastTested": null,
-      "cookieFormat": "http-header"
-    },
-    {
       "id": "mv7tacby59t67",
       "name": "spanand717gmailcom India 0052",
       "platform": "netflix",
@@ -361,5 +351,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:15:09.027Z"
+  "updatedAt": "2026-11-17T16:15:11.027Z"
 }
