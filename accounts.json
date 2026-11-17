@@ -211,16 +211,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacc113e83",
-      "name": "alphalunda306gmailcom CD 0087",
-      "platform": "netflix",
-      "cookies": "NetflixId=v=3&ct=BgjHlOvcAxKaA4t577uYaKbxMfGGoCJeosCnbJDVAolYKBxCaeUcXTw9UUhnxuzrYHlToUunGeAo1E-aBL_z3KefpyzWM1oCBDr8U5mTengiqLWqSxg112tYMPrRmzLhJMzUHPm0SH9kCn3bysQud2WP9Adstrl6-PeGDRFdafmYbGzw1KQOaxQklYzgrj2Hyp5o5ef4GLxLnRFFN-GUjtfKxmz6dOi5QVAJtOhhEzWKhUXX9viriiVVOHV8LLJW1JMH__ZjA9tXJMZAWFfgFwoVm8OjhIhtmFefKjGEt5xvolW04SijgGveW5-e83d2YugPqUAHX7ZGRrjqZkWL4js1hldBgGlr_ZrDlg_circrOhwBxj83EfP5mVr4GCoPm7iqkW4JwSK6SoZgHrcXUOuI7xriKF-RpZfqR_dLrG9UQ0guG_SYDbBz9-6RwXz16Cmz-6AnNcXwCHsQLEp0dKeS7HmqEFLhruHA9jUGang52AHx5MM7d8YOwT0IvQEpIsLWrOF-YRat6VIpGSCakMQgMvOYWMRH2RgOkPvxC_B67tsHGAYiDgoMdFrkzOx9OHIX0U-Y&pg=UOEBE5JG7NFANNCHJU3VUZLTEE&ch=AQEAEAABABQDBwb1sVyDAN-t7tAgTo5KnJimpX4drWU.\nnfvdid=BQFmAAEBEITK_TZfMw0HDVOHcw3W5IdgpyXLY9MiygtybGH4WSgG4sumQpLbozgxPxhxR-Whf5biCIQEz56eX9nZPqx_19Bwb1UT5Y7nbHH9XacxNgqFjCv0fwWhjFliJerLIi4tLfzvL5o1HvbSOlL8gZjIcRyk\nOptanonConsent=isGpcEnabled=0&datestamp=Fri+Sep+18+2026+14:56:34+GMT+0200+(UTC+02:00)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0401a8cc-90df-4115-9cb8-0bc2bb07e04b&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&crTime=1770214958164&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0\nSecureNetflixId=v=3&mac=AQEAEQABABRJmh7xZ5qe09fgubo_NLKUh23Q9co0vzs.&dt=1789731578329\nisGpcEnabled=0&datestamp=Fri+Sep+18+2026+14:56:34+GMT+0200+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.169Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacc2niz84",
       "name": "amoskivuva1gmailcom KE 0072",
       "platform": "netflix",
@@ -241,5 +231,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:18:14.028Z"
+  "updatedAt": "2026-11-17T16:18:16.766Z"
 }
