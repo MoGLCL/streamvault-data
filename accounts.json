@@ -61,16 +61,6 @@
       "cookieFormat": "http-header"
     },
     {
-      "id": "mv7tacbf5wb10",
-      "name": "chomnai0001234gmailcom Thailand 0095",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxKZBMwIqnYHaChODvHhqDpJvnw5B3SIFder4O5pa0Nc1E1-mRzXv-Irym6vZA0HfcCNJsSS3stVVLSBm4B0VS7qVj4H0zsQhJEZY9GXIKuiThI1lOM9j5WRnurZQ24Zofaxk8oaJXsCnWqqq6JGGLSNZ-ifpUSdCRuE9e5jIoWARxgPEUfWR6tj-PaORRuTyoiQMAkHpaX7q86IgUccEFl7fdUR6QinA3nIKgIf3__rz5Jyg3l-LSMphyTRNsVotpqUQeSdrYL8iZy87muc0wpiycruublBEuWz-Pt01eR3qklxUfAKFhn1J0x3jzOuKIei298SMKoSARV6g_tSJGn5nkE8ogN7Ixs6LH7lN6vPrC9ujBkQyxKxAi2r1VqobzL1dbn3jcLjaklc3PVfZQFqPBBZ_LhsnT5n9LQ5TKYBBn6V1-WtchRUvJhS7-KhzMO_Rj-tE9sGIaZVsakVooiQau69jxR2a4Ir1S7-Yk6iwzhZkBT55TeFJsroGJcDPHLaetjTncnCPerJV7nS_asb8XO8E3zKfLinvrM2odGHQngcQQq4PF4tWF5cpjP2MK660spEby4mgOQvpzH3gRzFl8Ds5-WV0VeYvnbQB3DEDasdmgL2F-zbT73fbL9OnsE90KJXBqtxjw-c-e335Kqk143bDp8Y0oGGWXWdCpoUwoHQ7Y_oruo-nYnRWurwOYFnUl0plhJg1sf7uRgGIg4KDBPlAitXT-MhEIvMuA..&ch=AQEAEAABABQ4PRUARQSQgFi5KeeLzN1MSRXy3IToY-Y.&v=3&pg=TU5NPJ7C7BHOTBG4K6KQSKRYWE\nct=BgjHlOvcAxKZBMwIqnYHaChODvHhqDpJvnw5B3SIFder4O5pa0Nc1E1-mRzXv-Irym6vZA0HfcCNJsSS3stVVLSBm4B0VS7qVj4H0zsQhJEZY9GXIKuiThI1lOM9j5WRnurZQ24Zofaxk8oaJXsCnWqqq6JGGLSNZ-ifpUSdCRuE9e5jIoWARxgPEUfWR6tj-PaORRuTyoiQMAkHpaX7q86IgUccEFl7fdUR6QinA3nIKgIf3__rz5Jyg3l-LSMphyTRNsVotpqUQeSdrYL8iZy87muc0wpiycruublBEuWz-Pt01eR3qklxUfAKFhn1J0x3jzOuKIei298SMKoSARV6g_tSJGn5nkE8ogN7Ixs6LH7lN6vPrC9ujBkQyxKxAi2r1VqobzL1dbn3jcLjaklc3PVfZQFqPBBZ_LhsnT5n9LQ5TKYBBn6V1-WtchRUvJhS7-KhzMO_Rj-tE9sGIaZVsakVooiQau69jxR2a4Ir1S7-Yk6iwzhZkBT55TeFJsroGJcDPHLaetjTncnCPerJV7nS_asb8XO8E3zKfLinvrM2odGHQngcQQq4PF4tWF5cpjP2MK660spEby4mgOQvpzH3gRzFl8Ds5-WV0VeYvnbQB3DEDasdmgL2F-zbT73fbL9OnsE90KJXBqtxjw-c-e335Kqk143bDp8Y0oGGWXWdCpoUwoHQ7Y_oruo-nYnRWurwOYFnUl0plhJg1sf7uRgGIg4KDBPlAitXT-MhEIvMuA..&ch=AQEAEAABABQ4PRUARQSQgFi5KeeLzN1MSRXy3IToY-Y.&v=3&pg=TU5NPJ7C7BHOTBG4K6KQSKRYWE",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.147Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbg5y716",
       "name": "dhanprasadrai911gmailcom India 0112",
       "platform": "netflix",
@@ -551,5 +541,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:12:14.997Z"
+  "updatedAt": "2026-11-17T16:12:31.780Z"
 }
