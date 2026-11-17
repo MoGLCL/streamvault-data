@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbyup270",
-      "name": "tamarabaleani60gmailcom RO 0064",
-      "platform": "netflix",
-      "cookies": "SecureNetflixId=v=3&mac=AQEAEQABABSxqdZcepALrN-9QHdzv5XOssAkkTRqp8M.&dt=1782086305495\nNetflixId=ct=BgjHlOvcAxKLBNIZyQc4uty0UXtoOByDFoYQfnHS-ij0KALGqL2kBcFQrzm9KED2AYIUVA9erVxDKXG5eycoSFHvg_NQc7hycMOn5q_GNWgdTlyh1RDp6AVGOprbsOjb5G9rdbM9LT_niThmsxQASIa4iLU9Nlu5CEVfuMAEoM03Ybw85sm3wCUU4IrsJxkBE_7bZ_BBIzCSsSVy6hAN175DUIOfqf419sOd1I8DEe8XUKufg3ZMYGtLe-MpYhbVPAPPq6wzZGuefmknJVwb-QyKbuoCk-vHfwFnFJbOEI0h1fBjU5KW_DwbLMdXkjw2U6Y8lZgHBxluWKkBrl9nvFHsoGHclXV8SpOxmHIHpNn_8fJclQ1JJBgxuS4wNZ18GQEXTNWWfmrNZTvqE0DCccSKhwG7_eKY9ocZtksaQDrLEIuJ-CQjmNaoHnYfmrsugPXtUt43j7oOIS1ie1CkRPfUXdj59Ss3OYxclip8BOQRaOHLRuhFyeQrM4GqP0-tOSjllTEEZ8BtTHCVRiYiSZwV2rg51OOw2hXgI0stPXz2QMnNeDGF46FVpNhB0sXlxEU-Qxw6g-HtGaL0fN571BGetazo5-IxEO9bV8ptsqhkzKoVCoLG4MT7gUNmX45g9RMev0g6XTmzMJ3nB92IQmK9V1isfDJunVhVEan3X4gD_GSlsJ9vn4YwAXz3nWpNofnxPTAYBiIOCgwQ1I4xMm2vf7qnkHw.&ch=AQEAEAABABQKP1kh35iVv2zMtpgEcl_Gln5272UfwtE.&v=3&pg=7TI2AZ5MRNF4HIYQHNSMUBCVI4\nct=BgjHlOvcAxKLBNIZyQc4uty0UXtoOByDFoYQfnHS-ij0KALGqL2kBcFQrzm9KED2AYIUVA9erVxDKXG5eycoSFHvg_NQc7hycMOn5q_GNWgdTlyh1RDp6AVGOprbsOjb5G9rdbM9LT_niThmsxQASIa4iLU9Nlu5CEVfuMAEoM03Ybw85sm3wCUU4IrsJxkBE_7bZ_BBIzCSsSVy6hAN175DUIOfqf419sOd1I8DEe8XUKufg3ZMYGtLe-MpYhbVPAPPq6wzZGuefmknJVwb-QyKbuoCk-vHfwFnFJbOEI0h1fBjU5KW_DwbLMdXkjw2U6Y8lZgHBxluWKkBrl9nvFHsoGHclXV8SpOxmHIHpNn_8fJclQ1JJBgxuS4wNZ18GQEXTNWWfmrNZTvqE0DCccSKhwG7_eKY9ocZtksaQDrLEIuJ-CQjmNaoHnYfmrsugPXtUt43j7oOIS1ie1CkRPfUXdj59Ss3OYxclip8BOQRaOHLRuhFyeQrM4GqP0-tOSjllTEEZ8BtTHCVRiYiSZwV2rg51OOw2hXgI0stPXz2QMnNeDGF46FVpNhB0sXlxEU-Qxw6g-HtGaL0fN571BGetazo5-IxEO9bV8ptsqhkzKoVCoLG4MT7gUNmX45g9RMev0g6XTmzMJ3nB92IQmK9V1isfDJunVhVEan3X4gD_GSlsJ9vn4YwAXz3nWpNofnxPTAYBiIOCgwQ1I4xMm2vf7qnkHw.&ch=AQEAEAABABQKP1kh35iVv2zMtpgEcl_Gln5272UfwtE.&v=3&pg=7TI2AZ5MRNF4HIYQHNSMUBCVI4",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.166Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbz36g71",
       "name": "thakuranmol9999gmailcom India 0161",
       "platform": "netflix",
@@ -321,5 +311,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:15:25.382Z"
+  "updatedAt": "2026-11-17T16:15:28.171Z"
 }
