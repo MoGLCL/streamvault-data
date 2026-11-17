@@ -211,16 +211,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacc1pbw80",
-      "name": "82ramgopalgmailcom India 0142",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEOBwc3EgUQ_2jQ3glNaim7JgcavgkSqcRimvx7oZ3hgOt1cRvKJzSlreYbd6rs4QKZfrNv-enbZxfKHsB35-rqCCFx1v6n7XPWXCreZHdJ9VcYg38qW8M6xcY3CxlWUd87zygf9FGZL8G3s6lfYPb8K2\nNetflixId=ct=BgjHlOvcAxKMBAC6VL6s_NEerJ_NDFnNPLv_5xH3fGaFkSktLF2DNYcAg5PikRPcubB7dUST-jwvaK1xS7qQT8z9X1JS7dBN0Ikx-TMXO8tSaPjtugGKVkLmA-UbXRzLkl8AtxnpkldYKCPcCSRa6splxQPX3ywiUBYxlHHcx2cUOhHJef0iXjzZPVxKVLVM4z-sc2bo0XOpzB3HkXtwth36Vtq_W4rT6QG5_JQfhbFPa6T8YuQ7ljjPi9SG7-NLIH-k1UsONQDHBv107-vAVkMp9PlpqzrYcAt9M3fja1aaJOwkzOvGkLxoX8w1ISDOf7XefkFYeYeLcABVabX4vsbVgEalGqWyPfdBUkaLKJPqJmDPrCF2G4zzcs3OMoIFeN1lhbWS18HdbbpeGrwvHXgiENMW3RXI54Dq7ro8okEAQrHO4I0rPE39hUmlrtZm40FLkE1iZFCDiZXoxEDHPa14CFucgLl_CZwLOJM1s3cU3D7EsWgAZBO2zLFvKg0QLvR-_ayD373AlQJHPMSKC5UK1nPTc5MgurQRVzntOQYv4SOXQqSSvwqBdj3D8KGE9Zof16iUevsQRH1lXxsex19AqpkbAXHR2HSULl9KORw-Bc9yNsK4NSajo712PTHoVedQ54BGGRAxSVE97iWby-pN1ROz1lG4irUvdCIxs7PBthObmaq6_H3onu5mx0QJu6i5AH6QGAYiDgoMGdp59yJpPPthM0_P&ch=AQEAEAABABR_QIcSr_NHf3_erCYuTeTwo4bdeZUhZiI.&v=3&pg=67FZXDWACVH5ZMWISS6VYYDHDI\nOptanonConsent=isGpcEnabled=0&datestamp=Wed+Mar+25+2026+22:45:45+GMT+0530+(India+Standard+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=103886a8-b213-4134-8f3d-4f304b984bb7&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false\nSecureNetflixId=v=3&mac=AQEAEQABABQ92bXP2CJQnsEpEf4NIaT0udvdqxjmyXg.&dt=1774458946778\nct=BgjHlOvcAxKMBAC6VL6s_NEerJ_NDFnNPLv_5xH3fGaFkSktLF2DNYcAg5PikRPcubB7dUST-jwvaK1xS7qQT8z9X1JS7dBN0Ikx-TMXO8tSaPjtugGKVkLmA-UbXRzLkl8AtxnpkldYKCPcCSRa6splxQPX3ywiUBYxlHHcx2cUOhHJef0iXjzZPVxKVLVM4z-sc2bo0XOpzB3HkXtwth36Vtq_W4rT6QG5_JQfhbFPa6T8YuQ7ljjPi9SG7-NLIH-k1UsONQDHBv107-vAVkMp9PlpqzrYcAt9M3fja1aaJOwkzOvGkLxoX8w1ISDOf7XefkFYeYeLcABVabX4vsbVgEalGqWyPfdBUkaLKJPqJmDPrCF2G4zzcs3OMoIFeN1lhbWS18HdbbpeGrwvHXgiENMW3RXI54Dq7ro8okEAQrHO4I0rPE39hUmlrtZm40FLkE1iZFCDiZXoxEDHPa14CFucgLl_CZwLOJM1s3cU3D7EsWgAZBO2zLFvKg0QLvR-_ayD373AlQJHPMSKC5UK1nPTc5MgurQRVzntOQYv4SOXQqSSvwqBdj3D8KGE9Zof16iUevsQRH1lXxsex19AqpkbAXHR2HSULl9KORw-Bc9yNsK4NSajo712PTHoVedQ54BGGRAxSVE97iWby-pN1ROz1lG4irUvdCIxs7PBthObmaq6_H3onu5mx0QJu6i5AH6QGAYiDgoMGdp59yJpPPthM0_P&ch=AQEAEAABABR_QIcSr_NHf3_erCYuTeTwo4bdeZUhZiI.&v=3&pg=67FZXDWACVH5ZMWISS6VYYDHDI\nisGpcEnabled=0&datestamp=Wed+Mar+25+2026+22:45:45+GMT+0530+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.169Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacc1j2b81",
       "name": "adityapatil581gmailcom India 0081",
       "platform": "netflix",
@@ -271,5 +261,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:18:04.028Z"
+  "updatedAt": "2026-11-17T16:18:09.028Z"
 }
