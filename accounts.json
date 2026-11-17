@@ -31,16 +31,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbcih54",
-      "name": "bonjourclaireguillotoncom France 0015",
-      "platform": "netflix",
-      "cookies": "SecureNetflixId=v=3&mac=AQEAEQABABTkEsC0It4yh16-iChLso3RofHffaqV98s.&dt=1791885499248\nNetflixId=v=3&ct=BgjHlOvcAxKdA9WuWCr_sDntqpbArqEjori8m_hCkeNcHPvRpCSBcVKk9P__nKLg5XUE0yXEBH-tJlFumofBTuPDEvoME9OzSEUjp0D6sFj9ke0YDkfQZ6m-PgjxV8XHjpSKJSWPZ-nATmncku-s5ZPwW8-I0iBsl3YO2s1CtwuQv3vUIwddRIb3CKwd3LsBemadVRT5iAV62tHc3jtdjlDIGP-pRLN4bbfJ5u-FIi1HiRTKexbvPWyydJZ5DSjlMTTxdCxmUhzY34MO8jFs006GjvnPODvCzkdFc686vhvFj0yj8Mbbesb3n--X7VVL4lb43zMJdiWEMFcK5n-pSdTSWIUhhVuLEG4_7nsFCjyVVKKAPJJKbMPa3XrRgYLpSWX5XhxW79RtFRus6Gu6GWjuC4GevKTzL0mrqr4Zsd64UUdo7Tc76DIM2vxggxz3cTgMfmG37pvDy4fR0T2GUz75-oV6zqXpS02-nvrvHvyaOQF_9YYSkmZv0tu_vP50jTSZZtAkRD0z8tVfs9mGKSTZJtqZ--uOCqNuKV9P8POA2NF10CxLGAYiDgoMMiUhRTsVPaFPVnsC&pg=GVXCUMR62FEAFEUO6MKH4G56LA&ch=AQEAEAABABSmgRPqYAUYO4Q4639QgR9qNT8XPn-Hrdg.",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.144Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbc5965",
       "name": "brktpl 1903outlookcom Turkey 0150",
       "platform": "netflix",
@@ -571,5 +561,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-16T16:33:24.215Z"
+  "updatedAt": "2026-11-17T16:12:11.854Z"
 }
