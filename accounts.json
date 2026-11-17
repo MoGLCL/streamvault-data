@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbta4s48",
-      "name": "nedimmollagmailcom Turkey 0107",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEPDOTyimIDz6HOD8059jRHhgE6j9kKQFGEQK2FkekwAMCbc1T2HnCiGufbQjh1NUtwFEY4cQgxr7UB9GFCaOQvD8hwM16zINzLWruCxd7qQgRJ_lPTEbMjE579soqJwyDWu3j0q6yKwj-ydOTeVTN5Hd\nSecureNetflixId=v=3&mac=AQEAEQABABQwMxX8-catmUh03H5LUUspVQoXiw1Z33U.&dt=1790574346079\nNetflixId=v=3&ct=BgjHlOvcAxKZAxEXiEv7ARLhS76U0qyt-z_fd95X_gyTGdFl-NHNKPZP59R4v4MCS1pdf6e55Zw9YDiBr4xAL1b0X-IwGhqELd-A2SoOlJ_o5Ex1N7M2d8Jg7XvBN7kp7q6qLDwYMGpSOLRiw5p5bTs8gof2Tvnkb9tGC4tc6OVpUZjFFxk_s6eMzvlIqTzR7h0CjG_p-pZg7OZoK_Aultj_umEhOngTECfo_cEN65uyzWqM0UKB1ntkKJFxe0bPohaz3g7F9zJ3HaAk2MoPQpsfah05iNEDUh9lWyEwoxvaOSddHDmjWuFKWJIfauKqq-RtyPBl5jftyhTawEtFEf9VkFfP-pxixBasYx0MZUSNWFvtLlD2GguIIETphYn1fZBMI8otKOMwbgAlvbbQHs7MTn1dq419D9DINznVv8hBVH8_bozfrjsQeeAjXD3-3onN46OqV6x0UF-b84xKEfRJNzbeClJzisWrsplqU82DuLdgm3-kYL885Qo13DjUjprLengHaP7DYOFDXcZO7K1_-BY9Uh5IeZWUA3kY9rc-njMYBiIOCgy37V1eZ1KUagAe9Z4.&pg=42MFI4BMZVD6FBBVI2LYQQJCY4&ch=AQEAEAABABSd1bYqPySTGhhsAap1nHcXhHjAoKGTFfI.\nOptanonConsent=isGpcEnabled=0&datestamp=Mon+Sep+28+2026+11:48:44+GMT+0600+(Bangladesh+Standard+Time)&version=202607.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=78d94090-13bb-42b1-97fc-436e71205751&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&crTime=1790452967609&AwaitingReconsent=false\nisGpcEnabled=0&datestamp=Mon+Sep+28+2026+11:48:44+GMT+0600+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.161Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbtdzn49",
       "name": "negiamitsingh32gmailcom India 0090",
       "platform": "netflix",
@@ -541,5 +531,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:12:31.780Z"
+  "updatedAt": "2026-11-17T16:14:19.027Z"
 }
