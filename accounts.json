@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbvzrd57",
-      "name": "princecroma6gmailcom India 0058",
-      "platform": "netflix",
-      "cookies": "OptanonConsent=isGpcEnabled=0&datestamp=Fri+Sep+18+2026+12:39:58+GMT+0530+(India+Standard+Time)&version=202607.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=6580f33f-74e8-4064-b9b5-cfaaaf667142&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&crTime=1786593818837&AwaitingReconsent=false\nNetflixId=v=3&ct=BgjHlOvcAxKZA6AfPGChf5EwzSsxQ8RxzE2GkaKLvw_OrpHCFHPZNJhiZ6XXXLKbzGaqDf18UiX9WWJYSvU_vQbU4Cg6EjP3XXMlhCtpIea0xac8Kmtg4PYjz-s9OuOYjO7MYLV7u0NuTjHK4sG-E7bBudDtmKkKYFCXNVqH7kSLAcnRzqOq32zskYWWa9LRyYoMZA54gUwjTqD_SZTOJ4v2CzRWdKfURs_gd7kG4vK4oM2Qfm8QoqeudIDedrlepTJuekxI8QOzkqvQobUoQc0qqNqOwsqKha1-C-JYma0Sj-z-igSnQs1aDVMOO6nALTJOwfa5LNacOX_gWap-qceeOxdf_yr3wtF6iFcQWqkatROvXROQMbzEu2sTV6Iu5a0M31oUEmvEO0oR2bl5bYRdxgfRbIhvx16jXsilDWpM0o7Nbqf17r3-M8Zva0HYMsyYPi3N-rnMMsDxehAd08NxXSEGuCv38AHuGgSwdRHPparf26K34hjTddE2mvw7vXJC2ULCK2-aHQFAik1Df-eDOWyCUGFBlqwUNAtOlaMN43oYBiIOCgwFF0ywg05K-9ItCYs.&pg=7TMYU3LZGBAWDNONAJ44P4VCGI&ch=AQEAEAABABTlJ-gammYpalMSeZLHz2lrLtUfTIA4Pwo.\nSecureNetflixId=v=3&mac=AQEAEQABABSlsDlr-sb8qA2VSBK5XBMzicrJn8NEwqo.&dt=1789715394939\nnfvdid=BQFmAAEBEGOT8MDEz2JYMbnAebMPj7dgvD8u72eF_WlC7-x7XKZTxc51hyzBy4HGrUuMXAK2eyWSyNfNF7u3ER-0srtXDa88qTwS2JgpUPswa6r6NwBuXcfEOy3tqZnWERReMTSx4xLNYMX3g3d2xgIj7dJ6eRSY\nisGpcEnabled=0&datestamp=Fri+Sep+18+2026+12:39:58+GMT+0530+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.163Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbvn9b58",
       "name": "promiseasiimwe69gmailcom UG 0026",
       "platform": "netflix",
@@ -451,5 +441,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:43.027Z"
+  "updatedAt": "2026-11-17T16:14:46.028Z"
 }
