@@ -31,16 +31,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbc5965",
-      "name": "brktpl 1903outlookcom Turkey 0150",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxLvA7QLr-GlNfkR-CCUbz8ju4wEo04Id4U6YD0Zl0cMILN-0mykgNIyqNEhervK2gFKEzRRXT-rWxzWtP5RHRkFhbe4yB-qSVpMCdFuWhM48dlE0-E5keSnk9yCBfMyvROeTrYH2dHfXM14cPjKWGhqoTRjsj5BRIhliumFF0Mcqi_Cpj6soAUtGULhkONBlCal_mfnzPkj0wQpA1HmG0LKKV6_gTktCSHwj1-CPX9s-hkyG7PBQ2ic3q-Dl2PZGdkF-yGVupf4QY_LXC3iS5tnlAGyK4TWbT7cnN3vHp0fOJ2aZy5Ie2JE35SO7nmPpf4-_mCU4cyPVXTbQBjV28hkNh8WF4ZEG5LiAaE0MrjYs3p48Nuo8ue6IV4sHHg8FGLr-asqayXTc8mbbdeNJwaNrONCzUpUxqEYgp0wOXmUaJjX9Nr0vn_ioNkL1oz-kZgKqi1d8R357qVDG5qFDA6CipcU3EIBufB0KMeGZk53wMKMJhLP4za5sJ4b-IeHmIfUM6IQmz6162j1FQT-XV3278Py-4eG_rzSFuGAa3-Jq5xgK3yeDVG4OQLZkYYmvHs1Haihyjxw6kXSpBoD51TMA6q7wDP1XaRYcdnzKsxsoMByoVfiqwTSSIC23EOgSBmBtyvlMmmuZ-kuOqh-ga0pRxgGIg4KDIxttLmn1WyPyMOBFA..&ch=AQEAEAABABRQmCvUcMXd7qm6tSZZ6Ru02QcczizsGs4.&v=3&pg=AYVXKAC4JJAPBDAYEI25NLP7DE\nct=BgjHlOvcAxLvA7QLr-GlNfkR-CCUbz8ju4wEo04Id4U6YD0Zl0cMILN-0mykgNIyqNEhervK2gFKEzRRXT-rWxzWtP5RHRkFhbe4yB-qSVpMCdFuWhM48dlE0-E5keSnk9yCBfMyvROeTrYH2dHfXM14cPjKWGhqoTRjsj5BRIhliumFF0Mcqi_Cpj6soAUtGULhkONBlCal_mfnzPkj0wQpA1HmG0LKKV6_gTktCSHwj1-CPX9s-hkyG7PBQ2ic3q-Dl2PZGdkF-yGVupf4QY_LXC3iS5tnlAGyK4TWbT7cnN3vHp0fOJ2aZy5Ie2JE35SO7nmPpf4-_mCU4cyPVXTbQBjV28hkNh8WF4ZEG5LiAaE0MrjYs3p48Nuo8ue6IV4sHHg8FGLr-asqayXTc8mbbdeNJwaNrONCzUpUxqEYgp0wOXmUaJjX9Nr0vn_ioNkL1oz-kZgKqi1d8R357qVDG5qFDA6CipcU3EIBufB0KMeGZk53wMKMJhLP4za5sJ4b-IeHmIfUM6IQmz6162j1FQT-XV3278Py-4eG_rzSFuGAa3-Jq5xgK3yeDVG4OQLZkYYmvHs1Haihyjxw6kXSpBoD51TMA6q7wDP1XaRYcdnzKsxsoMByoVfiqwTSSIC23EOgSBmBtyvlMmmuZ-kuOqh-ga0pRxgGIg4KDIxttLmn1WyPyMOBFA..&ch=AQEAEAABABRQmCvUcMXd7qm6tSZZ6Ru02QcczizsGs4.&v=3&pg=AYVXKAC4JJAPBDAYEI25NLP7DE",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.144Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbdpjy7",
       "name": "carlosnamanyagmailcom United States 0154",
       "platform": "netflix",
@@ -561,5 +551,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:12:11.854Z"
+  "updatedAt": "2026-11-17T16:12:14.997Z"
 }
