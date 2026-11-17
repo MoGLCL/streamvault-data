@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbw2e262",
-      "name": "RhysFlorimon867088outlookcom Turkey 0065",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEMbuJPeZUtDND4TIUyAQipJgAVPBkOoDWQrvx0MvEtzQLRQumc5gPsClgthaqWEeP-c15XyUEund3Jc3Wq7596xUMjm9wzsad_5Dmc1-s02o9A6Yn6Kj8RINgHVp2jfl9fd4uI1eYVEubBOzrwfD4M4F\nSecureNetflixId=v=3&mac=AQEAEQABABRM9IRiAmbyNwHzQ6GGqcCLb4kWswXWzCU.&dt=1791473757699\nNetflixId=ct=BgjHlOvcAxLlAzHSvUaeiqlG2uyDNsiMCdqcDUplGyFPpFqK8ck4tYxKmAuoGg3Eq8pcHw-i0amOylRbGztyjCe3Yaf5V1dQ9UtBRQojgeFzxAsgM4iK274cAKQiZMlvtPy1B1tCY8LzW8Nt5HWG9r7SV_EUnz2qBQk6WtpHAqQ0Gv7nanuFexJKrSAXxUk-s0vFIAwSOANCL4W2_FhAzbEKxGaNziVnXrOjxg7m6PizmGYss622khG5EXrQ-vYJmwvvxLP6EDPb88E1bR_ZR8gBHnyNjdAQ4jysEb4K2PlcEZYGb0NFDJsUpYr7CgwHRx8oVR7Y8APd4KBa7Wc3dEksD8L8TtEvhdIBXGdeSjF7J6Zrct_Lv7mGhgnHWw-kzdi3TSJe1-ZxZV846SZstLT7Mxgha2ikJ9l52Koy3dZ5N9d3VZY_XRiW7zvIvqTqpurwf4gf5TAzHOl23JnzBhhTYv0e4SMt8yZQWf4YdLKOou87IUXSZ60sOAe0Zck2j6AWH3i4cTEKSCDqovNQxYp1IbqzvMj_7Iv5iXw0LVsnqSspLQN3vPWo95rvbmz6Wjd3EsrMcFDBrI6loY-tbFYrM3Bml4aWDyAdsmRz62NOHVDFDdnEjYY_PhgjtdaHBg5z6oCOY_FygOzb4RX8GAYiDgoMuEbM3RXu0Rxrx6I-&ch=AQEAEAABABRIdDCIQCRWEK7I0luBcH7_t0xruowkDEc.&v=3&pg=ZMYKL34XMVHZTIGZXNC5O25DXI\nisGpcEnabled=0&datestamp=Tue+Jul+21+2026+18:28:58+GMT+0530+\nct=BgjHlOvcAxLlAzHSvUaeiqlG2uyDNsiMCdqcDUplGyFPpFqK8ck4tYxKmAuoGg3Eq8pcHw-i0amOylRbGztyjCe3Yaf5V1dQ9UtBRQojgeFzxAsgM4iK274cAKQiZMlvtPy1B1tCY8LzW8Nt5HWG9r7SV_EUnz2qBQk6WtpHAqQ0Gv7nanuFexJKrSAXxUk-s0vFIAwSOANCL4W2_FhAzbEKxGaNziVnXrOjxg7m6PizmGYss622khG5EXrQ-vYJmwvvxLP6EDPb88E1bR_ZR8gBHnyNjdAQ4jysEb4K2PlcEZYGb0NFDJsUpYr7CgwHRx8oVR7Y8APd4KBa7Wc3dEksD8L8TtEvhdIBXGdeSjF7J6Zrct_Lv7mGhgnHWw-kzdi3TSJe1-ZxZV846SZstLT7Mxgha2ikJ9l52Koy3dZ5N9d3VZY_XRiW7zvIvqTqpurwf4gf5TAzHOl23JnzBhhTYv0e4SMt8yZQWf4YdLKOou87IUXSZ60sOAe0Zck2j6AWH3i4cTEKSCDqovNQxYp1IbqzvMj_7Iv5iXw0LVsnqSspLQN3vPWo95rvbmz6Wjd3EsrMcFDBrI6loY-tbFYrM3Bml4aWDyAdsmRz62NOHVDFDdnEjYY_PhgjtdaHBg5z6oCOY_FygOzb4RX8GAYiDgoMuEbM3RXu0Rxrx6I-&ch=AQEAEAABABRIdDCIQCRWEK7I0luBcH7_t0xruowkDEc.&v=3&pg=ZMYKL34XMVHZTIGZXNC5O25DXI",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.164Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbxbz363",
       "name": "sandracuencaromerogmailcom Chile 0135",
       "platform": "netflix",
@@ -401,5 +391,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:55.886Z"
+  "updatedAt": "2026-11-17T16:14:59.027Z"
 }
