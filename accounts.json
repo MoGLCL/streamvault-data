@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbuvex53",
-      "name": "onepukapuka442yahoocojp 日本 0057",
-      "platform": "netflix",
-      "cookies": "NetflixId=v=3&ct=BgjHlOvcAxKSA6BX5l5Q9N8PByPB-n_kexJn7L4m0CoU5U4_o291JpXjqXphp38zrRuUuEVAzv_lFSShrpBztK7__fidrrDMhcTc1yB2iGuDirEBrun_qsAqb0bbMHkJ6tEdkqfaM3YVnNwO8FFJBdqyoAj3gJyda8JfNL1AYGASf5jPv-RmCDDLsBN8fhHWysV3krOnRceeaPPheWJikXkYFSLgKxULPQQjzG8H4deQLJHkSrb--4XdKXJkFGrIkmAhemFxSN_zLsTCCgqgp7fzn1pT8mhneBjzZd6P3Jlqgj6TQluESrNAF5YcJ4t4h0Two1WU7P83aNPuI-hCudCYrQNJxAgHjDQuZuJGjvbUKs4dKc4O76M0HWK1WnaS_yIHbA4_GFE1Ma7DcfsFSXZ7Zuc6G8yRSLO42Ai9r69ZSC1SR7mE0rU7rD0-wj3xyABFtlgGp0On6HAZWEncdIMMvt3z6Hpe_5Ba2uRSl5pt0QawWPrg-ycoY60pbBpH1wgmf_XU1Xj78CQsUQqq-zBr4hCg1OgOAaHWbRgGIg4KDPlSllBAiKZH03RaQw..&pg=ONPH4IGU3VHYLEPMSMSLN3JMCI&ch=AQEAEAABABQE7DRRTpSEICoszoPFmebFcD2xW8UIl2c.\nSecureNetflixId=v=3&mac=AQEAEQABABQbyFyywpUp3vIOmf2FDNFbVOFlPcjLUTE.&dt=1773885909219\nnfvdid=BQFmAAEBEAGT0eTr09FEJaNEvg5WSKRgK2XqH-OIhetXtC8ZOHNDJhx_Y9niKAvTxw3o7sdrD7mhmo6XPZUknIbqDq014l1DdY7AXLfJ86V4Ga4GUAvSVq191ofs0wW0OnXTbHifjxCV4bS0JSuQ_JnC4-Hbe69i",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.162Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbu8ad54",
       "name": "Pascalseipolt66gmailcom Germany 0118",
       "platform": "netflix",
@@ -491,5 +481,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:31.029Z"
+  "updatedAt": "2026-11-17T16:14:34.027Z"
 }
