@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbvpux55",
-      "name": "periperimandhigmailcom India 0164",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxKmAzGZOGyfv7BT9HrbQJR1nvbh0J711QLcZwynzdB1A-eLA_krxfLnXtKoZ0uSl5mgAS1inEI0irm8FI9ThaqBqydMXjkhInF5b7MqosNHMvkv7cEZ4waxQTW5rWiU8pJk8SGyQUvKs9uHjxekYAPV2fhDxpah6u6sx_1_Hn-4yymzMJvSH2LJqF9Hp1RsUFXJ8qQQvyopFuGcP6mUAwWgk3kqOP-CTy7x8mk9QTa34qKP6N0Wl35JVxsN26tARvbeuYg-3prK1ZQ4ZYl9qAPPdNnKIeUYre_6p5ma_m9uOwUvS_pocot6GQsExyTEnysObmuD8J9ZB9q0XbS309zHtJCH9YY4BeT1c2mI5_KuUKI5Rj1dfonG8lNZfyt4i-mjTYwODTrJUaucoeFWb5DtGWC42EUD_lsJI8EIz-vjE_f0wV7JTrnh0oh7CVnp0IhyxIrkpoYlSpAVJ2WArgpue8ybfOeQMD5Lh2T23e2B0Eu-uUfEDjslkwGSjYHtC4NhVGGV58mnDvpbbZWKY6LjmJMo22JJHpVgx9nxpD_iVyee6bsMRsq5GAYiDgoMXnu7dXOretRm6zbR&ch=AQEAEAABABT2jSDb_jK-lxNdWLwzOvvO1g4ciWF7c5Y.&v=3&pg=H6LHR6567NBJFONY5IWOEP3A44\nct=BgjHlOvcAxKmAzGZOGyfv7BT9HrbQJR1nvbh0J711QLcZwynzdB1A-eLA_krxfLnXtKoZ0uSl5mgAS1inEI0irm8FI9ThaqBqydMXjkhInF5b7MqosNHMvkv7cEZ4waxQTW5rWiU8pJk8SGyQUvKs9uHjxekYAPV2fhDxpah6u6sx_1_Hn-4yymzMJvSH2LJqF9Hp1RsUFXJ8qQQvyopFuGcP6mUAwWgk3kqOP-CTy7x8mk9QTa34qKP6N0Wl35JVxsN26tARvbeuYg-3prK1ZQ4ZYl9qAPPdNnKIeUYre_6p5ma_m9uOwUvS_pocot6GQsExyTEnysObmuD8J9ZB9q0XbS309zHtJCH9YY4BeT1c2mI5_KuUKI5Rj1dfonG8lNZfyt4i-mjTYwODTrJUaucoeFWb5DtGWC42EUD_lsJI8EIz-vjE_f0wV7JTrnh0oh7CVnp0IhyxIrkpoYlSpAVJ2WArgpue8ybfOeQMD5Lh2T23e2B0Eu-uUfEDjslkwGSjYHtC4NhVGGV58mnDvpbbZWKY6LjmJMo22JJHpVgx9nxpD_iVyee6bsMRsq5GAYiDgoMXnu7dXOretRm6zbR&ch=AQEAEAABABT2jSDb_jK-lxNdWLwzOvvO1g4ciWF7c5Y.&v=3&pg=H6LHR6567NBJFONY5IWOEP3A44",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.163Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbvvjr56",
       "name": "pranabbehera6gmailcom India 0012",
       "platform": "netflix",
@@ -471,5 +461,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:14:37.028Z"
+  "updatedAt": "2026-11-17T16:14:39.027Z"
 }
