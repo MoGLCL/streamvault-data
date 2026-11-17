@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mv7tacbx7fo64",
-      "name": "shadowstalk2020outlookcom Australia 0037",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEF1PbQS3lcAcQxjtiq_A_ohg7iNQlNNM1XB_Aw3aMMpJ2EwNddCAJpzcT92oLEn5ZKKJ4-PI4qQqDoHDjOpjgT0DMiSVAAyuvcp4SJUCP2EEPzCPURfJ1Url17Ip_wSXz_FDdQ964H1Ae9-btnZE4qWR\nNetflixId=ct=BgjHlOvcAxLvA8ZmlRZKaPWwtaPx1NQE5TrMGSlIzrBJvfOVd8klb8Bj4jSX-rBqmIT_8VKgwVx1jiagv3r-KjtTsHwfVGFKle-78AGdxXgCaZGhoGVvTqUCTpjGibIdcAMDrT3ToIaWXk-owcTwUwEjDY6fKif9AOMOGQU-xd9CBFu9r8TrDSdDF5tQruRBltfv2vizWK1a2lq0JZsFAjWIjtS7xxkIZsAK89sOKlspt_YN3RFriopeROK9YLkOHtHs12u-0zPPPGi_hjY0jfj9EPMHjiqmlvAK8wu_kGsxPEsCaclbLYmAvWaDHhbpT9fR4i7XCxluMBJWTABr6vbdMXP0nNB_wNPnJyzPv95oZJgKPbdMPyTnIMcdgmusw7GvJb1sU31RZnmtdzIjAdtdkg3Eu0TmDRN6yAUhSjpZhdmwZjFyORxBFxrC-7dL6Zo672V4Y_AjAr3w_by5BvqFRGu_GsxtFDeW6a1NjLfxiXsw9w2t7dNmzeWce-3hdIOkzHTXe1YtloFo8OMRmZQiv5TYetAEWHyuQS1ZTrezxhd5a7QBXJR-atuO2Cpt8XLYRK-1PeRgkVwsRRwgd9wGUCHqckwK6i48UfdcUs_F7svOlu53_Tu4MBgTOCvyq038lmJE52sEr2-fqoY-SCPEzDqYT3HAohgGIg4KDKLF8vE_zX3VeTVkGw..&ch=AQEAEAABABRZuIsbH75v4kNzjALhFUIpvlYe8yp1Axc.&v=3&pg=CDDD4SSCTZBOFNVY43S3GMJ22I\nOptanonConsent=isGpcEnabled=0&datestamp=Wed+Mar+18+2026+10:18:07+GMT+1000+(Australian+Eastern+Standard+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b6998c4e-3d22-4a00-ae61-518eef9795f8&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false\nSecureNetflixId=v=3&mac=AQEAEQABABSNiw_er7UhktDNxatwInIIn2_bi6nEUZU.&dt=1773793087281\nct=BgjHlOvcAxLvA8ZmlRZKaPWwtaPx1NQE5TrMGSlIzrBJvfOVd8klb8Bj4jSX-rBqmIT_8VKgwVx1jiagv3r-KjtTsHwfVGFKle-78AGdxXgCaZGhoGVvTqUCTpjGibIdcAMDrT3ToIaWXk-owcTwUwEjDY6fKif9AOMOGQU-xd9CBFu9r8TrDSdDF5tQruRBltfv2vizWK1a2lq0JZsFAjWIjtS7xxkIZsAK89sOKlspt_YN3RFriopeROK9YLkOHtHs12u-0zPPPGi_hjY0jfj9EPMHjiqmlvAK8wu_kGsxPEsCaclbLYmAvWaDHhbpT9fR4i7XCxluMBJWTABr6vbdMXP0nNB_wNPnJyzPv95oZJgKPbdMPyTnIMcdgmusw7GvJb1sU31RZnmtdzIjAdtdkg3Eu0TmDRN6yAUhSjpZhdmwZjFyORxBFxrC-7dL6Zo672V4Y_AjAr3w_by5BvqFRGu_GsxtFDeW6a1NjLfxiXsw9w2t7dNmzeWce-3hdIOkzHTXe1YtloFo8OMRmZQiv5TYetAEWHyuQS1ZTrezxhd5a7QBXJR-atuO2Cpt8XLYRK-1PeRgkVwsRRwgd9wGUCHqckwK6i48UfdcUs_F7svOlu53_Tu4MBgTOCvyq038lmJE52sEr2-fqoY-SCPEzDqYT3HAohgGIg4KDKLF8vE_zX3VeTVkGw..&ch=AQEAEAABABRZuIsbH75v4kNzjALhFUIpvlYe8yp1Axc.&v=3&pg=CDDD4SSCTZBOFNVY43S3GMJ22I\nisGpcEnabled=0&datestamp=Wed+Mar+18+2026+10:18:07+GMT+1000+",
-      "isWorking": null,
-      "addedAt": "2026-10-14T07:51:57.165Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mv7tacbx4k765",
       "name": "shaolongmarkgmailcom الإمارات 0067",
       "platform": "netflix",
@@ -381,5 +371,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-17T16:15:01.027Z"
+  "updatedAt": "2026-11-17T16:15:05.027Z"
 }
