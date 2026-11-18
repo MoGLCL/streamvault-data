@@ -65,9 +65,9 @@
       "name": "iamalexm07gmailcom Philippines 0165",
       "platform": "netflix",
       "cookies": "NetflixId=ct=BgjHlOvcAxLeA55ytk1lMGAa3JkmO3NbhBibe2I66F6myM47FYCYdibj-7C-VPn7AHfGr7YZj1-I0N21dA64gLZSNJ8ygRGCvtLAPSvHJeBUfgTzsjeuq5MWMPd6_RTPqVpZ8IilH19P7yYEY-6cQYL1kKvw8aXRwqmu0nkpWE0aAjmukvswxjibbRhLuDOnekbrJ909rK3UP8WbM3K66ocBe29H1bmDn7s_1CCbyhSoNfEYvXj8zz1SCTUip4iOiy0MnySpxhlwofESbYMq5CrnagfuMZmqCPLT3NvLIFS0GQ8bTMgI-RjqLGoxGzpl4uM7t9wzFKtVSn3awKafksFGw_0OjG-zfKFYynpQFoM782cEDshkV3CIo8UV04kUQYtc68DXLL-Jsoa0OY1I89jBnJCraDleGLLxTRgRXQNFslXY63sRXzXCwd0S8OaiHG6LRNCO9KJipscf0Q5LZI6L1GcEFXGUkC3Q-_CUQ1XSw1afMaZwoWoSFBcjT-dJ3dOBvybFHzf2cOEgGrjCG2zStemTwkIcCkvar6YmZ19M_pmQYNk_K1QG_512syX3Yy1KW8Qio18zoryHlTKdb_eCDd9vB9vcmUNrqy_WAiuFJujZlNknnPCUoKdwNbnaF1vJuhJ9QgIYBiIOCgx2_LaFag-0DUjF3hs.&ch=AQEAEAABABRTHVAcHvJtCs4MdeeU0PXimf1KXl5A8po.&v=3&pg=WIILZB3O65E27GZAXU35GYSFHM\nct=BgjHlOvcAxLeA55ytk1lMGAa3JkmO3NbhBibe2I66F6myM47FYCYdibj-7C-VPn7AHfGr7YZj1-I0N21dA64gLZSNJ8ygRGCvtLAPSvHJeBUfgTzsjeuq5MWMPd6_RTPqVpZ8IilH19P7yYEY-6cQYL1kKvw8aXRwqmu0nkpWE0aAjmukvswxjibbRhLuDOnekbrJ909rK3UP8WbM3K66ocBe29H1bmDn7s_1CCbyhSoNfEYvXj8zz1SCTUip4iOiy0MnySpxhlwofESbYMq5CrnagfuMZmqCPLT3NvLIFS0GQ8bTMgI-RjqLGoxGzpl4uM7t9wzFKtVSn3awKafksFGw_0OjG-zfKFYynpQFoM782cEDshkV3CIo8UV04kUQYtc68DXLL-Jsoa0OY1I89jBnJCraDleGLLxTRgRXQNFslXY63sRXzXCwd0S8OaiHG6LRNCO9KJipscf0Q5LZI6L1GcEFXGUkC3Q-_CUQ1XSw1afMaZwoWoSFBcjT-dJ3dOBvybFHzf2cOEgGrjCG2zStemTwkIcCkvar6YmZ19M_pmQYNk_K1QG_512syX3Yy1KW8Qio18zoryHlTKdb_eCDd9vB9vcmUNrqy_WAiuFJujZlNknnPCUoKdwNbnaF1vJuhJ9QgIYBiIOCgx2_LaFag-0DUjF3hs.&ch=AQEAEAABABRTHVAcHvJtCs4MdeeU0PXimf1KXl5A8po.&v=3&pg=WIILZB3O65E27GZAXU35GYSFHM",
-      "isWorking": null,
+      "isWorking": true,
       "addedAt": "2026-11-18T08:01:49.434Z",
-      "lastTested": null,
+      "lastTested": "2026-11-18T08:06:40.215Z",
       "cookieFormat": "key-value"
     },
     {
@@ -2021,5 +2021,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-18T08:06:39.169Z"
+  "updatedAt": "2026-11-18T08:06:45.170Z"
 }
