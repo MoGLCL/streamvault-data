@@ -95,9 +95,9 @@
       "name": "joelmorparoutlookcom Canada 0155",
       "platform": "netflix",
       "cookies": "NetflixId=v=3&ct=BgjHlOvcAxKFAztBHeEENT0hTdSPLm-WWeP6SjeY5_J2ILb0UzJxPN8RhVGYoVh2f5gIT7l_EC8nTxB2F5LWPxyFNJrYFfiO9S9_TKJkzTv5G4XMhP1AZXyQ1Is4ZGIJC3MrWVAZuBr8rj9Ja77mnOtBjrfIvk5Pj9PKem-lS2W_uWmlTr8NZCAnHx5PuGDDfWsLS4dXg0l9AxjMkwwGNSTyo544K8E6NSRuDZ_QSEBRdcg5bzYaq2X4bW1eKRDN4-0Qe6rFMX25qoD8jZhVPlEnVdN90NAP2hlBLk0eWyuSgrf0F6iX3QnCYVmKQszjLq83Ern90w7hb-bVUKEDABUBDlVUQhxxCQ1E1uHxxxKrsfVcc5qAFBUobGLIlWQalKxUoeC0dlb1xWJ_dp1eiYkzE2PjniRqpx3DF4YfoSkpJQAUPpHuetmyJnBXcQS3sRDGe9XMqE3ct5LpO0v219JNOTP7Fo_5sxyikuCFPKUl2E7eoA5EhQkPcYPyFp31t_olIr_YBqAOh2C5SVxcGAYiDgoMSZGp7q1xwoACZ3tb&pg=OQVGZMQYWBCLPER4UY3IEFZPLI&ch=AQEAEAABABRKcOeQk96sUxPX4eqTJVqfkaqGtifEBN4.",
-      "isWorking": null,
+      "isWorking": true,
       "addedAt": "2026-11-18T08:01:49.435Z",
-      "lastTested": null,
+      "lastTested": "2026-11-18T08:06:56.157Z",
       "cookieFormat": "key-value"
     },
     {
@@ -2021,5 +2021,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-18T08:06:55.718Z"
+  "updatedAt": "2026-11-18T08:07:00.167Z"
 }
