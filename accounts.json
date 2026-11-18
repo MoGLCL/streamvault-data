@@ -101,16 +101,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mwlu1unxkc312",
-      "name": "jpekovic28gmailcom RS 0097",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct=BgjHlOvcAxKKBNSsm_WqI1w2dqcdYEP-Ol6IvgBvjG_fuUSCZN178J85Dot9R8z2kSPEyG24m9hzeJy9aGxQrRdxmWAA1T9hoUG7meGgL5S-PMl5BtdqGnokmKx71HJtWoFcCPML_4ilaCn6MclAdYSnA7TtkZzRMcjq_rEmWjnV_LfAQsYjE9cviVWOmg3wWZ-w9-M1M31-x7NoNKboN3yIeHxhIK5UqxH7gzh0m-sp1O7Xx2J90Sop8dH0HdB2upCkvZB1h47MFcpetdHeOiaN1g1Q1bA3NOZKTcBINJKSopcxvhTcVceIsG1xcILasxzGg7VQ_03MNuBPKWXilEdBU1XxUhm2gyezIvUybLlAcn_6aoAW26nCEWrcIKUSbU7saG0Y9kmHq5X_TxTjFGWJQIqFmquCb1xSPIpz8jcwj1x0NhRcP7POxXEgmr1FmAzh-eSDjzO8Szi7Tz2wgCsYe6hTYUhCtq4Wo0SSP4iY2Y4ODofrQ_5JEziTwRa6jYFGLcGi-5d7mTnNKRu50gsw9m8ULWmdY3Bzq2DtKPvH8CNVmYz4yl4mn9LhLMET55zCc5Vp5TWZAvT2SB9A2u0fkeAoquUT7K7I3d0tyNdcZL4QbE8LEH2g8PH93bA51sVr6mbS1glE3hPkz9bmAOkDh4dB7zM849Nn8GkbQ8-h5zliIK8AolT6fsGq9BLXJ65mMRgGIg4KDPHPj4doKuKXseLtWw..&ch=AQEAEAABABRPVK7oY3p9FyHr-ipp8jPbBRg1k8fWZTw.&v=3&pg=K47XCFXHBFC3BKN6HX3ZU5OULE\nct=BgjHlOvcAxKKBNSsm_WqI1w2dqcdYEP-Ol6IvgBvjG_fuUSCZN178J85Dot9R8z2kSPEyG24m9hzeJy9aGxQrRdxmWAA1T9hoUG7meGgL5S-PMl5BtdqGnokmKx71HJtWoFcCPML_4ilaCn6MclAdYSnA7TtkZzRMcjq_rEmWjnV_LfAQsYjE9cviVWOmg3wWZ-w9-M1M31-x7NoNKboN3yIeHxhIK5UqxH7gzh0m-sp1O7Xx2J90Sop8dH0HdB2upCkvZB1h47MFcpetdHeOiaN1g1Q1bA3NOZKTcBINJKSopcxvhTcVceIsG1xcILasxzGg7VQ_03MNuBPKWXilEdBU1XxUhm2gyezIvUybLlAcn_6aoAW26nCEWrcIKUSbU7saG0Y9kmHq5X_TxTjFGWJQIqFmquCb1xSPIpz8jcwj1x0NhRcP7POxXEgmr1FmAzh-eSDjzO8Szi7Tz2wgCsYe6hTYUhCtq4Wo0SSP4iY2Y4ODofrQ_5JEziTwRa6jYFGLcGi-5d7mTnNKRu50gsw9m8ULWmdY3Bzq2DtKPvH8CNVmYz4yl4mn9LhLMET55zCc5Vp5TWZAvT2SB9A2u0fkeAoquUT7K7I3d0tyNdcZL4QbE8LEH2g8PH93bA51sVr6mbS1glE3hPkz9bmAOkDh4dB7zM849Nn8GkbQ8-h5zliIK8AolT6fsGq9BLXJ65mMRgGIg4KDPHPj4doKuKXseLtWw..&ch=AQEAEAABABRPVK7oY3p9FyHr-ipp8jPbBRg1k8fWZTw.&v=3&pg=K47XCFXHBFC3BKN6HX3ZU5OULE",
-      "isWorking": null,
-      "addedAt": "2026-11-18T08:01:49.437Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mwlu1uny5tv13",
       "name": "kaifkhan65185gmailcom India 0159",
       "platform": "netflix",
@@ -2011,5 +2001,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-18T08:07:06.171Z"
+  "updatedAt": "2026-11-18T08:07:13.938Z"
 }
