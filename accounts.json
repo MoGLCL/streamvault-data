@@ -15,9 +15,9 @@
       "name": "gabbobelizangmailcom Argentina 0018",
       "platform": "netflix",
       "cookies": "nfvdid=BQFmAAEBELAbMYwUXLdbzvuuD45CSdNgEO4LBtGAe5WI94sMaNUPj8jr1dCjZc0nW4cZpNfsbbTT8lOSlEPOQiqfzkPVq8HUqlb45apdsZ9KAcOgS-zmLWnG4Jwnxudq9Mhd1GZG1FtX1S-sZeNjD2fn4_rVWWEH\nNetflixId=ct=BgjHlOvcAxKLBMAvkMuAgicNtUh1Ab1wGaekot2FEbfIT2EnVAB3FQyLruq6OGt3KHk1yQgarUccJcYWh-UVVyjPsmxgZFc1jKIEYWnhX68lcyjRwhbKI6FAqDrnjxJgb0vMt2lM63D6MRUvoF8yOPne4PLFpxBvkqeT1sty0AMhZLLZ29GAP56x4r-qTbF4t3T8vcG9lU0DRftyLHZVu4h1DgfpUI-DN3lae2q2ogkjAJYDiKSc2suT3CLrpXhpojgXIQe3r4phezrZK7TSaaFZxXebGnFjI1dRK6wsQDy_mlWp_Y1sd1CjUucBuwintuAJ3ee08Ru6xlK3YnM4PpEnVLhGS5WNtiTvOjLjrrht-N_P8Qc98LuFSW6YIxczjX8pYPqtgUshRxDzyYcE9eZ6GArHO9FOI92vinR3AcjF0BMo1-PNqQof20eHzlq-FWcFoCLjZqqSKPaVEyVwkSYEJlu4WiaxSz-1HVnoBXvK7ihPFEOZkbFc6LtL-kSjKYb4UpvnmQEy-sm6wZy7er3I29Gy0trNxUJvP9-8bdOGtK3xIQ9wr8Y4y5F8_337Q28IZp3i7vJLduS04tGJdT2Ghybi2R1hnLih7fTMoxOhk8jLqkhFCNMBcKdWdqrjxvzCjLwlIA9niSWOrl-nFQ-4bGgBjcoiFa1KdXgfdC9LHtoX5s3NUF-V6c453trSumyclSoYBiIOCgxUKi9V2Iwth10dVpU.&ch=AQEAEAABABQ0lrGJkgrp2_N4w12b7W-otKhDjoaIRMc.&v=3&pg=X2SSP63Z5BBFVN3H3RRBOTR6WY\nOptanonConsent=isGpcEnabled=0&datestamp=Thu+Aug+20+2026+23:05:53+GMT-0300+(hora+estándar+de+Argentina)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4af600fc-ab2b-466d-a812-b1ee1a97c1e0&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0\nSecureNetflixId=v=3&mac=AQEAEQABABQgm2YsIak6SgKGJ_lKk19XMy5cUGWSUic.&dt=1787277951200\nct=BgjHlOvcAxKLBMAvkMuAgicNtUh1Ab1wGaekot2FEbfIT2EnVAB3FQyLruq6OGt3KHk1yQgarUccJcYWh-UVVyjPsmxgZFc1jKIEYWnhX68lcyjRwhbKI6FAqDrnjxJgb0vMt2lM63D6MRUvoF8yOPne4PLFpxBvkqeT1sty0AMhZLLZ29GAP56x4r-qTbF4t3T8vcG9lU0DRftyLHZVu4h1DgfpUI-DN3lae2q2ogkjAJYDiKSc2suT3CLrpXhpojgXIQe3r4phezrZK7TSaaFZxXebGnFjI1dRK6wsQDy_mlWp_Y1sd1CjUucBuwintuAJ3ee08Ru6xlK3YnM4PpEnVLhGS5WNtiTvOjLjrrht-N_P8Qc98LuFSW6YIxczjX8pYPqtgUshRxDzyYcE9eZ6GArHO9FOI92vinR3AcjF0BMo1-PNqQof20eHzlq-FWcFoCLjZqqSKPaVEyVwkSYEJlu4WiaxSz-1HVnoBXvK7ihPFEOZkbFc6LtL-kSjKYb4UpvnmQEy-sm6wZy7er3I29Gy0trNxUJvP9-8bdOGtK3xIQ9wr8Y4y5F8_337Q28IZp3i7vJLduS04tGJdT2Ghybi2R1hnLih7fTMoxOhk8jLqkhFCNMBcKdWdqrjxvzCjLwlIA9niSWOrl-nFQ-4bGgBjcoiFa1KdXgfdC9LHtoX5s3NUF-V6c453trSumyclSoYBiIOCgxUKi9V2Iwth10dVpU.&ch=AQEAEAABABQ0lrGJkgrp2_N4w12b7W-otKhDjoaIRMc.&v=3&pg=X2SSP63Z5BBFVN3H3RRBOTR6WY\nisGpcEnabled=0&datestamp=Thu+Aug+20+2026+23:05:53+GMT-0300+",
-      "isWorking": null,
+      "isWorking": true,
       "addedAt": "2026-11-18T08:01:49.430Z",
-      "lastTested": null,
+      "lastTested": "2026-11-18T08:06:02.503Z",
       "cookieFormat": "key-value"
     },
     {
@@ -2031,5 +2031,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-18T08:06:01.545Z"
+  "updatedAt": "2026-11-18T08:06:07.166Z"
 }
