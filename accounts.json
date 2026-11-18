@@ -101,16 +101,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mwlu1unwny211",
-      "name": "jolethcasot29gmailcom NI 0124",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEOGzDduROkYI5kCsO6e80Vpg3QIDOLZEiQPz7mppfSqJh5yerr6j_5Loug3b1EvjIL-eZUGb2JwCqx6orq-Y7WjeUcrQWdH4Z7dFYD7ji6vRmchOZ8Kc6HiL0TF0MpB3cyuNVm3OzHzvPYsOJQoJkki-\nNetflixId=ct=BgjHlOvcAxKBBOKpJCcnECfCs707SmPv_hr-0AJbqLF2uJcd9ApliiAao81hf-XfnM6aY_4upyhVcWLaNodlGm1QugvAVlmZTfly_-gnNQ3e4rMbq6eWStA20A2grDj45FsduQQRnIjCNFf5Cv0ZPGD4nFrnW-lQq00O4G5ac9UJb9WM3ehII_SKII4zHDr3YSwor_P4O0lRitPQMPGE2sjSvF0C81MVX8IdfEgA_lW1GIFx5NFVadHY9XagEXL2XB0oCU5P0JIs3Gj-vpexF0ouMDDYN5kTyJCW_KJrIoCDn9xR7NrHdwOitYtq9U1c7vSUHVnhoGgrC8v0UZJ2VcSTZQYb_6PYscyITfa8geQpeKn0BPa5M66BTHX0ZZSHL_uC6N14nBEocbxyUWnFuLtoh0Pb1SCoS-LYiELOZyjyivcA3K_YKvPSBCPuyI3tT_7WgvFJ0v6WuvzxaZ8wCsfJaV4n7_aEQYXH1jGP44n8a_IF5Vzrzjg2icrxAwMUMzPTchZBAzc8C3gLU80jX1Cm8m7PCiV3gIZYLEqPVlIrN_0rcuZEt2LdXbdwx_WX4DC0KtIf_0WBFosAqGRQ0MX7G8ehhXpce8CrG7GuM7O05oLjKygDFy92_VquGrhIvg-jTgsjoruY-eZovPXSo6Ju_3tmjnRqD9uyqHKJUkmmAtlRh0_85z4k6xgGIg4KDNg_2q8MYGvOkqxGeg..&ch=AQEAEAABABSXw2LoHKSs4vltbTmBkPKpGtaLXgcrBck.&v=3&pg=QHLPWDSZQFCSZII5LJJQSCCJVA\nOptanonConsent=isGpcEnabled=0&datestamp=Fri+Sep+04+2026+22:58:06+GMT-0600+(hora+estándar+central)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=3cc9c4e8-263c-466b-bf6c-d1c784d86980&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&AwaitingReconsent=false&isDntEnabled=0&prevHadToken=0\nSecureNetflixId=v=3&mac=AQEAEQABABTOdgM505JSdIcBecMqynWRqyRiq0jlJJ4.&dt=1788584282679\nct=BgjHlOvcAxKBBOKpJCcnECfCs707SmPv_hr-0AJbqLF2uJcd9ApliiAao81hf-XfnM6aY_4upyhVcWLaNodlGm1QugvAVlmZTfly_-gnNQ3e4rMbq6eWStA20A2grDj45FsduQQRnIjCNFf5Cv0ZPGD4nFrnW-lQq00O4G5ac9UJb9WM3ehII_SKII4zHDr3YSwor_P4O0lRitPQMPGE2sjSvF0C81MVX8IdfEgA_lW1GIFx5NFVadHY9XagEXL2XB0oCU5P0JIs3Gj-vpexF0ouMDDYN5kTyJCW_KJrIoCDn9xR7NrHdwOitYtq9U1c7vSUHVnhoGgrC8v0UZJ2VcSTZQYb_6PYscyITfa8geQpeKn0BPa5M66BTHX0ZZSHL_uC6N14nBEocbxyUWnFuLtoh0Pb1SCoS-LYiELOZyjyivcA3K_YKvPSBCPuyI3tT_7WgvFJ0v6WuvzxaZ8wCsfJaV4n7_aEQYXH1jGP44n8a_IF5Vzrzjg2icrxAwMUMzPTchZBAzc8C3gLU80jX1Cm8m7PCiV3gIZYLEqPVlIrN_0rcuZEt2LdXbdwx_WX4DC0KtIf_0WBFosAqGRQ0MX7G8ehhXpce8CrG7GuM7O05oLjKygDFy92_VquGrhIvg-jTgsjoruY-eZovPXSo6Ju_3tmjnRqD9uyqHKJUkmmAtlRh0_85z4k6xgGIg4KDNg_2q8MYGvOkqxGeg..&ch=AQEAEAABABSXw2LoHKSs4vltbTmBkPKpGtaLXgcrBck.&v=3&pg=QHLPWDSZQFCSZII5LJJQSCCJVA\nisGpcEnabled=0&datestamp=Fri+Sep+04+2026+22:58:06+GMT-0600+",
-      "isWorking": null,
-      "addedAt": "2026-11-18T08:01:49.436Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mwlu1unxkc312",
       "name": "jpekovic28gmailcom RS 0097",
       "platform": "netflix",
@@ -2021,5 +2011,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-18T08:07:00.167Z"
+  "updatedAt": "2026-11-18T08:07:06.171Z"
 }
