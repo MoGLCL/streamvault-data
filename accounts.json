@@ -55,9 +55,9 @@
       "name": "hsyen0125gmailcom TW 0001",
       "platform": "netflix",
       "cookies": "nfvdid=BQFmAAEBEDXguBxIlGNr6-ZcWOO6i_5gc-NgvPOapwiFuhGEdh0I3hL1zAF5POmPCQAM86uvyOSRRwhifbpGHDSegs6tTmGbSFlBqUF5F9AZ3DgRI0c4O148_leHMN7vX09grdcmYCMfmw3lyE9fQ6JS7QDwJu9Z\nNetflixId=ct=BgjHlOvcAxLMA8hvMtyL4BtXgcypS3ZtKgOqk9fhKqeZ7jzE7lnl_RMgyE_cS_cP728NQr6tGNl1jj4e-4GpMHCVXHTeGENqZOVY7jrSFg_S6NOoNRgdgCo9ZV2lbOdybS06L6GUemDcXDL5uMOpE31hXpv_Hsde6emYkGYwmsIXC47EHtvA1GIPe6ddnr8zK1PTh6iwTA9iTEM4XW7fYOeajgw_-m5hsIt1REth0MXAJRJmpVtnJZmuVdlp_Ge1MwMKGJaWo-Er3xZE53rxxiBEsJsxpHkelxxxUOIz5K8-NAFfPc630AwjCuk24AbUn9236Y5QEyKTKq9D4qxTJzO8azyJIOPiPxI2AVnCE8IspMWuAS6VjAx-CsiOqtpU62u6NBqtwec9v6vCGmwmTUAA9P1dXMCdFYljozOUWbnr7kUZeNbhvCX-1HpBXHBVuhaRzc74u7MGlRtr7ukoG8igeI_zcvxuweA3c7BJpO1jGyKdajsDplk7K05pyIyx8OQsK5JpulIn9NgriOtS-bg4k87OKJ0wYa6g0TuAhvZ4jZLqEgonNQ6SZpK5GzhthMQ7vbMIf3JEdNIEEDKAF_6-axzrkeJCkwu-7y5FNP3-EaO-4TUYBiIOCgyRj7tLtSYzDSLQuBQ.&ch=AQEAEAABABQITJ-5p-W0JzC3X8haybGOI-hcEx6q14M.&v=3&pg=U5WGLRE5CBDXTANYDUQSSE5E4Y\nOptanonConsent=isGpcEnabled=0&datestamp=Sun+Aug+02+2026+14:35:14+GMT-0700+(Pacific+Daylight+Time)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=4dc58138-a4fa-4f1e-a611-ac282a9e0373&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&crTime=1784186598527&AwaitingReconsent=false\nSecureNetflixId=v=3&mac=AQEAEQABABRobH1T28c7hr09NPiydmGHGwOj6lAHKqs.&dt=1785706515600\nct=BgjHlOvcAxLMA8hvMtyL4BtXgcypS3ZtKgOqk9fhKqeZ7jzE7lnl_RMgyE_cS_cP728NQr6tGNl1jj4e-4GpMHCVXHTeGENqZOVY7jrSFg_S6NOoNRgdgCo9ZV2lbOdybS06L6GUemDcXDL5uMOpE31hXpv_Hsde6emYkGYwmsIXC47EHtvA1GIPe6ddnr8zK1PTh6iwTA9iTEM4XW7fYOeajgw_-m5hsIt1REth0MXAJRJmpVtnJZmuVdlp_Ge1MwMKGJaWo-Er3xZE53rxxiBEsJsxpHkelxxxUOIz5K8-NAFfPc630AwjCuk24AbUn9236Y5QEyKTKq9D4qxTJzO8azyJIOPiPxI2AVnCE8IspMWuAS6VjAx-CsiOqtpU62u6NBqtwec9v6vCGmwmTUAA9P1dXMCdFYljozOUWbnr7kUZeNbhvCX-1HpBXHBVuhaRzc74u7MGlRtr7ukoG8igeI_zcvxuweA3c7BJpO1jGyKdajsDplk7K05pyIyx8OQsK5JpulIn9NgriOtS-bg4k87OKJ0wYa6g0TuAhvZ4jZLqEgonNQ6SZpK5GzhthMQ7vbMIf3JEdNIEEDKAF_6-axzrkeJCkwu-7y5FNP3-EaO-4TUYBiIOCgyRj7tLtSYzDSLQuBQ.&ch=AQEAEAABABQITJ-5p-W0JzC3X8haybGOI-hcEx6q14M.&v=3&pg=U5WGLRE5CBDXTANYDUQSSE5E4Y\nisGpcEnabled=0&datestamp=Sun+Aug+02+2026+14:35:14+GMT-0700+",
-      "isWorking": null,
+      "isWorking": true,
       "addedAt": "2026-11-18T08:01:49.434Z",
-      "lastTested": null,
+      "lastTested": "2026-11-18T08:06:34.557Z",
       "cookieFormat": "key-value"
     },
     {
@@ -2021,5 +2021,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-18T08:06:30.376Z"
+  "updatedAt": "2026-11-18T08:06:39.169Z"
 }
