@@ -75,9 +75,9 @@
       "name": "jiwfikbyterflyscom India 0123",
       "platform": "netflix",
       "cookies": "OptanonConsent=isGpcEnabled=0&datestamp=Tue+Oct+06+2026+00:32:54+GMT+0530+(India+Standard+Time)&version=202607.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=6850ce66-9922-437e-ad7f-ce7ceebfca82&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001:1,C0002:1,C0003:1,C0004:1&crTime=1791226971895&AwaitingReconsent=false\nSecureNetflixId=v=3&mac=AQEAEQABABTBUs16UgEbeA5Q62ijBKT1zhtEfWkPe_o.&dt=1791226971765\nNetflixId=v=3&ct=BgjHlOvcAxKmAwRTFOxz236SGxMguiQrV-rbPppNVF6C_hmJz70WlZMTVNsE92nFYQjQ_JG0XU250QauoBXYfYtZuuuZGGlhQYv6HHdNV2ZgEytzD4T7yKHDyMyIu0AgtFmTV8MFPvldM3Vn_xruPRaXq26ZzxyXPBWjDn5AlIg9h_du6n8aeCph8Otbh0BZl-8NxRErsTkVlhHUD3KOWDXGqOWvgdJI408o7_y3BkBCGJccLAo3tQhKKOADy_ZlknIC8ycrdI7IQmf_iahgRca-zR8yOTi_fuL6UQvjCdq3ZanJ61e9sPrXZkf90eWuskp_qz-hvaJ2QVVGwwVbNFkqOwvka2BqyoUI-1YgjmveHnt9pQYezen0Te0fQrzQgVjBCZzDTNgn3BOIZCm_5boUJAH9A2-vavZYm5x8dmbp7F9MPtX911Zo97sWRC3Qs93CkaiLI2Eptsx70CmBOyNRyP-MLteNB4diZcbgAX_3u8Q9dWsTTkjz9RPODSZap0ToQxAWFqAYvUzQ7-bXs9xPkhIk5OrNbJFsuu3azyN56_ZeprKpDlcub6yRmlIMGAYiDgoMn5YvwN6fGa2I4JC8&pg=QGMYHOQH7JHWHBXJFC6KVKK27U&ch=AQEAEAABABRE8OURSNYd8Wmenj7SPVwbKgSNfNT_gTw.\nnfvdid=BQFmAAEBEMOtp67vvFvcWBb98uj__f1g42PrXAjzumQAGmmDSc36_-GQuWthNGq-Ze7wTABWZ2XeU7GIl3LiU-n0Fa6aG7eyMUNpoKVV0w73YAhHr4aD5w4FeqYW4r-j5pTJ3MFgsDECuZQklYBSbzKPfNA286xl\nisGpcEnabled=0&datestamp=Tue+Oct+06+2026+00:32:54+GMT+0530+",
-      "isWorking": null,
+      "isWorking": true,
       "addedAt": "2026-11-18T08:01:49.435Z",
-      "lastTested": null,
+      "lastTested": "2026-11-18T08:06:47.222Z",
       "cookieFormat": "key-value"
     },
     {
@@ -2021,5 +2021,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-18T08:06:45.170Z"
+  "updatedAt": "2026-11-18T08:06:51.238Z"
 }
