@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mwlueqm890v18",
-      "name": "[Premium] [1 payments] [extra No] [BR] [keniahelainealvesvasconcelos@gmail.com]",
-      "platform": "netflix",
-      "cookies": "NetflixId=ct%3DBgjHlOvcAxLkA4sfWtyzO76586Ri-9Nd2kxIcCTgq0vuakm-R_KxtViUiMVVKUJ6k7LH-_31znx2w5fVTBl_d3mViBihtwxSbDjqVfTZrILy0kW7awPHR4ekoVgOr1LaK_S79kMvYLHmpCmq7-Y5ocXJfHGej4uQK66DEV64cXClnip1jB6B9hRh_ISro9Jllt9aW3ZfgBxqYhObV373o9jBcdV24ILgROzRxr1aIlIC9_9wbzwKXKt75PbqUMjVNij0koo4oNeCho33YB6ibQsDTeM1PopJKVdNbr7SGZesps2JgRYCVZ3xOTEJtIr-gEk0GF9m9dxA0MdR6QbJUxwfR9MBaGYa8q_In0zlc16dn8Ed0hqNOAVX_fs8gQrGdJMdYjH6aKlB--IAKbeIrE0c-716lUU7pze9mhH88MFEg02QpfYi9TYc94WmE8oye_b1djLR19f4D7sdYWbrFJHeREmJvrhzDQjs3sV3iZUHiK2NIEqK_DhnrNY1nd2bZM9JEeXluZZaicukQkIOaOTo6ybilBICnoCJdamS5VXVRdPPCh_Jp9Rqb8G2TM9MzWjmUncC_cZbbCBk7NMgLzYkQRnREmE_Wp34GNXKVKCBx-wZnd20FC-gsh9wVQwDXqOSs-k08ouc75h50NAYBiIOCgwtAMEa32FkfipOZY0.%26ch%3DAQEAEAABABQWYp9WlT6QstVt9aBTFfcWaBgp7qiXyL0.%26v%3D3%26pg%3D7UFPXIQNQ5EPDHBH5QDW2UTJ6I\nOptanonConsent=isGpcEnabled=0&datestamp=Sat+Sep+12+2026+23%3A11%3A01+GMT-0300+(Hor%C3%A1rio+Padr%C3%A3o+de+Bras%C3%ADlia)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a7af3b0d-8a8a-4d8b-a29f-b79d9b30e310&interactionCount=3&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&intType=3&geolocation=BR%3BMG&prevHadToken=0&isDntEnabled=0\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABSpDNx6xAk_xlSibFUsQixO9dRBQ5pWVdE.%26dt%3D1789265458449\nisGpcEnabled=0&datestamp=Sat+Sep+12+2026+23%3A11%3A01+GMT-0300+",
-      "isWorking": null,
-      "addedAt": "2026-11-18T08:11:50.720Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mwlueqm8zcx19",
       "name": "[Premium] [1 payments] [extra No] [BR] [lisnei22@gmail.com]",
       "platform": "netflix",
@@ -7421,5 +7411,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-20T23:13:28.023Z"
+  "updatedAt": "2026-11-20T23:13:58.269Z"
 }
