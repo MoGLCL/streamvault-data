@@ -161,16 +161,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mwlueqm8zcx19",
-      "name": "[Premium] [1 payments] [extra No] [BR] [lisnei22@gmail.com]",
-      "platform": "netflix",
-      "cookies": "NetflixId=v%3D3%26ct%3DBgjHlOvcAxK0A-ruh9XahgkByTvZK8FRigAgoi_eR4nLW4vQSSCvpvdwBwS-VXx_XyhwBR2L9hSYkAJaizRzx410qmNtJSmsxP41Lk10OvR4_aRg3SIKQ3OrvCUCPgrswdFe_BRkYR5yukETshh0y5Ds09byydNWka3ngO4TnZTvFxh2naN8BHHSyoOjBOoZ6Kkii8C_QIT-wcAQikjpAz6xWcM8oVUhhiQ0Rb5meMGZAYpExMZOjqcBQMSZDEPa7UkCARrF1097a2VGN3iVSPb7I79lz_0zwHB6SdgVw5VK6BS71AgIhSRFyS2DJJGTdbxwojro9Xfkrg4ekgeH3IyAZaOr582qgBzpROTFI0DkTQ1cZK0JxldN1-fhL0Bh98pXApr5i3MIa2eeADra8AV-fPiR64kWTHdpfTBjR8Whx6jKHVzOTUjlh0MUQDx90sZ-BEiP1uhELusI-XSvSSgakFoOnKsd8BdZpDk9Daok6gg70a6IKMK5uJoAKGLhR-EhOs75G2zyHJjSrdSSyB5AUINjs3jd41JGq5vaIc5RH1XhjoS6SR9HuUDodJBow425TKVgku09OcEGTS0YBiIOCgzf3iLZEGXs_ujklaA.%26pg%3DMHKM5K3LGFCRVCGQVVJCSGFL4A%26ch%3DAQEAEAABABRTPmepFd0tW3u9OEPz6_qDc9Ea_KJGSh4.\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABTP3nrnZxZM8OKWJ8Pk8b3wXr2bWLGmC2s.%26dt%3D1789988893152\n_OT_sm=87b6a5c0-0104-4e96-a291-092c11350111\nnfvdid=BQFmAAEBENYpx5ROW5Mo67sQmFYZJ-xgXlEG_nXevZ9HjG0C_NOqOtu8pGnEXccDaZHDe06087fefaxGK5dURh2iMXUBYhQphJLKcAwq8WBquPMJ_cztbZ8oxtak4Rtw_7ykOsZvc7SqX1W-mz-4fwyrKIoYB5Sr\nthx_guid=b45fb873c530a916ee4d811635c344a5\ntmx_guid=AAwC43-2XV7vTlo6nLRZk9_gYKvDobOyrKAkBhc5q9YA9WIYtvY97hU8Q2sfiwEYsVXxBO2AY-8IR6WOmFbViw0LQLMC_w\nOptanonAlertBoxClosed=2026-09-21T11:09:55.590Z\nOptanonConsent=isGpcEnabled=0&datestamp=Mon+Sep+21+2026+08%3A09%3A59+GMT-0300+(Hor%C3%A1rio+Padr%C3%A3o+de+Bras%C3%ADlia)&version=202607.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=1cb8c791-1671-4f28-a993-3e62f135908c&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&fclco=&lastConsentTs=1789988995&intType=3&crTime=1789988996044&geolocation=BR%3BPR&AwaitingReconsent=false\nflwssn=a1a37a94-46e2-4d5d-a48f-8820c510518e\ngsid=56a57bd1-107f-44af-87a4-8d9d1c2ec97a\nnap=BgiJv-vcAxJJUhW4G6gQYJByQTxYB0fOnd1Ec-UD_1Fe0lmvah-j1yrxXHP6myG1BmkTC_P-4nVCkzJgar-MpyvP5PVzHFYPZAH63fb_NBlloRgGIg4KDAGX2YUYfBfpzryaSw..\nnetflix-sans-bold-3-loaded=true\nnetflix-sans-normal-3-loaded=true\nprofilesNewSession=0\nisGpcEnabled=0&datestamp=Mon+Sep+21+2026+08%3A09%3A59+GMT-0300+",
-      "isWorking": null,
-      "addedAt": "2026-11-18T08:11:50.720Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mwlueqm92u520",
       "name": "[Premium] [1 payments] [extra No] [BR] [lucaerodrigues14@gmail.com]",
       "platform": "netflix",
@@ -7411,5 +7401,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-20T23:13:58.269Z"
+  "updatedAt": "2026-11-20T23:14:12.662Z"
 }
