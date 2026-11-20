@@ -141,16 +141,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mwlueqm6h6915",
-      "name": "[Premium] [1 payments] [extra No] [BR] [joaonolascojunior@hotmail.com]",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEHRvXC-3RpNBCe9x72LJBUBg127tihf6XQhp-yjP4RetETUG-d6N4fkE-ORBi-Y08vz8m-gPfPys4utedkcsXFdxP0ozsqOH-C_rKbWlS4FP2z333x6nY0N8hQo60mh41XNt343eLpaLGu1vNMQ60NcI\nNetflixId=ct%3DBgjHlOvcAxKBBIdzKrxN8Sl5MDGet1Y7KLeHx9kfXKwamutAtL_lFX7mGgZ8tFU0NHqwXq0-tcjFqT1eWqyMz4ZiUZYmgJ2ydAHB_6LLBFCsG1gmErZ2Ve6Q7dvysf7vi4aqSVOnjK1adFH3HvpnBETrVKmQKx1ZLeJiJiGUZvKOrxBHiwG4pGCAMDpSuVokoU9xSx8PbSdq_DlQoUZLDbTfCtiVEGnUsUr-s85he3mTfGeyOiu7xDMlrl7knStQ9siW_C1MlipWEIbG_wVAWW1NAUEACCUJBULCggiAOBrP_go4s5EwIVXOejhb0-6s0uS_4xKPcDFzolhplvJjJI8nM40vqPWo7--ovcTrRfpiOYZMZJrL8bpuBZPGSNIZFGbF6lrm4Ntv-hSW4g9yfplXMuL9AwdL4RDDWGdqaVHA3iVLBT2Kj8czofUy7Z-sXRyp0UgfjSDQtwURIg3qFqkeleXclCpRpTgwIQu2W5iUFX6qli1v3313LDXaUJlbKxTiR8T5s-DVjKoIYH7JhhbrIms4uFfEasyTk6QJtUz3FSoYYo4PBXjosEa2w1FvBo7MHIPvagEOmN8m-qfhUaHo5Gml-Ga-HsIE5Z8jGYkGVHAF1ebFJjP1qLFILHfQQrDEfW6TQvOqxNUlxgWyhp9N92K_3x6on82svWUmtMsnA3-qgX_OAtqObBgGIg4KDELyn8uyJaDWfGc7vg..%26ch%3DAQEAEAABABSGAtyDps0co4emAO6OWYsBmzwCp436Jqc.%26v%3D3%26pg%3DG2XVL4GX7BBDJPM3NPU5YRJNKU\nOptanonAlertBoxClosed=2026-04-26T01:10:00.190Z\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABQMLvKGa_-YnqG7LyqD9ZikQtNVNX5QTss.%26dt%3D1777165797232\nOptanonConsent=isGpcEnabled=0&datestamp=Sat+Apr+25+2026+22%3A10%3A45+GMT-0300+(Hora+padr%C3%A3o+de+Bras%C3%ADlia)&version=202604.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e77dae67-1f65-4425-af2d-c0270d110ce5&interactionCount=2&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=3&geolocation=BR%3BPR&AwaitingReconsent=false&isDntEnabled=0&prevHadToken=0&crTime=1777165800804\nnetflix-sans-bold-3-loaded=true\nnetflix-sans-normal-3-loaded=true\nisGpcEnabled=0&datestamp=Sat+Apr+25+2026+22%3A10%3A45+GMT-0300+",
-      "isWorking": null,
-      "addedAt": "2026-11-18T08:11:50.718Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mwlueqm736u16",
       "name": "[Premium] [1 payments] [extra No] [BR] [jorgeluizdaluzfreitas2017@gmail.com]",
       "platform": "netflix",
@@ -7431,5 +7421,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-20T23:13:00.834Z"
+  "updatedAt": "2026-11-20T23:13:28.023Z"
 }
