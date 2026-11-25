@@ -31,26 +31,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mww1rihg6y84",
-      "name": "[Basic] [1 payments] [extra No] [PL] [cigam@poczta.fm]",
-      "platform": "netflix",
-      "cookies": "OptanonAlertBoxClosed=2026-10-10T16:47:37.734Z\ndsca=true\nnfvdid=BQFmAAEBEPZ1kzK08yAx2Vbb25aDjoVgYAKiKp-jTlHHsZIvLqBL57HxMFJquHgByRiAS_J05cmnHbyPy5gkj6ZC9p01ALScFyGOWOr54Xqf53L8T1x4l44UkIFD1jBKNMhQyz4BJGce2PaVMC9dpy5I-Rrs8FBS\nnetflix-sans-normal-3-loaded=true\nnetflix-sans-bold-3-loaded=true\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABQUEI6s5MsDirSzgrFiBncTXdH-vJYNkaQ.%26dt%3D1793573367447\nNetflixId=ct%3DBgjHlOvcAxKzA_o2XoavxvHvDHosgor0hl5PX4gfjKt_L_vWcUK05oIB4p1ilm3aycJp2KaTgQd9d91l0nD-tAZtH432DGcX_9gFPoFB4X8rQhHqDbl36tJOO6iRZAKVkF2qMOZxTbUs_uj2Y3ixqyQG7zqMdvHfwChlPs5F8Was1lLNcMuy-CdIX-7Uy_oAL_5y-kIWOdCHJdCc-AzwdrWS2FEWHxZkc3s_rtySWe_BIsAbz95tgCnxRy3WsWoLS5ckHBqMo-4HFG0c4hkmmy5x6uu2o_-8nynKRZN9B0T45x66a4bQC0mWBU7JDhpTOwBx85WSGrqq5r2ghrD6gnPW3zsTjnou4fQEdx2vO6dHRkuTGREdCOg0zytmD9USHCLJLWAmt1QSf4QinY36C5Rawr8CD0UMcabhzyGmAfKk4PytwaUv46VhpCUnW_UzutrEPeZkG949bnw7DLMpWT4B-RJZTZyAO6iQNO9J4HQ83jwEzGcW8lUZM35VLPktjKz3IF_tm9vFnZT0AP3DOJtzO1AuXYZHVTH1kXO58UoQP9qWQK9PtGtDsQkex_BdXvjsl4b2xMUhe0aK4xgGIg4KDD8fB6Q5JMRbeXZIyw..%26ch%3DAQEAEAABABTn0R_Gng8CY4IfJgzc6r3TZZyDjBWocyo.%26v%3D3%26pg%3D2UAMV7BQTRHC7CS6JWXPHNQPF4\nOptanonConsent=isGpcEnabled=0&datestamp=Sun+Nov+01+2026+23%3A49%3A27+GMT%2B0100+(czas+%C5%9Brodkowoeuropejski+standardowy)&version=202609.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=390f6cbf-eea4-4063-8f19-ab3a8cf2f165&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1791650858204&AwaitingReconsent=false&fclco=&lastConsentTs=1791650857&intType=1&geolocation=PL%3B14\nisGpcEnabled=0&datestamp=Sun+Nov+01+2026+23%3A49%3A27+GMT%2B0100+",
-      "isWorking": null,
-      "addedAt": "2026-11-25T11:35:25.780Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
-      "id": "mww1rihgzzw5",
-      "name": "[Basic] [1 payments] [extra No] [PL] [krzysztof.skrzypczyk@gmail.com]",
-      "platform": "netflix",
-      "cookies": "OptanonAlertBoxClosed=2026-08-14T11:09:59.587Z\ndsca=true\nnfvdid=BQFmAAEBEPj0IKzyLuuQ8y7A5YT7yxtg6Crp4Zfdd5tOREaji0bab7IhgFqAN9lNdTXQGAJJomhxABmFJQjDV-bFSZ7xJrN3JrfIvgt88LvSJQQVPvaaAjjOelrjYVctKq0OztZfoRt-TqEhLpowcZtHLYRE9KEz\nNetflixId=ct%3DBgjHlOvcAxKCBHngVHedgjl2u4g9p5RLJA6gtyQ34so-L9ZagB7cKaqCBZlSXmigLb4bEhAL02e8brEkeXuwDLPcvqfPvt5dK4wpCyLx6JHi6FAvcXbIq6UH1UCXl-Wzbgzk7i1dD4it6qvp9nt7j4jMHalmUdev-4k_M9YKaFxP9Xkke2WWizpR6zbJ4U4tcTaL4dkQS9QD9sNKbTBUCCf08W8toVeGrjDrv2LKSDIOXNCa0Ez1PPHJFlqcij80flTcTsftXs-Lus22yJR-i4qNEir-gkT6VMrkpiOQOvPYh4ISHVxrYyzcfr9_RDJ77AiZxeqoWtJ3pNjk6MvrgdbGMx0JsKdulq-CWrcV7YXhpZZXA7bImpyKOPIgz1PM2BOOcvQZEgz8tTSdf-w0x2Hj2n-j02H0i1YDfTSIQHTEPIEKWte-CrR_7zL5CWOS9XAxLQIn3Ys36_JX8b0FlzF8nLQJznHylVoTAbqhzYQSU30dFDrnVY5EWEUknAKRkspPznsYev9NYS0COIYE1o5YxuIRhOxurAoUoDbgL43BCDc0DSk1EvIXqL1iWllY0nwfKzMT6P2o3FHJNdhgp8L-8p8nozvgRikjAhF2Ax1cqqlHWqSWEy_3sROEk7VvNVFTfrAN0mlJAA_bXw28eAJObS29qxT9GW5f-yl7UHlqLCR8kWlk2z_A6zUYBiIOCgwlNrk8P5xgAHS_UeE.%26ch%3DAQEAEAABABQ2YEH4N8uEemw8eElIbFRvd1_1qJaXi7I.%26v%3D3%26pg%3D3AA54YPSNJD4LICUUFP5VQGRBI\nOptanonConsent=isGpcEnabled=0&datestamp=Sat+Oct+31+2026+12%3A42%3A31+GMT%2B0100+(Central+European+Standard+Time)&version=202609.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=dd426237-bd23-4aa6-bfbd-d8a0d54ad32f&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&fclco=&intType=1&crTime=1786705800069&geolocation=PL%3B24&AwaitingReconsent=false\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABSAO-d_Gf2aRcASSHGjbpnMRiP-B_JRbBI.%26dt%3D1793446942752\ngsid=53e4bd7c-db4f-4947-9e58-20c6119fc4b8\nnetflix-sans-bold-3-loaded=true\nnetflix-sans-normal-3-loaded=true\nisGpcEnabled=0&datestamp=Sat+Oct+31+2026+12%3A42%3A31+GMT%2B0100+",
-      "isWorking": null,
-      "addedAt": "2026-11-25T11:35:25.780Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mww1rihhj266",
       "name": "[Basic] [1 payments] [extra No] [PL] [txhkubus@gmail.com]",
       "platform": "netflix",
@@ -1791,5 +1771,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-25T21:28:28.972Z"
+  "updatedAt": "2026-11-25T21:28:34.926Z"
 }
