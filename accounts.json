@@ -91,16 +91,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mww1riht8w535",
-      "name": "[Premium] [1 payments] [extra No] [ES] [marmolesserna@hotmail.com]",
-      "platform": "netflix",
-      "cookies": "OptanonAlertBoxClosed=2026-07-02T17:21:45.360Z\nnfvdid=BQFmAAEBEB6L-z2zJ0v8aw4ytY7B__pgrQ96Iy8u_iB1vzvJKDpWxsnC2QrHpxABPiBLoW0LSf4rgxsEYReFM1IILmqyJhZQsAAPaXX0syNYbG5G6BmWMOQ-72ooeHrB6dgd2P_6RoEZOm5PmviwiGNgyUWIe0lW\nNetflixId=ct%3DBgjHlOvcAxKEBIO_0tcAsU121sHPGt5HPg7DTAFaskL5JaRynntQuH8GfYJfwPrIVB3xIPC9ZNmDWBwzem_Tt8Qr5DZIhclFyBpLRlqaMvnB1u6xGFLQjcYubnVDlyl5hBcqCLQCqvI2sPZ21EHY9CKVfT0JH9EVPyGSe-zU4rsKzX3ZqXzOrfIzKWBi3CEwob2y51UyEbYiIqcPVjN6f8PNkMMHXpCxqUMnbVVJrJ4UpgN_mCk5aDxPXiaPE5j6jcG1CktZF92z_kmJSPIYujxnjtHWCVjBZShIBIcqwk5Sdeh8fnX43tncJdv9O0D6Xg7SiRjcpbn5KF9-Jmd9vGDila-KzPccqBrfxV1tqeNxnLwCMUp14853oOialEh23wRnFnWFwTaEARO8bh3YXZrtTjjRpMv-gcXBurmGQElT6hNb4wngieM1pIZDkbGHVudJkPx3FIHielu4Z9q1ijxMFEIv_ve8IenZLpngUaAPfrldBspiFFeYzADZcz5czpEt-U9ZYZV_q9i9mb3zrIS3lOdAwzpY96gow0Vp2jQUQCbHUFGg1RwB927uQ95b5to7lKImQkQP_O3Gcue9kOJrkkVHhFETUM3T2Cdc5P6L1kYO3i9YUOKjAyMT6uuL8p9fiDhMutCqyR8OSFSNXsTUrCwuiz4PSqByRYTk7QyX4WKLqhqZOkrVMcmNCxgGIg4KDHCOz9q12fFW2RVuAg..%26ch%3DAQEAEAABABTjWiC1dbfDF2OZv2ukfnNV913o7hRuTUU.%26v%3D3%26pg%3DJSQWPX7WABAXLP5WDU2PE6MEGE\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABRyek27skvPP-P4AOPsrMjIu3c4uRV6ogo.%26dt%3D1790959070891\nOptanonConsent=isGpcEnabled=0&datestamp=Fri+Oct+02+2026+18%3A40%3A49+GMT%2B0200+(hora+de+verano+de+Europa+central)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ac0e7cef-05c8-4509-a831-54630172e063&interactionCount=3&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&intType=1&geolocation=ES%3BAN&isDntEnabled=0&prevHadToken=0&fclco=&crTime=1783012906444\npas=%7B%22supplementals%22%3A%7B%22muted%22%3Atrue%7D%7D\nisGpcEnabled=0&datestamp=Fri+Oct+02+2026+18%3A40%3A49+GMT%2B0200+",
-      "isWorking": null,
-      "addedAt": "2026-11-25T11:35:25.793Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mww1rihtzhw36",
       "name": "[Premium] [1 payments] [extra No] [FR] [cloe.ducept@gmail.com]",
       "platform": "netflix",
@@ -1541,5 +1531,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-26T18:27:30.821Z"
+  "updatedAt": "2026-11-26T18:27:33.608Z"
 }
