@@ -91,16 +91,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mww1rihqldi29",
-      "name": "[Premium] [1 payments] [extra No] [CL] [andresserranoyoko@gmail.com]",
-      "platform": "netflix",
-      "cookies": "gsid=8ba37bab-5681-4dad-89a2-6c35d7ce6e2c\nNetflixId=v%3D3%26ct%3DBgjHlOvcAxKUA3nA35dzht1TpPE_mNPWF-_ojzWjo0nVsmCZXdjJG04pltizwIUQKX1qbz8DsTqKetFJYVU2BakSWRlbbLBZsyRKVNqWbJmr2g_ARhdzeWwqkVIp2t3vmjk-fXEGNRErfW8GnLdIlSHLN13VpHFFPLAM8C0yTD4ibf-6R2DrBAAB2-p8I7QJ3EDKczwMS2x8aWeAiiCWZDVZPeIfTOKdEzKFQk6iOXRXAMuQ4hcYOsLwPa169VickyT07GK5quy6Bs-cpp7DHdgKpyWXF-gQl_lAVaDS7MvEnr6FePJwnRrOd3a0l719AgxFuMUJBBwAcof6yZDKmHNkwORwhuBwd5YLPxqcHlopyftDGKmtQ217RldkvdoXs0OUzB-u9QV9iStFF7cBLtvrg9OEIziH4ihmlTfkkNg3xO1khD-Gnwv_pXXufoqblef2eYzgajLkHCeOGfNbcrOT9zysb_hGH-hDC58J6I0Pw1lKfIDdybpNEXGCi2sh_rlk1YG99JJkPGX2zYmx0uiMs75yhu3tsodZeYpyGAYiDgoMWSFjChKLxQv6KCRb%26pg%3DWMWMSWHMXNAO3CU2NO3QI6BTHM%26ch%3DAQEAEAABABTL6VvvQmKYNimWndtGecSREUMa9TbEelc.\nnetflix-sans-bold-3-loaded=true\nnetflix-sans-normal-3-loaded=true\nnfvdid=BQFmAAEBEOYU4CUuQ3ZXs0Z7MBfwqQdgTm7N-dexykstqfU1FTlj9CFHZJlMBkTP6Y__X3qepySoDb6UEfzsGVUQ0PkNmp6aC0AKHB0HwPvnY5GQhWl0iKz7Abq52-r3vPHn7EErsaHb9kD53_hMpp0jg5_oGEUn\nOptanonConsent=isGpcEnabled=0&datestamp=Tue+Nov+10+2026+17%3A21%3A50+GMT-0300+(hora+de+verano+de+Chile)&version=202609.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=6722a8f7-a7dd-4ec6-9955-b8fb82f5ff8e&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1793908066394&AwaitingReconsent=false\npas=%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABRkPokwSEUzHAbs5SNSAnoMQJ0FbEOYwRo.%26dt%3D1794339654507\nisGpcEnabled=0&datestamp=Tue+Nov+10+2026+17%3A21%3A50+GMT-0300+",
-      "isWorking": null,
-      "addedAt": "2026-11-25T11:35:25.790Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mww1rihrqqm30",
       "name": "[Premium] [1 payments] [extra No] [CL] [dixacontreras19@gmail.com]",
       "platform": "netflix",
@@ -1601,5 +1591,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-25T21:29:12.753Z"
+  "updatedAt": "2026-11-26T18:27:18.727Z"
 }
