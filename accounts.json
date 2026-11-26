@@ -91,16 +91,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mww1rihrqqm30",
-      "name": "[Premium] [1 payments] [extra No] [CL] [dixacontreras19@gmail.com]",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEODnHDQfX-gF8LrTjDhx4shgPAcEmkRqmoRmNiSH9pyiYRIa_FXGqxYzHfsYhmCc5mIOBf99lOB3T0sTT16jVrfmOIjgucWoeUIC7GOMM8Y0FEC1kGuJ6B78d79YlIrgK0MybwYItQlstHukIdNqmGhR\nNetflixId=ct%3DBgjHlOvcAxKCBGJ9AQs62uQmC3kDVqDmsWyHYdjCK8T7YfnwfuGYtQPb70jV5yjgxwwPX_3v31rb0POVYY3KAGT7viKGKtjDdqcxNBgSu9zc8Iidq9XdhKRzhSMxjpCUVdkIxDJG5IKuWJSRamrHPPbvLzTxNZdREUvveyUCKyOwzOmmsspfo3-jXxtBL_4fH7ktB6ZcG_6rMtzYsus3O3rdRrhO8gD3ktUj4aIarVhnLz4t4wScuJYWQn5K4nAxZPqO3KLk2n0bfp6Q5vHz991G4X0MdKWil7NTiuuLN7p4Vo7Ede0czq_z7jd4wYYXYDivvzciHznjHk8B6YFFcQRwT8H1d7MWGIDpFUkAnUEMSErtYSrvtioiOalRuA4FHr-PMtQMS0pUSuIX6PonUpOyoZZvNngBzXc1AFzF5-lKggMPst2b_nMYgD3ZppcNU_X4mDhUP8NpxweS66FjXqAdGv3Vo4Tqd9X15XJOkVtzyCA4bMEU-Z0dvVj_yXWixuN-LkFBYSFjSqsh3Yh_iYWZPbg8q_oLuQYN5jppQD5DKYaPyOUCGl4sQ-jXjgkPrvVfpHvf4S50pXzJFWU-jFp0eq0aKvEf_9gWVklP1z_kW2R_gWFpVHDsWnMLHPdtfiD8jPyvfZ6kKxllpCFVMAPsrI2EQxNnoUq3pvImBTxz2bQyR5Ul65Wf584YBiIOCgy3pVfS21LWCkBYLm0.%26ch%3DAQEAEAABABTHRtI5uzKjGeCZN0dYtYw5KXIRUZQhAr0.%26v%3D3%26pg%3DYYDSGFA4ANDXFDZ4TEXWVV4ZPY\nOptanonConsent=isGpcEnabled=0&datestamp=Sat+Jul+18+2026+01%3A28%3A35+GMT-0400+(hora+est%C3%A1ndar+de+Chile)&version=202604.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=29482f7d-a389-4921-8b7d-feff4e5daa34&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&AwaitingReconsent=false&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&isDntEnabled=0&prevHadToken=0\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABTBmvaIAJ3pqWMU6G2tdbsYZqJzIAR80qE.%26dt%3D1784352511630\ngsid=b16ab2c8-f594-4ffa-bab6-cfefa1abee89\npas=%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D\nprofilesNewSession=0\nisGpcEnabled=0&datestamp=Sat+Jul+18+2026+01%3A28%3A35+GMT-0400+",
-      "isWorking": null,
-      "addedAt": "2026-11-25T11:35:25.791Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mww1rihru6s31",
       "name": "[Premium] [1 payments] [extra No] [CL] [jsgaticapaul@gmail.com]",
       "platform": "netflix",
@@ -1591,5 +1581,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-26T18:27:18.727Z"
+  "updatedAt": "2026-11-26T18:27:21.858Z"
 }
