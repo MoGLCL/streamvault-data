@@ -191,16 +191,6 @@
       "cookieFormat": "key-value"
     },
     {
-      "id": "mww1rihzmec48",
-      "name": "[Premium] [1 payments] [extra No] [KR] [jok0818@naver.com]",
-      "platform": "netflix",
-      "cookies": "nfvdid=BQFmAAEBEGc71bGbg8MPPzmK5w__9zBge2xN2HE38fbmJ9U5qQ7-MiYhTRJFL6UcrKoDZF0FEFGor1YBesWFlbnZQoeCf2N6hAX2Vv_g4nLWmtMVbPpcvRAiQxEFEGEJc4aS55aROkzxrl4smn9N59psElNSasgN\ngsid=14277e72-8267-40c5-a3d8-ede2c9b56bf0\nNetflixId=v%3D3%26ct%3DBgjHlOvcAxKPA_EyjGUYqZ_rBmLMC_iixMIWb_sGoB_VRgFBS4HlB9sxTv71GC_D_6Mu_wxfkO96FUMsJynyWU5jUM_ZEKL91NaeDO-Il06-sF6oRHJAd5MirI5j0260NNKf3OY31fCSCKc9cAQW24pygpC6qXcv6woFBT8piNtokcQ23xeFv0mZayNxaXUqDR57ikKSZ8JoZI75T9HNNIH05EAQXnv2hWzg-ssx6pn02giKUy0p-sV7wUSBWCc2VZiEKSDfp36TcNnmiBt-5q-tJfDnXKq8AkhU2IwNaiV8TKYbVgETiOCuJKTz_wHpR67v0pSJFAmKJtYLUVlrr6u2ewAheLQ48JAav1tY5yZopnycujhCmV3cJXhZM1A2Zd0x63asSw0BNkvKkEz-F66xkdSp-qPhxhIGIP2BNb5TIWzjdYgTu2k8fuUm5XmKwtVq4zDyNPTd45LhxMT0lh4_VWcZzPRos8iaPObKKvOZoSXe_bRBvChVBWz2RtHTQKmOwkJGdHNhige918k8QdNDGd-VGbgZFxgGIg4KDMSCQ_u_Ckb3s3KkCw..%26pg%3DSDOJ5ISLAVABDLBYXANBK4NFKI%26ch%3DAQEAEAABABTtrLsVCnFbf8baMP2IxM25CBcy66A0NiE.\nSecureNetflixId=v%3D3%26mac%3DAQEAEQABABRMvTv8F5iMa500uEoOvjxk-EKmCmppJu4.%26dt%3D1794054987420\nOptanonConsent=isGpcEnabled=0&datestamp=Sat+Nov+07+2026+13%3A40%3A20+GMT%2B0100+(West+Africa+Time)&version=202609.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=f7088b29-2f85-4c60-883b-eada0846d48b&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fwww.netflix.com%2Fbrowse&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1793799949914\nprofilesNewSession=0\nisGpcEnabled=0&datestamp=Sat+Nov+07+2026+13%3A40%3A20+GMT%2B0100+",
-      "isWorking": null,
-      "addedAt": "2026-11-25T11:35:25.799Z",
-      "lastTested": null,
-      "cookieFormat": "key-value"
-    },
-    {
       "id": "mww1rihzori49",
       "name": "[Premium] [1 payments] [extra No] [MA] [ndestefanytoromedina@gmail.com]",
       "platform": "netflix",
@@ -1511,5 +1501,5 @@
       "cookieFormat": "netscape"
     }
   ],
-  "updatedAt": "2026-11-26T18:27:38.957Z"
+  "updatedAt": "2026-11-26T18:29:22.663Z"
 }
